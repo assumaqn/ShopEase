@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { useProduct } from "../Contexts/ProductContext";
 import ProductCard from "./ProductCard";
 import { Flame } from "lucide-react";
+import Button from "./Button";
 
 function FeaturedProducts() {
   const { fetchProduct, products } = useProduct();
@@ -48,6 +49,7 @@ function FeaturedProducts() {
           <ProductCard product={product} key={product.id} />
         ))}
       </div>
+      <Button type="secondary">View all products</Button>
     </section>
   );
 }

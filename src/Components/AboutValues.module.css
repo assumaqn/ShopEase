@@ -1,0 +1,58 @@
+.section {
+  padding: 60px 0;
+}
+.section h2 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+
+.values {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+  padding: 30px 50px;
+
+  column-gap: 30px;
+  justify-content: space-between;
+}
+.value {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 15px 30px;
+  gap: 15px;
+  border-radius: 9px;
+}
+.even {
+  background-color: #ffe4ee;
+}
+.even span {
+  padding: 20px 30px;
+  clip-path: circle();
+  color: #fff;
+  display: flex;
+  align-items: center;
+  background-color: #f0a51a;
+}
+.odd span {
+  padding: 20px 30px;
+  clip-path: circle();
+  color: #fff;
+  display: flex;
+  align-items: center;
+  background-color: #4f87bf;
+}
+.odd {
+  background-color: #e7edf381;
+}
+
+.value p {
+  text-align: center;
+  line-height: 1.6;
+  font-size: 17px;
+  color: #333;
+}

@@ -1,14 +1,16 @@
+import Bit from "./Bit";
 import Button from "./Button";
 import styles from "./HeroContent.module.css";
 function HeroContent() {
   return (
     <div className={styles["hero-content"]}>
-      <input
+      {/* <input
         type="text"
         placeholder="New Arrivals Available"
         disabled
         className={styles.input}
-      />
+      /> */}
+      <Bit>New Arrivals Available</Bit>
       <h1>
         Your Premium <span>Tech Store</span>
       </h1>

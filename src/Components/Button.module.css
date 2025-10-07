@@ -11,6 +11,10 @@
   color: #333;
   transition: all 0.5s;
 }
+.secondary {
+  max-width: 300px;
+  align-self: center;
+}
 .primary:hover {
   background: #c2d6e9;
 }

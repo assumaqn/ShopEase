@@ -1,3 +1,4 @@
+import Bit from "./Bit";
 import styles from "./ProductCard.module.css";
 import { Star, DollarSign, ShoppingCart } from "lucide-react";
 function ProductCard({ product }) {
