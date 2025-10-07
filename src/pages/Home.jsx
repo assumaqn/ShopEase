@@ -4,6 +4,7 @@ import some from "../assets/herotech.jpg";
 import HeroContent from "../Components/HeroContent";
 import HeroImageContainer from "../Components/HeroImageContainer";
 import Featured from "../Components/featured";
+import FeaturedProducts from "../Components/FeaturedProducts";
 function Home() {
   return (
     <>
@@ -15,9 +16,8 @@ function Home() {
         </div>
       </header>
       <main>
-        <section style={{ padding: "0 300px" }}>
-          <img src={some} alt="" style={{ maxWidth: "100%" }} />
-        </section>
+        <FeaturedProducts />
+
         <Featured />
       </main>
     </>

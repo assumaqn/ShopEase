@@ -1,0 +1,42 @@
+.card {
+  border-radius: 9px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.img img {
+  width: 100%;
+  transition: all 0.2s;
+  overflow: hidden;
+}
+.img img:hover {
+  transform: scale(1.06);
+}
+.product-content {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 15px;
+  overflow: hidden;
+}
+.product-content p {
+  font-size: 0.9rem;
+  color: #333;
+}
+.bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.bottom h4 {
+  display: flex;
+  gap: 1px;
+  color: #1b6cbdff;
+  align-items: center;
+}
+.bottom span {
+  background-color: #1b6cbdff;
+  padding: 5px 20px;
+  border-radius: 9px;
+  cursor: pointer;
+}

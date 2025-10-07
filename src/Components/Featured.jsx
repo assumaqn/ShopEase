@@ -7,7 +7,7 @@ function Featured() {
       <div className={styles.features}>
         <div className={styles.feature}>
           <span>
-            <Truck size="25px" color=" #fff" />
+            <Truck size="22px" color=" #fff" />
           </span>
           <h4>Free Shipping</h4>
           <p>On orders over $100</p>
@@ -15,7 +15,7 @@ function Featured() {
         <div className={styles.feature}>
           <span>
             {" "}
-            <ShieldCheck size="25px" color=" #fff" />
+            <ShieldCheck size="22px" color=" #fff" />
           </span>
           <h4>Secure Payment</h4>
           <p>100% secure transactions</p>
@@ -23,7 +23,7 @@ function Featured() {
         <div className={styles.feature}>
           <span>
             {" "}
-            <RotateCcw size="25px" color=" #fff" />
+            <RotateCcw size="22px" color=" #fff" />
           </span>
           <h4>Easy Returns</h4>
           <p>30-day return policy</p>
