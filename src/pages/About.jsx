@@ -1,10 +1,17 @@
+import { useEffect } from "react";
 import AboutDetail from "../Components/AboutDetail";
 import AboutMission from "../Components/AboutMission";
 import AboutValues from "../Components/AboutValues";
 import PageNav from "../Components/PageNav";
 import aboutHero from "../assets/aboutHero.jpg";
 import styles from "./About.module.css";
+import { sectionObserv } from "../Hooks/Observer";
+
 function About() {
+  useEffect(() => {
+    sectionObserv();
+  }, []);
+
   return (
     <>
       <PageNav />
@@ -29,7 +36,7 @@ function AboutContent() {
       </h1>
       <p>
         We're on a mission to make premium technology accessible to everyone.
-        Since 2020, ShopEase has been the trusted destination for tech
+        Since 2025, ShopEase has been the trusted destination for tech
         enthusiasts seeking quality products at competitive prices.
         <br />
         <br /> With over 50,000 satisfied customers and a 4.8-star rating, we've

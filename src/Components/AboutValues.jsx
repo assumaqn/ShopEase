@@ -2,7 +2,7 @@ import styles from "./AboutValues.module.css";
 import { UsersRound, ShieldCheck, Heart, Zap } from "lucide-react";
 function AboutValues() {
   return (
-    <section className={styles.section}>
+    <section className={`section section--hidden ${styles.section}`}>
       <h2>Our Core Values</h2>
       <div className={styles.values}>
         <Value

@@ -1,6 +1,7 @@
 function AboutDetail() {
   return (
     <section
+      className="section section--hidden"
       style={{
         backgroundColor: " #e7edf381",
         padding: "70px 0",

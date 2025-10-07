@@ -1,7 +1,7 @@
 function AboutMission() {
   return (
     <section
-      className="mession"
+      className="section section--hidden"
       style={{
         padding: "90px 0",
       }}
