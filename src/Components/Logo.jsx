@@ -10,10 +10,12 @@ function Logo() {
         justifyContent: "center",
         alignItems: "center",
         gap: "5px",
-        fontSize: "20px",
+        color: "#024283",
+        fontSize: "22px",
+        fontWeight: "800",
       }}
     >
-      <Store size="24px" />
+      <Store size="30px" color="#024283" />
       <strong>ShopeEase</strong>
     </NavLink>
   );

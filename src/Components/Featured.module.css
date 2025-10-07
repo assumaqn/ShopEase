@@ -1,0 +1,27 @@
+.featuredSection {
+  background-color: #e7edf381;
+  padding: 70px 0;
+}
+.features {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.feature {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+}
+.feature span {
+  background-color: #207edd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 15px;
+  clip-path: circle();
+}
+.feature h4 {
+  font-size: 20px;
+  font-weight: 500;
+}

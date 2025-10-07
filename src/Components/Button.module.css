@@ -1,0 +1,16 @@
+.button {
+  display: inline-block;
+  background: none;
+  cursor: pointer;
+  padding: 0.8rem 1.5rem;
+  border: 0.8px solid #3575b6;
+  border-radius: 9px;
+}
+.primary {
+  background: #5d91c5;
+  color: #333;
+  transition: all 0.5s;
+}
+.primary:hover {
+  background: #c2d6e9;
+}
