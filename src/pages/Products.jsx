@@ -2,10 +2,9 @@ import PageNav from "../Components/PageNav";
 
 function Products() {
   return (
-    <div>
+    <section>
       <PageNav />
-      this is the product page
-    </div>
+    </section>
   );
 }
 

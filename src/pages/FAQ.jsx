@@ -106,7 +106,7 @@ function FAQ() {
         <p style={{ fontSize: "15px", marginTop: "15px", color: "#555" }}>
           Didn't find what you were looking for?
         </p>
-        <Link to="#" style={{ color: "#0353a4" }}>
+        <Link to="#" style={{ color: "#0353a4", fontSize: "16px" }}>
           Contact our support team
         </Link>
       </section>

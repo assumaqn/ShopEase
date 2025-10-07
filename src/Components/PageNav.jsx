@@ -23,7 +23,19 @@ function PageNav() {
         </li>
         <li>
           <NavLink to="/cart">
-            <ShoppingCart size="18px" />
+            <ShoppingCart size="18px" style={{ position: "relative" }} />
+            <span
+              style={{
+                position: "absolute",
+
+                padding: "8px",
+                clipPath: "circle()",
+                transform: "translateY(-50%)",
+                animation: " blink 1.5s infinite",
+              }}
+            >
+              1
+            </span>
           </NavLink>
         </li>
       </ul>

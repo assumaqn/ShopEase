@@ -1,0 +1,39 @@
+.cta-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-direction: column;
+  box-shadow: 0 10px 10px 0 #afadad4d;
+
+  border-radius: 9px;
+}
+.cta-container h2 {
+  font-size: 32px;
+  font-weight: 800;
+}
+.cta-container p {
+  text-align: center;
+}
+.cta-container span {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: space-between;
+  background: #afadad8a;
+  padding: 6px 30px;
+
+  border-radius: 9px;
+}
+.cta-container a {
+  display: inline-block;
+  padding: 6px 14px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+}
+.cta-container :global(.active) {
+  background-color: #fffe;
+  border-radius: 6px;
+  padding: 6px 14px;
+}

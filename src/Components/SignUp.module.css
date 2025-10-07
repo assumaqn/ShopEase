@@ -1,0 +1,18 @@
+.label {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.label label {
+  font-size: 14px;
+}
+.label input {
+  padding: 6px 25px;
+  border: 0.2px solid #555;
+  border-radius: 5px;
+  outline: none;
+  width: 100%;
+}
+::placeholder {
+  padding: 6px 25px;
+}
