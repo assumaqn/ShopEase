@@ -5,6 +5,7 @@ function AboutDetail() {
         backgroundColor: " #e7edf381",
         padding: "70px 0",
         borderTop: " 0.3px solid #3333",
+        borderBottom: " 0.3px solid #3333",
       }}
     >
       <div

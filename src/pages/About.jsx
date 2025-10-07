@@ -1,4 +1,5 @@
 import AboutDetail from "../Components/AboutDetail";
+import AboutMission from "../Components/AboutMission";
 import AboutValues from "../Components/AboutValues";
 import PageNav from "../Components/PageNav";
 import aboutHero from "../assets/aboutHero.jpg";
@@ -15,6 +16,7 @@ function About() {
       </section>
       <AboutValues />
       <AboutDetail />
+      <AboutMission />
     </>
   );
 }
