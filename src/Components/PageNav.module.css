@@ -6,7 +6,9 @@
   border-bottom: 0.8px solid #5555;
   font-size: 14px;
   font-weight: 500;
+  /* position: fixed; */
 }
+
 .nav ul {
   list-style: none;
   display: flex;

@@ -1,22 +1,17 @@
 import { Store } from "lucide-react";
 import { NavLink } from "react-router";
+import homeLogo from "../assets/homeLogo.png";
 
 function Logo() {
   return (
-    <NavLink
-      to="/"
-      style={{
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-        gap: "5px",
-        color: "#024283",
-        fontSize: "22px",
-        fontWeight: "800",
-      }}
-    >
-      <Store size="30px" color="#024283" />
-      <strong>ShopeEase</strong>
+    <NavLink to="/">
+      <img
+        src={homeLogo}
+        alt=""
+        style={{
+          maxWidth: "30%",
+        }}
+      />
     </NavLink>
   );
 }

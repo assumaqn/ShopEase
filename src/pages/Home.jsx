@@ -1,11 +1,16 @@
 import styles from "./Home.module.css";
 import PageNav from "../Components/PageNav";
-import some from "../assets/herotech.jpg";
 import HeroContent from "../Components/HeroContent";
 import HeroImageContainer from "../Components/HeroImageContainer";
 import Featured from "../Components/featured";
 import FeaturedProducts from "../Components/FeaturedProducts";
+import { useEffect } from "react";
+import { sectionObserv } from "../Hooks/Observer";
 function Home() {
+  useEffect(() => {
+    sectionObserv();
+  }, []);
+
   return (
     <>
       <header className={styles.header}>

@@ -3,7 +3,7 @@ import { Truck, ShieldCheck, RotateCcw } from "lucide-react";
 
 function Featured() {
   return (
-    <section className={styles.featuredSection}>
+    <section className={`section  section--hidden ${styles.featuredSection} `}>
       <div className={styles.features}>
         <div className={styles.feature}>
           <span>

@@ -3,6 +3,9 @@
   overflow: hidden;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
+.img {
+  overflow: hidden;
+}
 
 .img img {
   width: 100%;
@@ -10,7 +13,7 @@
   overflow: hidden;
 }
 .img img:hover {
-  transform: scale(1.06);
+  transform: scale(1.12);
 }
 .product-content {
   display: flex;
