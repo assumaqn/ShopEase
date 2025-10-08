@@ -44,3 +44,14 @@
   opacity: 1;
   background-color: #5d91c5;
 }
+.cta {
+  border: none;
+  background-color: #a1a0a04b;
+  transition: all 0.2s;
+}
+.cta:hover {
+  background-color: #63a2e0;
+
+  font-weight: bold;
+  color: #ffff;
+}

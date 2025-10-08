@@ -13,6 +13,7 @@ function Profile() {
           alignItems: "center",
           flexDirection: "column",
           padding: "60px 0",
+          background: "#f5f5f5a9",
         }}
       >
         <div
