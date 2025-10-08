@@ -135,6 +135,7 @@ function Accordian() {
             gap: "25rem",
             justifyContent: "space-between",
             alignItems: "center",
+            cursor: "pointer",
           }}
         >
           <h4 style={{ fontSize: "14px", color: "#555", padding: "10px 0" }}>

@@ -18,3 +18,13 @@
 .primary:hover {
   background: #c2d6e9;
 }
+.item-no {
+  padding: 5px 10px;
+  align-self: center;
+  justify-self: center;
+  background: #a1a0a04b;
+  border: 0.1px solid #7777;
+  border-radius: 9px;
+  font-weight: bold;
+  font-size: 16px;
+}

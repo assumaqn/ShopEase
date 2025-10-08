@@ -27,14 +27,14 @@ function PageNav() {
             <span
               style={{
                 position: "absolute",
-
-                padding: "8px",
+                fontSize: "8px",
+                padding: "7px",
                 clipPath: "circle()",
                 transform: "translateY(-50%)",
                 animation: " blink 1.5s infinite",
               }}
             >
-              1
+              3
             </span>
           </NavLink>
         </li>
