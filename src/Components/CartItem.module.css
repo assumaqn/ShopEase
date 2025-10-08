@@ -1,7 +1,11 @@
-.items {
-  max-width: 700px;
+.shoping {
+  max-width: 1000px;
   margin: 0 auto;
   padding: 30px 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 60px;
 }
 .items h2 {
   font-size: 35px;

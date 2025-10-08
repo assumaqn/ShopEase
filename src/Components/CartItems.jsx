@@ -2,6 +2,7 @@ import styles from "./CartItem.module.css";
 import { Trash2 } from "lucide-react";
 import Button from "../Components/Button";
 import { DollarSign } from "lucide-react";
+import OrderSummary from "./OrderSummary";
 const products = [
   {
     id: 1,
@@ -41,17 +42,20 @@ const products = [
 
 function CartItems() {
   return (
-    <div className={styles.items}>
-      <h2>Shopping Cart</h2>
-      {products.map((product) => (
-        <CartItem
-          img={product.image}
-          name={product.name}
-          desc={product.description}
-          price={product.price}
-        />
-      ))}
-    </div>
+    <di className={styles.shoping}>
+      <div className={styles.items}>
+        <h2>Shopping Cart</h2>
+        {products.map((product) => (
+          <CartItem
+            img={product.image}
+            name={product.name}
+            desc={product.description}
+            price={product.price}
+          />
+        ))}
+      </div>
+      <OrderSummary />
+    </di>
   );
 }
 

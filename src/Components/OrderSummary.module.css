@@ -1,0 +1,20 @@
+.summary {
+  border: 1px solid #3333;
+  padding: 20px 45px;
+  margin-top: 60px;
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background: #ffff;
+  border-radius: 11px;
+}
+.detail {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 25px;
+}
+.detail p {
+  margin-bottom: 15px;
+}
