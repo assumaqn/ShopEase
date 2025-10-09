@@ -73,3 +73,9 @@
   justify-self: flex-end;
   padding: 15px;
 }
+
+.icon:hover {
+  cursor: pointer;
+  display: inline-block;
+  color: rgb(13, 117, 236);
+}

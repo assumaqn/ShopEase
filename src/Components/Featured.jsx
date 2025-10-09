@@ -10,7 +10,7 @@ function Featured() {
             <Truck size="22px" color=" #fff" />
           </span>
           <h4>Free Shipping</h4>
-          <p>On orders over $100</p>
+          <p>On orders over $1000</p>
         </div>
         <div className={styles.feature}>
           <span>

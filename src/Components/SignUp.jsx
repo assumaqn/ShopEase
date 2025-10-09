@@ -12,15 +12,20 @@ function SignUp() {
     >
       <div className={styles.label}>
         <label>Full Name</label>
-        <input type="text" id="#email" placeholder="your name..." />
+        <input type="text" id="#email" placeholder="your name..." required />
       </div>
       <div className={styles.label}>
         <label>Email</label>
-        <input type="email" id="#email" placeholder="your email..." />
+        <input type="email" id="#email" placeholder="your email..." required />
       </div>
       <div className={styles.label}>
         <label>Password</label>
-        <input type="password" id="#email" placeholder="your password..." />
+        <input
+          type="password"
+          id="#email"
+          placeholder="your password..."
+          required
+        />
       </div>
       <Button type="cta">Create Account</Button>
     </form>

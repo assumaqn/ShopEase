@@ -20,3 +20,6 @@
   text-decoration: none;
   color: #000;
 }
+.nav :global(.active) {
+  color: #0572df;
+}

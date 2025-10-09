@@ -1,12 +1,14 @@
 import Bit from "./Bit";
 import styles from "./ProductCard.module.css";
 import { Star, DollarSign, ShoppingCart } from "lucide-react";
+import StarRating from "./StarRating";
 function ProductCard({ product }) {
   const { name, category, price, image, description, stock, rating } = product;
 
   return (
     <div className={styles.card}>
       <div className={styles.img}>
+        <span>{category}</span>
         <img src={image} alt={name} />
       </div>
       <div className={styles["product-content"]}>
@@ -20,8 +22,15 @@ function ProductCard({ product }) {
             fontSize: "14px",
           }}
         >
-          <span style={{ display: "flex", gap: "2px", alignItems: "center" }}>
-            <Star size="16px" color="#1b6cbdff" fill="#1b6cbdff" />
+          <span
+            style={{
+              display: "flex",
+              gap: "1px",
+              alignItems: "center",
+              fontSize: "14px",
+            }}
+          >
+            <StarRating />
             <span>{rating}</span>
           </span>
           <p style={{ fontSize: "12px", color: "#555" }}>{stock} in stock</p>

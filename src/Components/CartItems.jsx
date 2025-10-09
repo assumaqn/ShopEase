@@ -70,7 +70,7 @@ function CartItem({ img, name, desc, price }) {
             <p>{desc}</p>
             <span>
               <Button type="item-no">-</Button>
-              <p>1</p>
+              <p style={{ color: "#222", fontWeight: "500" }}>1</p>
               <Button type="item-no">+</Button>
             </span>
           </span>
@@ -91,7 +91,7 @@ function CartItem({ img, name, desc, price }) {
             {price}
           </strong>
           <icon>
-            <Trash2 size="18px" color="#f3120aff" />
+            <Trash2 className={styles.icon} size="18px" color="#f3120aff" />
           </icon>
         </span>
       </li>
