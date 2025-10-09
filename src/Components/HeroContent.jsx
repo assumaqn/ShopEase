@@ -1,10 +1,12 @@
 import Bit from "./Bit";
 import Button from "./Button";
 import styles from "./HeroContent.module.css";
+
 function HeroContent() {
   return (
     <div className={styles["hero-content"]}>
       <Bit>Welcome to ShopEase</Bit>
+
       <h1>
         Your Premium <span>Tech Store</span>
       </h1>

@@ -9,7 +9,7 @@ function ProductCard({ product }) {
     <div className={styles.card}>
       <div className={styles.img}>
         <span>{category}</span>
-        <img src={image} alt={name} />
+        <img src={image} loading="lazy" alt={name} />
       </div>
       <div className={styles["product-content"]}>
         <h4>{name}</h4>
