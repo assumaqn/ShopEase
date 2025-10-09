@@ -16,8 +16,8 @@ function ProductProvider({ children }) {
 
   const featureProduct = shuffleArray(products).slice(0, 6);
   async function fetchProduct() {
-    setIsloading(true);
     try {
+      setIsloading(true);
       const resp = await fetch(`${BASEURL}/products`);
       const data = await resp.json();
       setProducts(data);

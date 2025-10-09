@@ -1,153 +1,23 @@
 {
   "products": [
     {
-      "id": 1,
-      "name": "MacBook Pro M3",
-      "category": "Laptops",
-      "price": 1999,
-      "image": "https://i.pinimg.com/1200x/b7/4f/a4/b74fa4bf86acd729116eaaa784d88f13.jpg",
-      "description": "14-inch, M3 chip, 16GB RAM",
-      "stock": 15,
-      "rating": 4.9
+      "id": 59,
+      "name": "Apple Watch Series 9",
+      "category": "Wearables",
+      "price": 429,
+      "image": "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?w=800&q=80",
+      "description": "Health tracking, always-on display",
+      "stock": 30,
+      "rating": 4.8
     },
     {
-      "id": 2,
-      "name": "Dell XPS 15",
-      "category": "Laptops",
-      "price": 1799,
-      "image": "https://i.pinimg.com/1200x/d6/56/1c/d6561c97911c147b14380c7d40ecd257.jpg",
-      "description": "Intel i9, 32GB RAM, RTX 4060",
-      "stock": 12,
-      "rating": 4.7
-    },
-    {
-      "id": 3,
-      "name": "ThinkPad X1 Carbon",
-      "category": "Laptops",
-      "price": 1599,
-      "image": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=800&q=80",
-      "description": "Intel i7, 16GB RAM, Business grade",
-      "stock": 20,
-      "rating": 4.6
-    },
-    {
-      "id": 4,
-      "name": "HP Spectre x360",
-      "category": "Laptops",
-      "price": 1399,
-      "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800&q=80",
-      "description": "2-in-1 convertible, touchscreen",
-      "stock": 8,
-      "rating": 4.5
-    },
-    {
-      "id": 5,
-      "name": "ASUS ROG Zephyrus",
-      "category": "Laptops",
+      "id": 94,
+      "name": "Samsung QN95D Neo QLED 4K",
+      "category": "TV",
       "price": 2299,
-      "image": "https://i.pinimg.com/736x/6d/79/6c/6d796cf9d12f29a89d784f52fb86fe49.jpg",
-      "description": "Gaming laptop, RTX 4080",
+      "image": "https://i.pinimg.com/1200x/22/a7/39/22a739ff06bce1788a53540ec8657176.jpg",
+      "description": "65-inch Neo QLED 4K Smart TV.",
       "stock": 10,
-      "rating": 4.8
-    },
-    {
-      "id": 6,
-      "name": "Acer Predator Helios 16",
-      "category": "Laptops",
-      "price": 1899,
-      "image": "https://i.pinimg.com/736x/63/26/50/632650d4a548158dfc3120f93ca95ce1.jpg",
-      "description": "Intel i9, RTX 4070, 165Hz display",
-      "stock": 14,
-      "rating": 4.7
-    },
-    {
-      "id": 7,
-      "name": "Razer Blade 16",
-      "category": "Laptops",
-      "price": 2499,
-      "image": "https://i.pinimg.com/1200x/fc/64/7f/fc647f0814258bc7dd9a5d8098594c46.jpg",
-      "description": "Gaming powerhouse, QHD 240Hz display",
-      "stock": 9,
-      "rating": 4.8
-    },
-    {
-      "id": 8,
-      "name": "Apple MacBook Air M3",
-      "category": "Laptops",
-      "price": 1299,
-      "image": "https://i.pinimg.com/1200x/14/e7/6f/14e76f7bb1b7a18307cf592ae45fd1d6.jpg",
-      "description": "13-inch, M3 chip, ultra-thin design",
-      "stock": 18,
-      "rating": 4.8
-    },
-    {
-      "id": 9,
-      "name": "Lenovo Legion 7i",
-      "category": "Laptops",
-      "price": 1999,
-      "image": "https://i.pinimg.com/1200x/1d/04/77/1d0477a44a7093f7016cb0fdaebf538d.jpg",
-      "description": "RTX 4070, 165Hz refresh rate",
-      "stock": 13,
-      "rating": 4.6
-    },
-    {
-      "id": 10,
-      "name": "MSI Stealth 14 Studio",
-      "category": "Laptops",
-      "price": 1799,
-      "image": "https://i.pinimg.com/736x/bf/a3/b6/bfa3b689edea24cab9e7af7192824c34.jpg",
-      "description": "RTX 4060, Intel i7, sleek magnesium body",
-      "stock": 17,
-      "rating": 4.7
-    },
-    {
-      "id": 11,
-      "name": "Gigabyte Aero 16 OLED",
-      "category": "Laptops",
-      "price": 1899,
-      "image": "https://i.pinimg.com/736x/36/76/b4/3676b4bc42161d4ba07a7d1822db3631.jpg",
-      "description": "16-inch 4K OLED display, creator-focused",
-      "stock": 11,
-      "rating": 4.5
-    },
-    {
-      "id": 12,
-      "name": "Microsoft Surface Laptop 6",
-      "category": "Laptops",
-      "price": 1599,
-      "image": "https://i.pinimg.com/1200x/15/8f/02/158f026f64afd0bf5797d94df416bf38.jpg",
-      "description": "Touchscreen, Intel Evo platform",
-      "stock": 19,
-      "rating": 4.6
-    },
-    {
-      "id": 13,
-      "name": "LG Gram 17",
-      "category": "Laptops",
-      "price": 1499,
-      "image": "https://i.pinimg.com/1200x/e5/d0/34/e5d034c0cec1acdec170924cbf74eec7.jpg",
-      "description": "Ultra-lightweight, 17-inch, long battery life",
-      "stock": 21,
-      "rating": 4.7
-    },
-    {
-      "id": 14,
-      "name": "Acer Swift X 14",
-      "category": "Laptops",
-      "price": 1299,
-      "image": "https://i.pinimg.com/736x/f0/37/52/f037525245a7606e3c640bc29285949c.jpg",
-      "description": "Ryzen 7, RTX 3050, 100% sRGB display",
-      "stock": 24,
-      "rating": 4.6
-    },
-    {
-      "id": 15,
-      "name": "Huawei MateBook X Pro",
-      "category": "Laptops",
-      "price": 1699,
-      "image": "https://i.pinimg.com/1200x/5b/ad/21/5bad211be5aeaf404931337b0c67e6a9.jpg",
-      "description": "13.9-inch 3K touchscreen, elegant design",
-      "stock": 16,
       "rating": 4.7
     },
     {
@@ -161,154 +31,14 @@
       "rating": 4.8
     },
     {
-      "id": 17,
-      "name": "Sony Xperia 1 V",
-      "category": "Smartphones",
-      "price": 999,
-      "image": "https://i.pinimg.com/736x/2b/68/38/2b6838a8282bdf8ea65426a38f68db25.jpg",
-      "description": "4K HDR OLED, pro camera features.",
-      "stock": 12,
-      "rating": 4.6
-    },
-    {
-      "id": 18,
-      "name": "Samsung Galaxy S21 Ultra",
-      "category": "Smartphones",
-      "price": 1299,
-      "image": "https://images.unsplash.com/photo-1610792516307-ea5acd9c3b00?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "description": "6.8-inch QHD+ AMOLED, Snapdragon 8 Gen 3, 200MP camera",
-      "stock": 10,
-      "rating": 4.9
-    },
-    {
-      "id": 19,
-      "name": "Samsung Galaxy S21+",
-      "category": "Smartphones",
+      "id": 45,
+      "name": "iPad Pro 12.9",
+      "category": "Tablets",
       "price": 1099,
-      "image": "https://images.unsplash.com/photo-1610945264803-c22b62d2a7b3?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "description": "6.7-inch AMOLED, 120Hz refresh, Exynos 2400",
+      "image": "https://images.unsplash.com/photo-1561154464-82e9adf32764?w=800&q=80",
+      "description": "M2 chip, Liquid Retina XDR",
       "stock": 15,
-      "rating": 4.8
-    },
-    {
-      "id": 20,
-      "name": "Samsung Galaxy Z Fold 6",
-      "category": "Smartphones",
-      "price": 1799,
-      "image": "https://images.unsplash.com/photo-1724323192353-f80f38e91b9d?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "description": "7.6-inch foldable display, multitasking powerhouse",
-      "stock": 7,
-      "rating": 4.8
-    },
-    {
-      "id": 21,
-      "name": "Samsung Galaxy Z Flip 5",
-      "category": "Smartphones",
-      "price": 999,
-      "image": "https://images.unsplash.com/photo-1581993192008-63e896f4f744?q=80&w=1037&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "description": "Compact foldable with Flex Window display",
-      "stock": 12,
-      "rating": 4.6
-    },
-    {
-      "id": 22,
-      "name": "Samsung Galaxy S25 Ultra",
-      "category": "Smartphones",
-      "price": 1199,
-      "image": "https://images.unsplash.com/photo-1738830274216-20f63b8a0c02?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "description": "200MP camera, Snapdragon 8 Gen 2, S Pen",
-      "stock": 14,
       "rating": 4.9
-    },
-    {
-      "id": 23,
-      "name": "Samsung Galaxy S23 FE",
-      "category": "Smartphones",
-      "price": 599,
-      "image": "https://images.unsplash.com/photo-1681651585822-b2edab241341?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "description": "Flagship performance at a lower price point",
-      "stock": 20,
-      "rating": 4.5
-    },
-    {
-      "id": 24,
-      "name": "Samsung Galaxy Note 20 Ultra",
-      "category": "Smartphones",
-      "price": 1099,
-      "image": "https://images.unsplash.com/photo-1599497828090-6eb0838fb1c8?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "description": "Dynamic AMOLED, S Pen, premium design",
-      "stock": 8,
-      "rating": 4.7
-    },
-    {
-      "id": 25,
-      "name": "Samsung Galaxy S22 Ultra",
-      "category": "Smartphones",
-      "price": 999,
-      "image": "https://images.unsplash.com/photo-1707438095940-1eee18e85400?q=80&w=1031&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "description": "S Pen integrated, 120Hz display, quad camera",
-      "stock": 10,
-      "rating": 4.8
-    },
-    {
-      "id": 26,
-      "name": "Google Pixel 8 Pro",
-      "category": "Smartphones",
-      "price": 899,
-      "image": "https://images.unsplash.com/photo-1706412703794-d944cd3625b3?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "description": "Best Android camera",
-      "stock": 18,
-      "rating": 4.6
-    },
-    {
-      "id": 27,
-      "name": "OnePlus 12",
-      "category": "Smartphones",
-      "price": 799,
-      "image": "https://images.unsplash.com/photo-1636376138385-b41caa8e0ae0?q=80&w=1033&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "description": "Fast charging, Snapdragon 8 Gen 3",
-      "stock": 22,
-      "rating": 4.5
-    },
-    {
-      "id": 28,
-      "name": "Xiaomi 14 Pro",
-      "category": "Smartphones",
-      "price": 699,
-      "image": "https://images.unsplash.com/photo-1706669923923-e8ff18cd3310?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "description": "Leica camera, flagship specs",
-      "stock": 15,
-      "rating": 4.4
-    },
-    {
-      "id": 29,
-      "name": "Apple AirPods Pro (2nd Gen)",
-      "category": "Audio",
-      "price": 249,
-      "image": "https://images.unsplash.com/photo-1592125033345-7e2854679619?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "description": "Active noise cancellation, MagSafe case",
-      "stock": 30,
-      "rating": 4.8
-    },
-    {
-      "id": 30,
-      "name": "Bose QuietComfort Ultra Headphones",
-      "category": "Audio",
-      "price": 379,
-      "image": "https://plus.unsplash.com/premium_photo-1680346528789-0ffcc13f5ebf?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "description": "Immersive sound, adjustable ANC, plush comfort",
-      "stock": 25,
-      "rating": 4.9
-    },
-    {
-      "id": 31,
-      "name": "Sennheiser Momentum 4 Wireless",
-      "category": "Audio",
-      "price": 349,
-      "image": "https://images.unsplash.com/photo-1677584658347-fff5917d0535?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "description": "Adaptive noise canceling, 60-hour battery life",
-      "stock": 20,
-      "rating": 4.7
     },
     {
       "id": 32,
@@ -321,409 +51,12 @@
       "rating": 4.8
     },
     {
-      "id": 33,
-      "name": "Sony WF-1000XM5",
-      "category": "Audio",
-      "price": 299,
-      "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=800&q=80",
-      "description": "Premium wireless earbuds with 8.4mm drivers",
-      "stock": 32,
-      "rating": 4.9
-    },
-    {
-      "id": 34,
-      "name": "Marshall Major IV",
-      "category": "Audio",
-      "price": 199,
-      "image": "https://i.pinimg.com/1200x/bd/1c/4d/bd1c4d80d5e80dd29b1a758d1829b64d.jpg",
-      "description": "Classic rock sound, 80-hour battery life",
-      "stock": 27,
-      "rating": 4.7
-    },
-    {
-      "id": 35,
-      "name": "Bose SoundLink Flex",
-      "category": "Audio",
-      "price": 149,
-      "image": "https://i.pinimg.com/1200x/ec/4f/85/ec4f85012a5f7207dc56ecbe4dc8b991.jpg",
-      "description": "Portable Bluetooth speaker, waterproof build",
-      "stock": 40,
-      "rating": 4.7
-    },
-    {
-      "id": 36,
-      "name": "JBL Charge 5",
-      "category": "Audio",
-      "price": 179,
-      "image": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?q=80&w=1031&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "description": "Powerful bass, 20-hour battery, IP67 waterproof",
-      "stock": 36,
-      "rating": 4.6
-    },
-    {
-      "id": 37,
-      "name": "Sonos Roam",
-      "category": "Audio",
-      "price": 179,
-      "image": "https://images.unsplash.com/photo-1743521442683-08ffd8ac9e14?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "description": "Wi-Fi and Bluetooth portable speaker",
-      "stock": 29,
-      "rating": 4.8
-    },
-    {
-      "id": 38,
-      "name": "UE Boom 3",
-      "category": "Audio",
-      "price": 139,
-      "image": "https://i.pinimg.com/1200x/12/87/f3/1287f3b7492c571867d2d9324eac1baa.jpg",
-      "description": "360° sound, waterproof, shockproof speaker",
-      "stock": 33,
-      "rating": 4.6
-    },
-    {
-      "id": 39,
-      "name": "Bowers & Wilkins PX8",
-      "category": "Audio",
-      "price": 699,
-      "image": "https://i.pinimg.com/736x/07/4e/1d/074e1d612695e073371fa7cbe6726643.jpg",
-      "description": "Premium build, high-resolution wireless audio",
-      "stock": 9,
-      "rating": 4.9
-    },
-    {
-      "id": 40,
-      "name": "AirPods Max",
-      "category": "Audio",
-      "price": 549,
-      "image": "https://images.unsplash.com/photo-1628329567705-f8f7150c3cff?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "description": "Premium noise cancellation",
-      "stock": 20,
-      "rating": 4.7
-    },
-    {
-      "id": 41,
-      "name": "Sony WH-1000XM5",
-      "category": "Audio",
-      "price": 399,
-      "image": "https://images.unsplash.com/photo-1712369448819-2ca1105339cf?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "description": "Industry-leading ANC",
-      "stock": 25,
-      "rating": 4.8
-    },
-    {
-      "id": 42,
-      "name": "Bose QC Ultra",
-      "category": "Audio",
-      "price": 429,
-      "image": "https://images.unsplash.com/photo-1606220945770-b5b6c2c55bf1?w=800&q=80",
-      "description": "Spatial audio, premium comfort",
-      "stock": 18,
-      "rating": 4.6
-    },
-    {
-      "id": 43,
-      "name": "Sennheiser Momentum 4",
-      "category": "Audio",
-      "price": 379,
-      "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=800&q=80",
-      "description": "Audiophile sound quality",
-      "stock": 12,
-      "rating": 4.7
-    },
-    {
-      "id": 44,
-      "name": "AirPods Pro 2",
-      "category": "Audio",
-      "price": 249,
-      "image": "https://images.unsplash.com/photo-1606841837239-c5a1a4a07af7?w=800&q=80",
-      "description": "Wireless earbuds, ANC",
-      "stock": 35,
-      "rating": 4.8
-    },
-    {
-      "id": 45,
-      "name": "iPad Pro 12.9",
-      "category": "Tablets",
-      "price": 1099,
-      "image": "https://images.unsplash.com/photo-1561154464-82e9adf32764?w=800&q=80",
-      "description": "M2 chip, Liquid Retina XDR",
-      "stock": 15,
-      "rating": 4.9
-    },
-    {
-      "id": 46,
-      "name": "Xiaomi Pad 6 Pro",
-      "category": "Tablets",
-      "price": 599,
-      "image": "https://i.pinimg.com/1200x/09/aa/c2/09aac28a4e2e34d67a8e7311afee53c0.jpg",
-      "description": "120Hz display, Snapdragon 8+ Gen 1.",
-      "stock": 27
-    },
-    {
-      "id": 47,
-      "name": "Amazon Fire Max 11",
-      "category": "Tablets",
-      "price": 329,
-      "image": "https://images.unsplash.com/photo-1623126908029-58cb08a2b272?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "description": "11-inch display, octa-core processor.",
-      "stock": 45
-    },
-    {
-      "id": 48,
-      "name": "Huawei MatePad Pro 13.2",
-      "category": "Tablets",
-      "price": 899,
-      "image": "https://i.pinimg.com/736x/e3/16/b9/e316b94fba0500ba041edbdad7a8aa5a.jpg",
-      "description": "OLED display, HarmonyOS.",
-      "stock": 16
-    },
-    {
-      "id": 49,
-      "name": "Google Pixel Tablet",
-      "category": "Tablets",
-      "price": 649,
-      "image": "https://i.pinimg.com/1200x/ba/16/05/ba16055fd0f5dba63c0f3204250b5765.jpg",
-      "description": "Tensor G2 chip, 10.95-inch display.",
-      "stock": 20
-    },
-    {
-      "id": 50,
-      "name": "OnePlus Pad",
-      "category": "Tablets",
-      "price": 479,
-      "image": "https://i.pinimg.com/736x/16/0c/98/160c9812017051c824a688cbe5da35e0.jpg",
-      "description": "144Hz LCD display, Dimensity 9000.",
-      "stock": 22
-    },
-    {
-      "id": 51,
-      "name": "Apple iPad Air (M2)",
-      "category": "Tablets",
-      "price": 699,
-      "image": "https://images.unsplash.com/photo-1630453016513-bba65d503b06?q=80&w=871&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "description": "Apple M2 chip, lightweight design.",
-      "stock": 35
-    },
-    {
-      "id": 52,
-      "name": "Lenovo Yoga Tab 13",
-      "category": "Tablets",
-      "price": 599,
-      "image": "https://i.pinimg.com/1200x/7a/37/42/7a3742f6b25cc647201b12c02613417e.jpg",
-      "description": "13-inch display, built-in kickstand.",
-      "stock": 19
-    },
-    {
-      "id": 53,
-      "name": "Realme Pad 2",
-      "category": "Tablets",
-      "price": 329,
-      "image": "https://i.pinimg.com/1200x/bf/8a/dc/bf8adc44514bfcdbe791db7bc7b83a94.jpg",
-      "description": "Affordable tablet with 2K display.",
-      "stock": 38
-    },
-    {
-      "id": 54,
-      "name": "Asus ROG Flow Z13",
-      "category": "Tablets",
-      "price": 1699,
-      "image": "https://i.pinimg.com/1200x/a0/27/b7/a027b7a9ac800012c6c75ea935e2fcdb.jpg",
-      "description": "Gaming tablet with Intel i9 CPU, RTX GPU.",
-      "stock": 10
-    },
-    {
-      "id": 55,
-      "name": "Samsung Tab S9 Ultra",
-      "category": "Tablets",
-      "price": 1199,
-      "image": "https://i.pinimg.com/1200x/26/e4/cf/26e4cff37aee23714eaec15eefd34fa4.jpg",
-      "description": "14.6-inch AMOLED display",
-      "stock": 10,
-      "rating": 4.7
-    },
-    {
-      "id": 56,
-      "name": "Microsoft Surface Pro 9",
-      "category": "Tablets",
-      "price": 999,
-      "image": "https://i.pinimg.com/1200x/22/0e/be/220ebe104aa3840d2e561e206205e462.jpg",
-      "description": "2-in-1, Windows tablet",
-      "stock": 12,
-      "rating": 4.6
-    },
-    {
-      "id": 57,
-      "name": "iPad Air",
-      "category": "Tablets",
-      "price": 599,
-      "image": "https://images.unsplash.com/photo-1682426526490-667d4912b8de?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "description": "M1 chip, lightweight",
-      "stock": 20,
-      "rating": 4.7
-    },
-    {
-      "id": 58,
-      "name": "Lenovo Tab P12",
-      "category": "Tablets",
-      "price": 449,
-      "image": "https://i.pinimg.com/1200x/a6/91/00/a69100b1029b575f89df9ae4d04b7794.jpg",
-      "description": "Android tablet, large screen",
-      "stock": 14,
-      "rating": 4.4
-    },
-    {
-      "id": 59,
-      "name": "Apple Watch Series 9",
-      "category": "Wearables",
-      "price": 429,
-      "image": "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?w=800&q=80",
-      "description": "Health tracking, always-on display",
-      "stock": 30,
-      "rating": 4.8
-    },
-    {
-      "id": 60,
-      "name": "Samsung Galaxy Watch 6",
-      "category": "Wearables",
-      "price": 329,
-      "image": "https://images.unsplash.com/photo-1617043786394-f977fa12eddf?w=800&q=80",
-      "description": "Fitness tracking, Wear OS",
-      "stock": 25,
-      "rating": 4.6
-    },
-    {
-      "id": 61,
-      "name": "Apple Watch Series 10",
-      "category": "Wearables",
-      "price": 799,
-      "image": "https://i.pinimg.com/736x/fb/49/4a/fb494a8af7b704927b035d13ed1c0642.jpg",
-      "description": "Advanced health tracking, ECG, blood oxygen monitoring, and always-on Retina display.",
-      "stock": 25
-    },
-    {
-      "id": 62,
-      "name": "Samsung Galaxy Watch 7",
-      "category": "Wearables",
-      "price": 349,
-      "image": "https://images.unsplash.com/photo-1722152845711-be94a0751c8c?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "description": "Super AMOLED display, Wear OS, GPS, and advanced fitness tracking.",
-      "stock": 40
-    },
-    {
-      "id": 63,
-      "name": "Fitbit Charge 6",
-      "category": "Wearables",
-      "price": 179,
-      "image": "https://i.pinimg.com/736x/d2/6c/73/d26c733401304984594df550b5f1b592.jpg",
-      "description": "Heart rate monitor, sleep tracker, Google Maps integration, and long battery life.",
-      "stock": 55
-    },
-    {
-      "id": 64,
-      "name": "Garmin Fenix 7 Pro",
-      "category": "Wearables",
-      "price": 899,
-      "image": "https://i.pinimg.com/1200x/8c/31/f8/8c31f8b0ff5064528bed1a64aa243bfd.jpg",
-      "description": "Premium multisport smartwatch with solar charging and rugged design.",
-      "stock": 18
-    },
-    {
-      "id": 65,
-      "name": "Google Pixel Watch 2",
-      "category": "Wearables",
-      "price": 349,
-      "image": "https://i.pinimg.com/736x/60/1e/3a/601e3acc8fa95874ad091ce4643d0536.jpg",
-      "description": "Wear OS 4, Fitbit integration, and AI-powered health insights.",
-      "stock": 28
-    },
-    {
-      "id": 66,
-      "name": "Amazfit GTR 4",
-      "category": "Wearables",
-      "price": 199,
-      "image": "https://i.pinimg.com/736x/00/e3/69/00e369122f42b7de81714fbb0a32dd9e.jpg",
-      "description": "Bluetooth calling, GPS, and over 150 sports modes with long-lasting battery.",
-      "stock": 50
-    },
-    {
-      "id": 67,
-      "name": "Huawei Watch GT 4 Pro",
-      "category": "Wearables",
-      "price": 299,
-      "image": "https://i.pinimg.com/1200x/ed/57/b0/ed57b0a3beac9558df7cb389c319c3e3.jpg",
-      "description": "AMOLED display, titanium frame, and professional workout tracking.",
-      "stock": 33
-    },
-    {
-      "id": 68,
-      "name": "Oura Ring Gen 3",
-      "category": "Wearables",
-      "price": 299,
-      "image": "https://i.pinimg.com/1200x/7b/15/2c/7b152c5210c52f0608a58c312b8c86aa.jpg",
-      "description": "Smart ring with temperature, heart rate, and sleep tracking for wellness insights.",
-      "stock": 45
-    },
-    {
-      "id": 69,
-      "name": "Xiaomi Smart Band 9",
-      "category": "Wearables",
-      "price": 59,
-      "image": "https://i.pinimg.com/1200x/4c/e0/45/4ce0454dfc763bd6e71bea89ac003377.jpg",
-      "description": "AMOLED screen, waterproof, and long battery life fitness band.",
-      "stock": 70
-    },
-    {
-      "id": 70,
-      "name": "Withings ScanWatch Horizon",
-      "category": "Wearables",
-      "price": 499,
-      "image": "https://i.pinimg.com/1200x/e8/45/43/e8454360d2c9f1c34f1222d8801b5870.jpg",
-      "description": "Hybrid smartwatch with medical-grade ECG, oxygen sensor, and diving design.",
-      "stock": 20
-    },
-    {
-      "id": 71,
-      "name": "Coros Vertix 2",
-      "category": "Wearables",
-      "price": 599,
-      "image": "https://i.pinimg.com/736x/92/09/8a/92098a071b99b9b83f59a1ee704209e4.jpg",
-      "description": "GPS adventure watch with titanium build, long battery, and offline maps.",
-      "stock": 17
-    },
-    {
-      "id": 72,
-      "name": "Honor Watch 4",
-      "category": "Wearables",
-      "price": 199,
-      "image": "https://i.pinimg.com/1200x/ff/3f/07/ff3f07d3cd5e756fe455770cb9471f15.jpg",
-      "description": "Stylish smartwatch with AMOLED display and all-day fitness tracking.",
-      "stock": 38
-    },
-    {
-      "id": 73,
-      "name": "Noise ColorFit Pro 5",
-      "category": "Wearables",
-      "price": 79,
-      "image": "https://i.pinimg.com/736x/87/29/18/8729189e3623a1bdf0f17622972527ae.jpg",
-      "description": "Affordable smartwatch with large display, health tracking, and Bluetooth calling.",
-      "stock": 80
-    },
-    {
-      "id": 74,
-      "name": "Suunto 9 Peak Pro",
-      "category": "Wearables",
-      "price": 499,
-      "image": "https://i.pinimg.com/1200x/23/26/60/232660607899b38e37f39cea2699a609.jpg",
-      "description": "Adventure-ready GPS smartwatch with titanium frame and 100m water resistance.",
-      "stock": 21
-    },
-    {
-      "id": 75,
-      "name": "Garmin Fenix 7",
-      "category": "Wearables",
-      "price": 699,
-      "image": "https://i.pinimg.com/1200x/62/92/b7/6292b7b7fa904ac51cd20ee3f7078197.jpg",
-      "description": "Premium multisport GPS",
+      "id": 1,
+      "name": "MacBook Pro M3",
+      "category": "Laptops",
+      "price": 1999,
+      "image": "https://i.pinimg.com/1200x/b7/4f/a4/b74fa4bf86acd729116eaaa784d88f13.jpg",
+      "description": "14-inch, M3 chip, 16GB RAM",
       "stock": 15,
       "rating": 4.9
     },
@@ -738,6 +71,95 @@
       "rating": 4.9
     },
     {
+      "id": 46,
+      "name": "iPhone 13",
+      "category": "iPhone",
+      "price": 799,
+      "image": "https://images.unsplash.com/photo-1665576592927-4d4760f22c49?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": " A15 Bionic chip, dual camera system.",
+      "stock": 22,
+      "rating": 4.5
+    },
+    {
+      "id": 34,
+      "name": "Logitech G Pro X",
+      "category": "Gaming",
+      "price": 129,
+      "image": "https://i.pinimg.com/736x/5c/76/b2/5c76b2a5e8a28e2b2adb134ed3009461.jpg",
+      "description": "Wireless gaming mouse",
+      "stock": 25,
+      "rating": 4.7
+    },
+    {
+      "id": 30,
+      "name": "Bose QuietComfort Ultra Headphones",
+      "category": "Audio",
+      "price": 379,
+      "image": "https://plus.unsplash.com/premium_photo-1680346528789-0ffcc13f5ebf?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Immersive sound, adjustable ANC, plush comfort",
+      "stock": 25,
+      "rating": 4.9
+    },
+    {
+      "id": 923,
+      "name": "LG C4 OLED evo",
+      "category": "TV",
+      "price": 1999,
+      "image": "https://plus.unsplash.com/premium_photo-1682274001252-cd39d7158ae3?q=80&w=992&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "55-inch 4K OLED Smart TV with α9 Gen7 AI.",
+      "stock": 14
+    },
+    {
+      "id": 60,
+      "name": "Samsung Galaxy Watch 6",
+      "category": "Wearables",
+      "price": 329,
+      "image": "https://images.unsplash.com/photo-1617043786394-f977fa12eddf?w=800&q=80",
+      "description": "Fitness tracking, Wear OS",
+      "stock": 25,
+      "rating": 4.6
+    },
+    {
+      "id": 17,
+      "name": "Sony Xperia 1 V",
+      "category": "Smartphones",
+      "price": 999,
+      "image": "https://i.pinimg.com/736x/2b/68/38/2b6838a8282bdf8ea65426a38f68db25.jpg",
+      "description": "4K HDR OLED, pro camera features.",
+      "stock": 12,
+      "rating": 4.6
+    },
+    {
+      "id": 56,
+      "name": "Microsoft Surface Pro 9",
+      "category": "Tablets",
+      "price": 999,
+      "image": "https://i.pinimg.com/1200x/22/0e/be/220ebe104aa3840d2e561e206205e462.jpg",
+      "description": "2-in-1, Windows tablet",
+      "stock": 12,
+      "rating": 4.6
+    },
+    {
+      "id": 33,
+      "name": "Sony WF-1000XM5",
+      "category": "Audio",
+      "price": 299,
+      "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=800&q=80",
+      "description": "Premium wireless earbuds with 8.4mm drivers",
+      "stock": 32,
+      "rating": 4.9
+    },
+    {
+      "id": 2,
+      "name": "Dell XPS 15",
+      "category": "Laptops",
+      "price": 1799,
+      "image": "https://i.pinimg.com/1200x/d6/56/1c/d6561c97911c147b14380c7d40ecd257.jpg",
+      "description": "Intel i9, 32GB RAM, RTX 4060",
+      "stock": 12,
+      "rating": 4.7
+    },
+    {
       "id": 77,
       "name": "Canon EOS R6 II",
       "category": "Cameras",
@@ -748,390 +170,7 @@
       "rating": 4.8
     },
     {
-      "id": 78,
-      "name": "Canon EOS R6 Mark II",
-      "category": "Cameras",
-      "price": 2499,
-      "image": "https://plus.unsplash.com/premium_photo-1710736885728-e96a56b2ebfb?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "description": "s camera with 24.2MP sensor and 4K 60fps video recording.",
-      "stock": 12,
-      "rating": 4.8
-    },
-    {
-      "id": 79,
-      "name": "Sony Alpha A7 IV",
-      "category": "Cameras",
-      "price": 2699,
-      "image": "https://images.unsplash.com/photo-1607825878130-914be8978e27?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "description": "33MP full-frame sensor, real-time eye autofocus.",
-      "stock": 10,
-      "rating": 4.7
-    },
-    {
-      "id": 80,
-      "name": "Nikon Z8",
-      "category": "Cameras",
-      "price": 3999,
-      "image": "https://i.pinimg.com/1200x/44/ad/aa/44adaae97fca890698822cf9a7af83c7.jpg",
-      "description": "with 45.7MP sensor and 8K video support.",
-      "stock": 8,
-      "rating": 4.8
-    },
-    {
-      "id": 81,
-      "name": "Fujifilm X-T5",
-      "category": "Cameras",
-      "price": 1699,
-      "image": "https://images.unsplash.com/photo-1642961265738-0d5c4472df3c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "description": "40MP APS-C sensor, classic design.",
-      "stock": 15,
-      "rating": 4.9
-    },
-    {
-      "id": 82,
-      "name": "Panasonic Lumix GH6",
-      "category": "Cameras",
-      "price": 2199,
-      "image": "https://images.unsplash.com/photo-1648470211022-a48266039afa?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "description": "with 5.7K ProRes video and dual card slots.",
-      "stock": 9,
-      "rating": 4.9
-    },
-    {
-      "id": 83,
-      "name": "GoPro HERO12 Black",
-      "category": "Cameras",
-      "price": 449,
-      "image": "https://images.unsplash.com/photo-1611419642042-dc4da2a8e065?q=80&w=845&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "description": "waterproof design, and HyperSmooth stabilization.",
-      "stock": 25,
-      "rating": 4.9
-    },
-    {
-      "id": 84,
-      "name": "DJI Osmo Pocket 3",
-      "category": "Cameras",
-      "price": 519,
-      "image": "https://images.unsplash.com/photo-1570150145606-3771bf571064?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "description": "Compact handheld camera with 1-inch sensor.",
-      "stock": 30,
-      "rating": 4.9
-    },
-    {
-      "id": 85,
-      "name": "Canon PowerShot G7 X Mark III",
-      "category": "Cameras",
-      "price": 749,
-      "image": "https://images.unsplash.com/photo-1666594113287-a7c4b050f58e?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "description": "Compact vlogging camera with 4K video and flip-up screen.",
-      "stock": 18,
-      "rating": 4.9
-    },
-    {
-      "id": 86,
-      "name": "Sony ZV-E10",
-      "category": "Cameras",
-      "price": 799,
-      "image": "https://images.unsplash.com/photo-1654701502332-d6aea8f98365?q=80&w=718&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "description": "APS-C vlogging camera with interchangeable lenses.",
-      "stock": 22,
-      "rating": 4.9
-    },
-    {
-      "id": 87,
-      "name": "Insta360 X4",
-      "category": "Cameras",
-      "price": 499,
-      "image": "https://i.pinimg.com/1200x/a1/33/7e/a1337e6ff35f867dc8c6f371bd284e54.jpg",
-      "description": "360-degree action camera with 8K recording.",
-      "stock": 27,
-      "rating": 5.0
-    },
-    {
-      "id": 88,
-      "name": "Leica Q3",
-      "category": "Cameras",
-      "price": 5999,
-      "image": "https://plus.unsplash.com/premium_photo-1726869651779-989330341af8?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "description": " camera with 60MP sensor and Summilux lens.",
-      "stock": 5,
-      "rating": 5.0
-    },
-    {
-      "id": 89,
-      "name": "Blackmagic Pocket Cinema 6K Pro",
-      "category": "Cameras",
-      "price": 2495,
-      "image": "https://images.unsplash.com/photo-1614885363375-3bf0de4d9d6c?q=80&w=873&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "description": "with 6K Super 35 sensor and built-in ND filters.",
-      "stock": 7,
-      "rating": 4.0
-    },
-    {
-      "id": 90,
-      "name": "DJI Air 3 Drone Camera",
-      "category": "Cameras",
-      "price": 1399,
-      "image": "https://images.unsplash.com/photo-1508614589041-895b88991e3e?w=800&q=80",
-      "description": "Dual camera drone with 4K HDR video.",
-      "stock": 12,
-      "rating": 4.6
-    },
-    {
-      "id": 91,
-      "name": "Ricoh GR IIIx",
-      "category": "Cameras",
-      "price": 1049,
-      "image": "https://images.unsplash.com/photo-1614272660397-487cf606be4a?q=80&w=725&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "description": " camera with APS-C sensor and 40mm lens.",
-      "stock": 16,
-      "rating": 4.9
-    },
-    {
-      "id": 92,
-      "name": "Olympus OM-D E-M1 Mark III",
-      "category": "Cameras",
-      "price": 1699,
-      "image": "https://images.unsplash.com/photo-1740779428207-eea48ea24b46?q=80&w=881&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "description": "Lightweight mirrorless camera with 60fps.",
-      "stock": 14,
-      "rating": 4.9
-    },
-    {
-      "id": 93,
-      "name": "Samsung QN95D Neo QLED 4K",
-      "category": "TV",
-      "price": 2299,
-      "image": "https://i.pinimg.com/1200x/22/a7/39/22a739ff06bce1788a53540ec8657176.jpg",
-      "description": "65-inch Neo QLED 4K Smart TV.",
-      "stock": 10,
-      "rating": 4.7
-    },
-    {
-      "id": 94,
-      "name": "LG C4 OLED evo",
-      "category": "TV",
-      "price": 1999,
-      "image": "https://plus.unsplash.com/premium_photo-1682274001252-cd39d7158ae3?q=80&w=992&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "description": "55-inch 4K OLED Smart TV with α9 Gen7 AI.",
-      "stock": 14
-    },
-    {
-      "id": 95,
-      "name": "TCL QM8 Mini-LED",
-      "category": "TV",
-      "price": 1299,
-      "image": "https://images.unsplash.com/photo-1615210230840-69c07c13b4d1?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "description": "75-inch 4K Mini-LED Smart TV with 240Hz.",
-      "stock": 20
-    },
-    {
-      "id": 96,
-      "name": "Hisense U8K ULED",
-      "category": "TV",
-      "price": 1199,
-      "image": "https://images.unsplash.com/photo-1461151304267-38535e780c79?q=80&w=1033&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "description": "65-inch ULED 4K TV with Quantum Dot color and Google TV platform.",
-      "stock": 18
-    },
-    {
-      "id": 97,
-      "name": "Vizio MQX Series 4K",
-      "category": "TV",
-      "price": 899,
-      "image": "https://i.pinimg.com/1200x/59/87/bf/5987bf3d18d4486ff6862b2a4eb486b5.jpg",
-      "description": "50-inch 4K Quantum Color Smart TV with 120Hz refresh rate.",
-      "stock": 25
-    },
-    {
-      "id": 98,
-      "name": "Panasonic LZ2000 OLED",
-      "category": "TV",
-      "price": 2499,
-      "image": "https://i.pinimg.com/1200x/54/aa/2f/54aa2f83684d5bb20198d02b82f8c4b8.jpg",
-      "description": "65-inch 4K OLED with Dolby Vision IQ, HDR10+, and professional color calibration.",
-      "stock": 11
-    },
-    {
-      "id": 99,
-      "name": "LG G4 OLED evo Gallery Edition",
-      "category": "TV",
-      "price": 2799,
-      "image": "https://i.pinimg.com/736x/e7/34/92/e73492a9e9fa13731748c9d31b2b5898.jpg",
-      "description": "77-inch OLED TV with flush-to-wall mount design and α11 AI processor.",
-      "stock": 8
-    },
-    {
-      "id": 100,
-      "name": "Xiaomi Mi TV Q1 75",
-      "category": "TV",
-      "price": 1399,
-      "image": "https://images.unsplash.com/photo-1694032007593-8ead82259b11?q=80&w=1160&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "description": "75-inch 4K QLED with Android TV, HDR10+, and hands-free Google Assistant.",
-      "stock": 26
-    },
-    {
-      "id": 101,
-      "name": "LG UltraGear 27",
-      "category": "Monitors",
-      "price": 699,
-      "image": "https://i.pinimg.com/1200x/79/ff/03/79ff035f1176b7d34cef3894cc1bb213.jpg",
-      "description": "4K gaming monitor, 144Hz",
-      "stock": 18,
-      "rating": 4.7
-    },
-    {
-      "id": 102,
-      "name": "Dell UltraSharp 32",
-      "category": "Monitors",
-      "price": 899,
-      "image": "https://i.pinimg.com/736x/06/fb/ff/06fbffb95796fc10125644e09bd63f88.jpg",
-      "description": "4K IPS, color accurate",
-      "stock": 15,
-      "rating": 4.8
-    },
-    {
-      "id": 103,
-      "name": "Samsung Odyssey G9",
-      "category": "Monitors",
-      "price": 1499,
-      "image": "https://i.pinimg.com/1200x/0f/cf/93/0fcf93508e2cc2f874e99519546da3a0.jpg",
-      "description": "49-inch ultrawide, 240Hz",
-      "stock": 8,
-      "rating": 4.9
-    },
-    {
-      "id": 104,
-      "name": "ASUS ProArt 27",
-      "category": "Monitors",
-      "price": 749,
-      "image": "https://i.pinimg.com/1200x/e9/a1/bc/e9a1bcacceedefc0ad60800f58548f9f.jpg",
-      "description": "Professional color grading",
-      "stock": 10,
-      "rating": 4.6
-    },
-    {
-      "id": 105,
-      "name": "Logitech G Pro X",
-      "category": "Gaming",
-      "price": 129,
-      "image": "https://i.pinimg.com/736x/5c/76/b2/5c76b2a5e8a28e2b2adb134ed3009461.jpg",
-      "description": "Wireless gaming mouse",
-      "stock": 25,
-      "rating": 4.7
-    },
-    {
-      "id": 106,
-      "name": "Razer BlackWidow V4",
-      "category": "Gaming",
-      "price": 179,
-      "image": "https://i.pinimg.com/1200x/87/9b/47/879b4764134d96179dbe039676d6e678.jpg",
-      "description": "Mechanical gaming keyboard",
-      "stock": 20,
-      "rating": 4.8
-    },
-    {
-      "id": 107,
-      "name": "SteelSeries Arctis Nova",
-      "category": "Gaming",
-      "price": 329,
-      "image": "https://images.unsplash.com/photo-1599669454699-248893623440?w=800&q=80",
-      "description": "Pro wireless gaming headset",
-      "stock": 15,
-      "rating": 4.7
-    },
-    {
-      "id": 108,
-      "name": "Xbox Elite Controller",
-      "category": "Gaming",
-      "price": 179,
-      "image": "https://i.pinimg.com/1200x/af/ec/0c/afec0c329b404762311ac3fcd9b8f109.jpg",
-      "description": "Series 2, customizable",
-      "stock": 18,
-      "rating": 4.8
-    },
-    {
-      "id": 109,
-      "name": "Jbl Echo Studio",
-      "category": "Smart Home",
-      "price": 199,
-      "image": "https://i.pinimg.com/1200x/14/5f/d5/145fd5c636a331e8d2df3ebc6a039ec2.jpg",
-      "description": "Premium smart speaker",
-      "stock": 22,
-      "rating": 4.6
-    },
-    {
-      "id": 110,
-      "name": "Google Nest Hub Max",
-      "category": "Smart Home",
-      "price": 229,
-      "image": "https://i.pinimg.com/1200x/a2/e2/23/a2e2230e02ca774a709e7f255b13ee56.jpg",
-      "description": "Smart display, 10-inch",
-      "stock": 20,
-      "rating": 4.5
-    },
-    {
-      "id": 111,
-      "name": "Ring Video Doorbell",
-      "category": "Smart Home",
-      "price": 99,
-      "image": "https://images.unsplash.com/photo-1558002038-1055907df827?w=800&q=80",
-      "description": "Pro 2, HD video",
-      "stock": 30,
-      "rating": 4.7
-    },
-    {
-      "id": 112,
-      "name": "Samsung T7 SSD 2TB",
-      "category": "Storage",
-      "price": 199,
-      "image": "https://i.pinimg.com/1200x/38/27/d5/3827d5b496d4e8cffb881c17e8687ef0.jpg",
-      "description": "Portable external SSD",
-      "stock": 35,
-      "rating": 4.8
-    },
-    {
-      "id": 113,
-      "name": "WD My Passport 5TB",
-      "category": "Storage",
-      "price": 129,
-      "image": "https://images.unsplash.com/photo-1531492746076-161ca9bcad58?w=800&q=80",
-      "description": "Portable HDD backup",
-      "stock": 30,
-      "rating": 4.6
-    },
-    {
-      "id": 114,
-      "name": "Anker PowerCore 20K",
-      "category": "Accessories",
-      "price": 59,
-      "image": "https://i.pinimg.com/736x/75/e7/0f/75e70f0e81fbe2d4ca26372b7ba2622d.jpg",
-      "description": "Power bank, fast charging",
-      "stock": 40,
-      "rating": 4.7
-    },
-    {
-      "id": 115,
-      "name": "Belkin USB-C Hub",
-      "category": "Accessories",
-      "price": 79,
-      "image": "https://i.pinimg.com/1200x/55/a2/9d/55a29de27ccabdfa62f5fde0f361dc7a.jpg",
-      "description": "7-in-1 multiport adapter",
-      "stock": 28,
-      "rating": 4.5
-    },
-    {
-      "id": 116,
-      "name": "iPhone 13",
-      "category": "iPhone",
-      "price": 799,
-      "image": "https://images.unsplash.com/photo-1665576592927-4d4760f22c49?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "description": " A15 Bionic chip, dual camera system.",
-      "stock": 22,
-      "rating": 4.5
-    },
-    {
-      "id": 117,
+      "id": 47,
       "name": "iPhone 13 Pro",
       "category": "iPhone",
       "price": 999,
@@ -1141,7 +180,95 @@
       "rating": 4.7
     },
     {
-      "id": 118,
+      "id": 35,
+      "name": "Razer BlackWidow V4",
+      "category": "Gaming",
+      "price": 179,
+      "image": "https://i.pinimg.com/1200x/87/9b/47/879b4764134d96179dbe039676d6e678.jpg",
+      "description": "Mechanical gaming keyboard",
+      "stock": 20,
+      "rating": 4.8
+    },
+    {
+      "id": 31,
+      "name": "Sennheiser Momentum 4 Wireless",
+      "category": "Audio",
+      "price": 349,
+      "image": "https://images.unsplash.com/photo-1677584658347-fff5917d0535?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Adaptive noise canceling, 60-hour battery life",
+      "stock": 20,
+      "rating": 4.7
+    },
+    {
+      "id": 94,
+      "name": "TCL QM8 Mini-LED",
+      "category": "TV",
+      "price": 1299,
+      "image": "https://images.unsplash.com/photo-1615210230840-69c07c13b4d1?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "75-inch 4K Mini-LED Smart TV with 240Hz.",
+      "stock": 20
+    },
+    {
+      "id": 61,
+      "name": "Apple Watch Series 10",
+      "category": "Wearables",
+      "price": 799,
+      "image": "https://i.pinimg.com/736x/fb/49/4a/fb494a8af7b704927b035d13ed1c0642.jpg",
+      "description": "Advanced health tracking, ECG, blood oxygen monitoring, and always-on Retina display.",
+      "stock": 25
+    },
+    {
+      "id": 18,
+      "name": "Samsung Galaxy S21 Ultra",
+      "category": "Smartphones",
+      "price": 1299,
+      "image": "https://images.unsplash.com/photo-1610792516307-ea5acd9c3b00?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "6.8-inch QHD+ AMOLED, Snapdragon 8 Gen 3, 200MP camera",
+      "stock": 10,
+      "rating": 4.9
+    },
+    {
+      "id": 57,
+      "name": "iPad Air",
+      "category": "Tablets",
+      "price": 599,
+      "image": "https://images.unsplash.com/photo-1682426526490-667d4912b8de?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "M1 chip, lightweight",
+      "stock": 20,
+      "rating": 4.7
+    },
+    {
+      "id": 34,
+      "name": "Marshall Major IV",
+      "category": "Audio",
+      "price": 199,
+      "image": "https://i.pinimg.com/1200x/bd/1c/4d/bd1c4d80d5e80dd29b1a758d1829b64d.jpg",
+      "description": "Classic rock sound, 80-hour battery life",
+      "stock": 27,
+      "rating": 4.7
+    },
+    {
+      "id": 3,
+      "name": "ThinkPad X1 Carbon",
+      "category": "Laptops",
+      "price": 1599,
+      "image": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=800&q=80",
+      "description": "Intel i7, 16GB RAM, Business grade",
+      "stock": 20,
+      "rating": 4.6
+    },
+    {
+      "id": 79,
+      "name": "Canon EOS R6 Mark II",
+      "category": "Cameras",
+      "price": 2499,
+      "image": "https://plus.unsplash.com/premium_photo-1710736885728-e96a56b2ebfb?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "s camera with 24.2MP sensor and 4K 60fps video recording.",
+      "stock": 12,
+      "rating": 4.8
+    },
+    {
+      "id": 48,
       "name": "iPhone 14",
       "category": "iPhone",
       "price": 899,
@@ -1151,7 +278,95 @@
       "rating": 4.6
     },
     {
-      "id": 119,
+      "id": 36,
+      "name": "SteelSeries Arctis Nova",
+      "category": "Gaming",
+      "price": 329,
+      "image": "https://images.unsplash.com/photo-1599669454699-248893623440?w=800&q=80",
+      "description": "Pro wireless gaming headset",
+      "stock": 15,
+      "rating": 4.7
+    },
+    {
+      "id": 35,
+      "name": "Bose SoundLink Flex",
+      "category": "Audio",
+      "price": 149,
+      "image": "https://i.pinimg.com/1200x/ec/4f/85/ec4f85012a5f7207dc56ecbe4dc8b991.jpg",
+      "description": "Portable Bluetooth speaker, waterproof build",
+      "stock": 40,
+      "rating": 4.7
+    },
+    {
+      "id": 95,
+      "name": "Hisense U8K ULED",
+      "category": "TV",
+      "price": 1199,
+      "image": "https://images.unsplash.com/photo-1461151304267-38535e780c79?q=80&w=1033&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "65-inch ULED 4K TV with Quantum Dot color and Google TV platform.",
+      "stock": 18
+    },
+    {
+      "id": 62,
+      "name": "Samsung Galaxy Watch 7",
+      "category": "Wearables",
+      "price": 349,
+      "image": "https://images.unsplash.com/photo-1722152845711-be94a0751c8c?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Super AMOLED display, Wear OS, GPS, and advanced fitness tracking.",
+      "stock": 40
+    },
+    {
+      "id": 19,
+      "name": "Samsung Galaxy S21+",
+      "category": "Smartphones",
+      "price": 1099,
+      "image": "https://images.unsplash.com/photo-1610945264803-c22b62d2a7b3?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "6.7-inch AMOLED, 120Hz refresh, Exynos 2400",
+      "stock": 15,
+      "rating": 4.8
+    },
+    {
+      "id": 58,
+      "name": "Lenovo Tab P12",
+      "category": "Tablets",
+      "price": 449,
+      "image": "https://i.pinimg.com/1200x/a6/91/00/a69100b1029b575f89df9ae4d04b7794.jpg",
+      "description": "Android tablet, large screen",
+      "stock": 14,
+      "rating": 4.4
+    },
+    {
+      "id": 36,
+      "name": "JBL Charge 5",
+      "category": "Audio",
+      "price": 179,
+      "image": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?q=80&w=1031&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Powerful bass, 20-hour battery, IP67 waterproof",
+      "stock": 36,
+      "rating": 4.6
+    },
+    {
+      "id": 4,
+      "name": "HP Spectre x360",
+      "category": "Laptops",
+      "price": 1399,
+      "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800&q=80",
+      "description": "2-in-1 convertible, touchscreen",
+      "stock": 8,
+      "rating": 4.5
+    },
+    {
+      "id": 80,
+      "name": "Sony Alpha A7 IV",
+      "category": "Cameras",
+      "price": 2699,
+      "image": "https://images.unsplash.com/photo-1607825878130-914be8978e27?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "33MP full-frame sensor, real-time eye autofocus.",
+      "stock": 10,
+      "rating": 4.7
+    },
+    {
+      "id": 49,
       "name": "iPhone 14 Pro",
       "category": "iPhone",
       "price": 1099,
@@ -1161,7 +376,94 @@
       "rating": 4.8
     },
     {
-      "id": 120,
+      "id": 37,
+      "name": "Xbox Elite Controller",
+      "category": "Gaming",
+      "price": 179,
+      "image": "https://i.pinimg.com/1200x/af/ec/0c/afec0c329b404762311ac3fcd9b8f109.jpg",
+      "description": "Series 2, customizable",
+      "stock": 18,
+      "rating": 4.8
+    },
+    {
+      "id": 37,
+      "name": "Sonos Roam",
+      "category": "Audio",
+      "price": 179,
+      "image": "https://images.unsplash.com/photo-1743521442683-08ffd8ac9e14?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Wi-Fi and Bluetooth portable speaker",
+      "stock": 29,
+      "rating": 4.8
+    },
+    {
+      "id": 96,
+      "name": "Vizio MQX Series 4K",
+      "category": "TV",
+      "price": 899,
+      "image": "https://i.pinimg.com/1200x/59/87/bf/5987bf3d18d4486ff6862b2a4eb486b5.jpg",
+      "description": "50-inch 4K Quantum Color Smart TV with 120Hz refresh rate.",
+      "stock": 25
+    },
+    {
+      "id": 63,
+      "name": "Fitbit Charge 6",
+      "category": "Wearables",
+      "price": 179,
+      "image": "https://i.pinimg.com/736x/d2/6c/73/d26c733401304984594df550b5f1b592.jpg",
+      "description": "Heart rate monitor, sleep tracker, Google Maps integration, and long battery life.",
+      "stock": 55
+    },
+    {
+      "id": 20,
+      "name": "Samsung Galaxy Z Fold 6",
+      "category": "Smartphones",
+      "price": 1799,
+      "image": "https://images.unsplash.com/photo-1724323192353-f80f38e91b9d?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "7.6-inch foldable display, multitasking powerhouse",
+      "stock": 7,
+      "rating": 4.8
+    },
+    {
+      "id": 46,
+      "name": "Xiaomi Pad 6 Pro",
+      "category": "Tablets",
+      "price": 599,
+      "image": "https://i.pinimg.com/1200x/09/aa/c2/09aac28a4e2e34d67a8e7311afee53c0.jpg",
+      "description": "120Hz display, Snapdragon 8+ Gen 1.",
+      "stock": 27
+    },
+    {
+      "id": 38,
+      "name": "UE Boom 3",
+      "category": "Audio",
+      "price": 139,
+      "image": "https://i.pinimg.com/1200x/12/87/f3/1287f3b7492c571867d2d9324eac1baa.jpg",
+      "description": "360° sound, waterproof, shockproof speaker",
+      "stock": 33,
+      "rating": 4.6
+    },
+    {
+      "id": 5,
+      "name": "ASUS ROG Zephyrus",
+      "category": "Laptops",
+      "price": 2299,
+      "image": "https://i.pinimg.com/736x/6d/79/6c/6d796cf9d12f29a89d784f52fb86fe49.jpg",
+      "description": "Gaming laptop, RTX 4080",
+      "stock": 10,
+      "rating": 4.8
+    },
+    {
+      "id": 81,
+      "name": "Nikon Z8",
+      "category": "Cameras",
+      "price": 3999,
+      "image": "https://i.pinimg.com/1200x/44/ad/aa/44adaae97fca890698822cf9a7af83c7.jpg",
+      "description": "with 45.7MP sensor and 8K video support.",
+      "stock": 8,
+      "rating": 4.8
+    },
+    {
+      "id": 50,
       "name": "iPhone 15",
       "category": "iPhone",
       "price": 999,
@@ -1171,7 +473,94 @@
       "rating": 4.9
     },
     {
-      "id": 121,
+      "id": 38,
+      "name": "Jbl Echo Studio",
+      "category": "Smart Home",
+      "price": 199,
+      "image": "https://i.pinimg.com/1200x/14/5f/d5/145fd5c636a331e8d2df3ebc6a039ec2.jpg",
+      "description": "Premium smart speaker",
+      "stock": 22,
+      "rating": 4.6
+    },
+    {
+      "id": 39,
+      "name": "Bowers & Wilkins PX8",
+      "category": "Audio",
+      "price": 699,
+      "image": "https://i.pinimg.com/736x/07/4e/1d/074e1d612695e073371fa7cbe6726643.jpg",
+      "description": "Premium build, high-resolution wireless audio",
+      "stock": 9,
+      "rating": 4.9
+    },
+    {
+      "id": 97,
+      "name": "Panasonic LZ2000 OLED",
+      "category": "TV",
+      "price": 2499,
+      "image": "https://i.pinimg.com/1200x/54/aa/2f/54aa2f83684d5bb20198d02b82f8c4b8.jpg",
+      "description": "65-inch 4K OLED with Dolby Vision IQ, HDR10+, and professional color calibration.",
+      "stock": 11
+    },
+    {
+      "id": 64,
+      "name": "Garmin Fenix 7 Pro",
+      "category": "Wearables",
+      "price": 899,
+      "image": "https://i.pinimg.com/1200x/8c/31/f8/8c31f8b0ff5064528bed1a64aa243bfd.jpg",
+      "description": "Premium multisport smartwatch with solar charging and rugged design.",
+      "stock": 18
+    },
+    {
+      "id": 21,
+      "name": "Samsung Galaxy Z Flip 5",
+      "category": "Smartphones",
+      "price": 999,
+      "image": "https://images.unsplash.com/photo-1581993192008-63e896f4f744?q=80&w=1037&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Compact foldable with Flex Window display",
+      "stock": 12,
+      "rating": 4.6
+    },
+    {
+      "id": 47,
+      "name": "Amazon Fire Max 11",
+      "category": "Tablets",
+      "price": 329,
+      "image": "https://images.unsplash.com/photo-1623126908029-58cb08a2b272?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "11-inch display, octa-core processor.",
+      "stock": 45
+    },
+    {
+      "id": 40,
+      "name": "AirPods Max",
+      "category": "Audio",
+      "price": 549,
+      "image": "https://images.unsplash.com/photo-1628329567705-f8f7150c3cff?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Premium noise cancellation",
+      "stock": 20,
+      "rating": 4.7
+    },
+    {
+      "id": 6,
+      "name": "Acer Predator Helios 16",
+      "category": "Laptops",
+      "price": 1899,
+      "image": "https://i.pinimg.com/736x/63/26/50/632650d4a548158dfc3120f93ca95ce1.jpg",
+      "description": "Intel i9, RTX 4070, 165Hz display",
+      "stock": 14,
+      "rating": 4.7
+    },
+    {
+      "id": 82,
+      "name": "Fujifilm X-T5",
+      "category": "Cameras",
+      "price": 1699,
+      "image": "https://images.unsplash.com/photo-1642961265738-0d5c4472df3c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "40MP APS-C sensor, classic design.",
+      "stock": 15,
+      "rating": 4.9
+    },
+    {
+      "id": 51,
       "name": "iPhone 15 Pro Max",
       "category": "iPhone",
       "price": 1199,
@@ -1179,6 +568,617 @@
       "description": "Titanium design, 5x optical zoom.",
       "stock": 12,
       "rating": 5.0
+    },
+    {
+      "id": 39,
+      "name": "Google Nest Hub Max",
+      "category": "Smart Home",
+      "price": 229,
+      "image": "https://i.pinimg.com/1200x/a2/e2/23/a2e2230e02ca774a709e7f255b13ee56.jpg",
+      "description": "Smart display, 10-inch",
+      "stock": 20,
+      "rating": 4.5
+    },
+    {
+      "id": 41,
+      "name": "Sony WH-1000XM5",
+      "category": "Audio",
+      "price": 399,
+      "image": "https://images.unsplash.com/photo-1712369448819-2ca1105339cf?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Industry-leading ANC",
+      "stock": 25,
+      "rating": 4.8
+    },
+    {
+      "id": 100,
+      "name": "LG G4 OLED evo Gallery Edition",
+      "category": "TV",
+      "price": 2799,
+      "image": "https://i.pinimg.com/736x/e7/34/92/e73492a9e9fa13731748c9d31b2b5898.jpg",
+      "description": "77-inch OLED TV with flush-to-wall mount design and α11 AI processor.",
+      "stock": 8
+    },
+    {
+      "id": 65,
+      "name": "Google Pixel Watch 2",
+      "category": "Wearables",
+      "price": 349,
+      "image": "https://i.pinimg.com/736x/60/1e/3a/601e3acc8fa95874ad091ce4643d0536.jpg",
+      "description": "Wear OS 4, Fitbit integration, and AI-powered health insights.",
+      "stock": 28
+    },
+    {
+      "id": 22,
+      "name": "Samsung Galaxy S25 Ultra",
+      "category": "Smartphones",
+      "price": 1199,
+      "image": "https://images.unsplash.com/photo-1738830274216-20f63b8a0c02?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "200MP camera, Snapdragon 8 Gen 2, S Pen",
+      "stock": 14,
+      "rating": 4.9
+    },
+    {
+      "id": 48,
+      "name": "Huawei MatePad Pro 13.2",
+      "category": "Tablets",
+      "price": 899,
+      "image": "https://i.pinimg.com/736x/e3/16/b9/e316b94fba0500ba041edbdad7a8aa5a.jpg",
+      "description": "OLED display, HarmonyOS.",
+      "stock": 16
+    },
+    {
+      "id": 42,
+      "name": "Bose QC Ultra",
+      "category": "Audio",
+      "price": 429,
+      "image": "https://images.unsplash.com/photo-1606220945770-b5b6c2c55bf1?w=800&q=80",
+      "description": "Spatial audio, premium comfort",
+      "stock": 18,
+      "rating": 4.6
+    },
+    {
+      "id": 7,
+      "name": "Razer Blade 16",
+      "category": "Laptops",
+      "price": 2499,
+      "image": "https://i.pinimg.com/1200x/fc/64/7f/fc647f0814258bc7dd9a5d8098594c46.jpg",
+      "description": "Gaming powerhouse, QHD 240Hz display",
+      "stock": 9,
+      "rating": 4.8
+    },
+    {
+      "id": 83,
+      "name": "Panasonic Lumix GH6",
+      "category": "Cameras",
+      "price": 2199,
+      "image": "https://images.unsplash.com/photo-1648470211022-a48266039afa?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "with 5.7K ProRes video and dual card slots.",
+      "stock": 9,
+      "rating": 4.9
+    },
+    {
+      "id": 30,
+      "name": "LG UltraGear 27",
+      "category": "Monitors",
+      "price": 699,
+      "image": "https://i.pinimg.com/1200x/79/ff/03/79ff035f1176b7d34cef3894cc1bb213.jpg",
+      "description": "4K gaming monitor, 144Hz",
+      "stock": 18,
+      "rating": 4.7
+    },
+    {
+      "id": 40,
+      "name": "Ring Video Doorbell",
+      "category": "Smart Home",
+      "price": 99,
+      "image": "https://images.unsplash.com/photo-1558002038-1055907df827?w=800&q=80",
+      "description": "Pro 2, HD video",
+      "stock": 30,
+      "rating": 4.7
+    },
+    {
+      "id": 43,
+      "name": "Sennheiser Momentum 4",
+      "category": "Audio",
+      "price": 379,
+      "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=800&q=80",
+      "description": "Audiophile sound quality",
+      "stock": 12,
+      "rating": 4.7
+    },
+    {
+      "id": 105,
+      "name": "Xiaomi Mi TV Q1 75",
+      "category": "TV",
+      "price": 1399,
+      "image": "https://images.unsplash.com/photo-1694032007593-8ead82259b11?q=80&w=1160&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "75-inch 4K QLED with Android TV, HDR10+, and hands-free Google Assistant.",
+      "stock": 26
+    },
+    {
+      "id": 66,
+      "name": "Amazfit GTR 4",
+      "category": "Wearables",
+      "price": 199,
+      "image": "https://i.pinimg.com/736x/00/e3/69/00e369122f42b7de81714fbb0a32dd9e.jpg",
+      "description": "Bluetooth calling, GPS, and over 150 sports modes with long-lasting battery.",
+      "stock": 50
+    },
+    {
+      "id": 23,
+      "name": "Samsung Galaxy S23 FE",
+      "category": "Smartphones",
+      "price": 599,
+      "image": "https://images.unsplash.com/photo-1681651585822-b2edab241341?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Flagship performance at a lower price point",
+      "stock": 20,
+      "rating": 4.5
+    },
+    {
+      "id": 49,
+      "name": "Google Pixel Tablet",
+      "category": "Tablets",
+      "price": 649,
+      "image": "https://i.pinimg.com/1200x/ba/16/05/ba16055fd0f5dba63c0f3204250b5765.jpg",
+      "description": "Tensor G2 chip, 10.95-inch display.",
+      "stock": 20
+    },
+    {
+      "id": 44,
+      "name": "AirPods Pro 2",
+      "category": "Audio",
+      "price": 249,
+      "image": "https://images.unsplash.com/photo-1606841837239-c5a1a4a07af7?w=800&q=80",
+      "description": "Wireless earbuds, ANC",
+      "stock": 35,
+      "rating": 4.8
+    },
+    {
+      "id": 8,
+      "name": "Apple MacBook Air M3",
+      "category": "Laptops",
+      "price": 1299,
+      "image": "https://i.pinimg.com/1200x/14/e7/6f/14e76f7bb1b7a18307cf592ae45fd1d6.jpg",
+      "description": "13-inch, M3 chip, ultra-thin design",
+      "stock": 18,
+      "rating": 4.8
+    },
+    {
+      "id": 84,
+      "name": "GoPro HERO12 Black",
+      "category": "Cameras",
+      "price": 449,
+      "image": "https://images.unsplash.com/photo-1611419642042-dc4da2a8e065?q=80&w=845&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "waterproof design, and HyperSmooth stabilization.",
+      "stock": 25,
+      "rating": 4.9
+    },
+    {
+      "id": 31,
+      "name": "Dell UltraSharp 32",
+      "category": "Monitors",
+      "price": 899,
+      "image": "https://i.pinimg.com/736x/06/fb/ff/06fbffb95796fc10125644e09bd63f88.jpg",
+      "description": "4K IPS, color accurate",
+      "stock": 15,
+      "rating": 4.8
+    },
+    {
+      "id": 42,
+      "name": "Samsung T7 SSD 2TB",
+      "category": "Storage",
+      "price": 199,
+      "image": "https://i.pinimg.com/1200x/38/27/d5/3827d5b496d4e8cffb881c17e8687ef0.jpg",
+      "description": "Portable external SSD",
+      "stock": 35,
+      "rating": 4.8
+    },
+    {
+      "id": 29,
+      "name": "Apple AirPods Pro (2nd Gen)",
+      "category": "Audio",
+      "price": 249,
+      "image": "https://images.unsplash.com/photo-1592125033345-7e2854679619?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Active noise cancellation, MagSafe case",
+      "stock": 30,
+      "rating": 4.8
+    },
+    {
+      "id": 67,
+      "name": "Huawei Watch GT 4 Pro",
+      "category": "Wearables",
+      "price": 299,
+      "image": "https://i.pinimg.com/1200x/ed/57/b0/ed57b0a3beac9558df7cb389c319c3e3.jpg",
+      "description": "AMOLED display, titanium frame, and professional workout tracking.",
+      "stock": 33
+    },
+    {
+      "id": 24,
+      "name": "Samsung Galaxy Note 20 Ultra",
+      "category": "Smartphones",
+      "price": 1099,
+      "image": "https://images.unsplash.com/photo-1599497828090-6eb0838fb1c8?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Dynamic AMOLED, S Pen, premium design",
+      "stock": 8,
+      "rating": 4.7
+    },
+    {
+      "id": 50,
+      "name": "OnePlus Pad",
+      "category": "Tablets",
+      "price": 479,
+      "image": "https://i.pinimg.com/736x/16/0c/98/160c9812017051c824a688cbe5da35e0.jpg",
+      "description": "144Hz LCD display, Dimensity 9000.",
+      "stock": 22
+    },
+    {
+      "id": 43,
+      "name": "WD My Passport 5TB",
+      "category": "Storage",
+      "price": 129,
+      "image": "https://images.unsplash.com/photo-1531492746076-161ca9bcad58?w=800&q=80",
+      "description": "Portable HDD backup",
+      "stock": 30,
+      "rating": 4.6
+    },
+    {
+      "id": 9,
+      "name": "Lenovo Legion 7i",
+      "category": "Laptops",
+      "price": 1999,
+      "image": "https://i.pinimg.com/1200x/1d/04/77/1d0477a44a7093f7016cb0fdaebf538d.jpg",
+      "description": "RTX 4070, 165Hz refresh rate",
+      "stock": 13,
+      "rating": 4.6
+    },
+    {
+      "id": 85,
+      "name": "DJI Osmo Pocket 3",
+      "category": "Cameras",
+      "price": 519,
+      "image": "https://images.unsplash.com/photo-1570150145606-3771bf571064?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Compact handheld camera with 1-inch sensor.",
+      "stock": 30,
+      "rating": 4.9
+    },
+    {
+      "id": 32,
+      "name": "Samsung Odyssey G9",
+      "category": "Monitors",
+      "price": 1499,
+      "image": "https://i.pinimg.com/1200x/0f/cf/93/0fcf93508e2cc2f874e99519546da3a0.jpg",
+      "description": "49-inch ultrawide, 240Hz",
+      "stock": 8,
+      "rating": 4.9
+    },
+    {
+      "id": 44,
+      "name": "Anker PowerCore 20K",
+      "category": "Accessories",
+      "price": 59,
+      "image": "https://i.pinimg.com/736x/75/e7/0f/75e70f0e81fbe2d4ca26372b7ba2622d.jpg",
+      "description": "Power bank, fast charging",
+      "stock": 40,
+      "rating": 4.7
+    },
+    {
+      "id": 68,
+      "name": "Oura Ring Gen 3",
+      "category": "Wearables",
+      "price": 299,
+      "image": "https://i.pinimg.com/1200x/7b/15/2c/7b152c5210c52f0608a58c312b8c86aa.jpg",
+      "description": "Smart ring with temperature, heart rate, and sleep tracking for wellness insights.",
+      "stock": 45
+    },
+    {
+      "id": 25,
+      "name": "Samsung Galaxy S22 Ultra",
+      "category": "Smartphones",
+      "price": 999,
+      "image": "https://images.unsplash.com/photo-1707438095940-1eee18e85400?q=80&w=1031&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "S Pen integrated, 120Hz display, quad camera",
+      "stock": 10,
+      "rating": 4.8
+    },
+    {
+      "id": 51,
+      "name": "Apple iPad Air (M2)",
+      "category": "Tablets",
+      "price": 699,
+      "image": "https://images.unsplash.com/photo-1630453016513-bba65d503b06?q=80&w=871&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Apple M2 chip, lightweight design.",
+      "stock": 35
+    },
+    {
+      "id": 45,
+      "name": "Belkin USB-C Hub",
+      "category": "Accessories",
+      "price": 79,
+      "image": "https://i.pinimg.com/1200x/55/a2/9d/55a29de27ccabdfa62f5fde0f361dc7a.jpg",
+      "description": "7-in-1 multiport adapter",
+      "stock": 28,
+      "rating": 4.5
+    },
+    {
+      "id": 10,
+      "name": "MSI Stealth 14 Studio",
+      "category": "Laptops",
+      "price": 1799,
+      "image": "https://i.pinimg.com/736x/bf/a3/b6/bfa3b689edea24cab9e7af7192824c34.jpg",
+      "description": "RTX 4060, Intel i7, sleek magnesium body",
+      "stock": 17,
+      "rating": 4.7
+    },
+    {
+      "id": 86,
+      "name": "Canon PowerShot G7 X Mark III",
+      "category": "Cameras",
+      "price": 749,
+      "image": "https://images.unsplash.com/photo-1666594113287-a7c4b050f58e?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Compact vlogging camera with 4K video and flip-up screen.",
+      "stock": 18,
+      "rating": 4.9
+    },
+    {
+      "id": 335,
+      "name": "ASUS ProArt 27",
+      "category": "Monitors",
+      "price": 749,
+      "image": "https://i.pinimg.com/1200x/e9/a1/bc/e9a1bcacceedefc0ad60800f58548f9f.jpg",
+      "description": "Professional color grading",
+      "stock": 10,
+      "rating": 4.6
+    },
+    {
+      "id": 69,
+      "name": "Xiaomi Smart Band 9",
+      "category": "Wearables",
+      "price": 59,
+      "image": "https://i.pinimg.com/1200x/4c/e0/45/4ce0454dfc763bd6e71bea89ac003377.jpg",
+      "description": "AMOLED screen, waterproof, and long battery life fitness band.",
+      "stock": 70
+    },
+    {
+      "id": 26,
+      "name": "Google Pixel 8 Pro",
+      "category": "Smartphones",
+      "price": 899,
+      "image": "https://images.unsplash.com/photo-1706412703794-d944cd3625b3?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Best Android camera",
+      "stock": 18,
+      "rating": 4.6
+    },
+    {
+      "id": 52,
+      "name": "Lenovo Yoga Tab 13",
+      "category": "Tablets",
+      "price": 599,
+      "image": "https://i.pinimg.com/1200x/7a/37/42/7a3742f6b25cc647201b12c02613417e.jpg",
+      "description": "13-inch display, built-in kickstand.",
+      "stock": 19
+    },
+    {
+      "id": 11,
+      "name": "Gigabyte Aero 16 OLED",
+      "category": "Laptops",
+      "price": 1899,
+      "image": "https://i.pinimg.com/736x/36/76/b4/3676b4bc42161d4ba07a7d1822db3631.jpg",
+      "description": "16-inch 4K OLED display, creator-focused",
+      "stock": 11,
+      "rating": 4.5
+    },
+    {
+      "id": 87,
+      "name": "Sony ZV-E10",
+      "category": "Cameras",
+      "price": 799,
+      "image": "https://images.unsplash.com/photo-1654701502332-d6aea8f98365?q=80&w=718&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "APS-C vlogging camera with interchangeable lenses.",
+      "stock": 22,
+      "rating": 4.9
+    },
+    {
+      "id": 70,
+      "name": "Withings ScanWatch Horizon",
+      "category": "Wearables",
+      "price": 499,
+      "image": "https://i.pinimg.com/1200x/e8/45/43/e8454360d2c9f1c34f1222d8801b5870.jpg",
+      "description": "Hybrid smartwatch with medical-grade ECG, oxygen sensor, and diving design.",
+      "stock": 20
+    },
+    {
+      "id": 27,
+      "name": "OnePlus 12",
+      "category": "Smartphones",
+      "price": 799,
+      "image": "https://images.unsplash.com/photo-1636376138385-b41caa8e0ae0?q=80&w=1033&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Fast charging, Snapdragon 8 Gen 3",
+      "stock": 22,
+      "rating": 4.5
+    },
+    {
+      "id": 53,
+      "name": "Realme Pad 2",
+      "category": "Tablets",
+      "price": 329,
+      "image": "https://i.pinimg.com/1200x/bf/8a/dc/bf8adc44514bfcdbe791db7bc7b83a94.jpg",
+      "description": "Affordable tablet with 2K display.",
+      "stock": 38
+    },
+    {
+      "id": 12,
+      "name": "Microsoft Surface Laptop 6",
+      "category": "Laptops",
+      "price": 1599,
+      "image": "https://i.pinimg.com/1200x/15/8f/02/158f026f64afd0bf5797d94df416bf38.jpg",
+      "description": "Touchscreen, Intel Evo platform",
+      "stock": 19,
+      "rating": 4.6
+    },
+    {
+      "id": 88,
+      "name": "Insta360 X4",
+      "category": "Cameras",
+      "price": 499,
+      "image": "https://i.pinimg.com/1200x/a1/33/7e/a1337e6ff35f867dc8c6f371bd284e54.jpg",
+      "description": "360-degree action camera with 8K recording.",
+      "stock": 27,
+      "rating": 5.0
+    },
+    {
+      "id": 71,
+      "name": "Coros Vertix 2",
+      "category": "Wearables",
+      "price": 599,
+      "image": "https://i.pinimg.com/736x/92/09/8a/92098a071b99b9b83f59a1ee704209e4.jpg",
+      "description": "GPS adventure watch with titanium build, long battery, and offline maps.",
+      "stock": 17
+    },
+    {
+      "id": 28,
+      "name": "Xiaomi 14 Pro",
+      "category": "Smartphones",
+      "price": 699,
+      "image": "https://images.unsplash.com/photo-1706669923923-e8ff18cd3310?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Leica camera, flagship specs",
+      "stock": 15,
+      "rating": 4.4
+    },
+    {
+      "id": 54,
+      "name": "Asus ROG Flow Z13",
+      "category": "Tablets",
+      "price": 1699,
+      "image": "https://i.pinimg.com/1200x/a0/27/b7/a027b7a9ac800012c6c75ea935e2fcdb.jpg",
+      "description": "Gaming tablet with Intel i9 CPU, RTX GPU.",
+      "stock": 10
+    },
+    {
+      "id": 13,
+      "name": "LG Gram 17",
+      "category": "Laptops",
+      "price": 1499,
+      "image": "https://i.pinimg.com/1200x/e5/d0/34/e5d034c0cec1acdec170924cbf74eec7.jpg",
+      "description": "Ultra-lightweight, 17-inch, long battery life",
+      "stock": 21,
+      "rating": 4.7
+    },
+    {
+      "id": 89,
+      "name": "Leica Q3",
+      "category": "Cameras",
+      "price": 5999,
+      "image": "https://plus.unsplash.com/premium_photo-1726869651779-989330341af8?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": " camera with 60MP sensor and Summilux lens.",
+      "stock": 5,
+      "rating": 5.0
+    },
+    {
+      "id": 72,
+      "name": "Honor Watch 4",
+      "category": "Wearables",
+      "price": 199,
+      "image": "https://i.pinimg.com/1200x/ff/3f/07/ff3f07d3cd5e756fe455770cb9471f15.jpg",
+      "description": "Stylish smartwatch with AMOLED display and all-day fitness tracking.",
+      "stock": 38
+    },
+    {
+      "id": 55,
+      "name": "Samsung Tab S9 Ultra",
+      "category": "Tablets",
+      "price": 1199,
+      "image": "https://i.pinimg.com/1200x/26/e4/cf/26e4cff37aee23714eaec15eefd34fa4.jpg",
+      "description": "14.6-inch AMOLED display",
+      "stock": 10,
+      "rating": 4.7
+    },
+    {
+      "id": 14,
+      "name": "Acer Swift X 14",
+      "category": "Laptops",
+      "price": 1299,
+      "image": "https://i.pinimg.com/736x/f0/37/52/f037525245a7606e3c640bc29285949c.jpg",
+      "description": "Ryzen 7, RTX 3050, 100% sRGB display",
+      "stock": 24,
+      "rating": 4.6
+    },
+    {
+      "id": 90,
+      "name": "Blackmagic Pocket Cinema 6K Pro",
+      "category": "Cameras",
+      "price": 2495,
+      "image": "https://images.unsplash.com/photo-1614885363375-3bf0de4d9d6c?q=80&w=873&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "with 6K Super 35 sensor and built-in ND filters.",
+      "stock": 7,
+      "rating": 4.0
+    },
+    {
+      "id": 73,
+      "name": "Noise ColorFit Pro 5",
+      "category": "Wearables",
+      "price": 79,
+      "image": "https://i.pinimg.com/736x/87/29/18/8729189e3623a1bdf0f17622972527ae.jpg",
+      "description": "Affordable smartwatch with large display, health tracking, and Bluetooth calling.",
+      "stock": 80
+    },
+    {
+      "id": 15,
+      "name": "Huawei MateBook X Pro",
+      "category": "Laptops",
+      "price": 1699,
+      "image": "https://i.pinimg.com/1200x/5b/ad/21/5bad211be5aeaf404931337b0c67e6a9.jpg",
+      "description": "13.9-inch 3K touchscreen, elegant design",
+      "stock": 16,
+      "rating": 4.7
+    },
+    {
+      "id": 91,
+      "name": "DJI Air 3 Drone Camera",
+      "category": "Cameras",
+      "price": 1399,
+      "image": "https://images.unsplash.com/photo-1508614589041-895b88991e3e?w=800&q=80",
+      "description": "Dual camera drone with 4K HDR video.",
+      "stock": 12,
+      "rating": 4.6
+    },
+    {
+      "id": 74,
+      "name": "Suunto 9 Peak Pro",
+      "category": "Wearables",
+      "price": 499,
+      "image": "https://i.pinimg.com/1200x/23/26/60/232660607899b38e37f39cea2699a609.jpg",
+      "description": "Adventure-ready GPS smartwatch with titanium frame and 100m water resistance.",
+      "stock": 21
+    },
+    {
+      "id": 92,
+      "name": "Ricoh GR IIIx",
+      "category": "Cameras",
+      "price": 1049,
+      "image": "https://images.unsplash.com/photo-1614272660397-487cf606be4a?q=80&w=725&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": " camera with APS-C sensor and 40mm lens.",
+      "stock": 16,
+      "rating": 4.9
+    },
+    {
+      "id": 75,
+      "name": "Garmin Fenix 7",
+      "category": "Wearables",
+      "price": 699,
+      "image": "https://i.pinimg.com/1200x/62/92/b7/6292b7b7fa904ac51cd20ee3f7078197.jpg",
+      "description": "Premium multisport GPS",
+      "stock": 15,
+      "rating": 4.9
+    },
+    {
+      "id": 93,
+      "name": "Olympus OM-D E-M1 Mark III",
+      "category": "Cameras",
+      "price": 1699,
+      "image": "https://images.unsplash.com/photo-1740779428207-eea48ea24b46?q=80&w=881&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Lightweight mirrorless camera with 60fps.",
+      "stock": 14,
+      "rating": 4.9
     }
   ]
 }

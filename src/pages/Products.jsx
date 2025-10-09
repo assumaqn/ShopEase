@@ -10,13 +10,14 @@ function Products() {
 
   useEffect(() => {
     fetchProduct();
-  }, [fetchProduct, products]);
+  }, []); // fetch only once when component mounts
+
   return (
     <>
       <PageNav />
       <section className={styles.product}>
         <ProductHeader />
-        {!isLoading && <Spinner />}
+        {isLoading && <Spinner />}
         <div className={styles.products}>
           {products.map((product) => (
             <ProductCard product={product} key={product.id} />
