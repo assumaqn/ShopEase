@@ -4,13 +4,7 @@ import styles from "./HeroContent.module.css";
 function HeroContent() {
   return (
     <div className={styles["hero-content"]}>
-      {/* <input
-        type="text"
-        placeholder="New Arrivals Available"
-        disabled
-        className={styles.input}
-      /> */}
-      <Bit>New Arrivals Available</Bit>
+      <Bit>Welcome to ShopEase</Bit>
       <h1>
         Your Premium <span>Tech Store</span>
       </h1>

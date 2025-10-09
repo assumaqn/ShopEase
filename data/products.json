@@ -55,7 +55,7 @@
       "name": "iPhone 15 Pro",
       "category": "Smartphones",
       "price": 999,
-      "image": "https://images.unsplash.com/photo-1592286927505-83d6962d8ee4?w=800&q=80",
+      "image": "https://images.unsplash.com/photo-1702289613007-8b830e2520b0?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "description": "Titanium design, A17 Pro chip",
       "stock": 25,
       "rating": 4.9
@@ -76,7 +76,7 @@
       "name": "Google Pixel 8 Pro",
       "category": "Smartphones",
       "price": 899,
-      "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=800&q=80",
+      "image": "https://images.unsplash.com/photo-1706412703794-d944cd3625b3?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "description": "Best Android camera",
       "stock": 18,
       "rating": 4.6
@@ -86,7 +86,7 @@
       "name": "OnePlus 12",
       "category": "Smartphones",
       "price": 799,
-      "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=800&q=80",
+      "image": "https://images.unsplash.com/photo-1636376138385-b41caa8e0ae0?q=80&w=1033&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "description": "Fast charging, Snapdragon 8 Gen 3",
       "stock": 22,
       "rating": 4.5
@@ -96,7 +96,7 @@
       "name": "Xiaomi 14 Pro",
       "category": "Smartphones",
       "price": 699,
-      "image": "https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?w=800&q=80",
+      "image": "https://images.unsplash.com/photo-1706669923923-e8ff18cd3310?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "description": "Leica camera, flagship specs",
       "stock": 15,
       "rating": 4.4
@@ -106,7 +106,7 @@
       "name": "AirPods Max",
       "category": "Audio",
       "price": 549,
-      "image": "https://images.unsplash.com/photo-1625948515291-69613efd103f?w=800&q=80",
+      "image": "https://images.unsplash.com/photo-1628329567705-f8f7150c3cff?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "description": "Premium noise cancellation",
       "stock": 20,
       "rating": 4.7
@@ -116,7 +116,7 @@
       "name": "Sony WH-1000XM5",
       "category": "Audio",
       "price": 399,
-      "image": "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?w=800&q=80",
+      "image": "https://images.unsplash.com/photo-1712369448819-2ca1105339cf?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "description": "Industry-leading ANC",
       "stock": 25,
       "rating": 4.8
@@ -166,7 +166,7 @@
       "name": "Samsung Tab S9 Ultra",
       "category": "Tablets",
       "price": 1199,
-      "image": "https://images.unsplash.com/photo-1585790050230-5dd28404f1ae?w=800&q=80",
+      "image": "https://i.pinimg.com/1200x/26/e4/cf/26e4cff37aee23714eaec15eefd34fa4.jpg",
       "description": "14.6-inch AMOLED display",
       "stock": 10,
       "rating": 4.7
@@ -176,7 +176,7 @@
       "name": "Microsoft Surface Pro 9",
       "category": "Tablets",
       "price": 999,
-      "image": "https://images.unsplash.com/photo-1587033411391-5d9e51cce126?w=800&q=80",
+      "image": "https://i.pinimg.com/1200x/22/0e/be/220ebe104aa3840d2e561e206205e462.jpg",
       "description": "2-in-1, Windows tablet",
       "stock": 12,
       "rating": 4.6
@@ -186,7 +186,7 @@
       "name": "iPad Air",
       "category": "Tablets",
       "price": 599,
-      "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=800&q=80",
+      "image": "https://images.unsplash.com/photo-1682426526490-667d4912b8de?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "description": "M1 chip, lightweight",
       "stock": 20,
       "rating": 4.7
@@ -196,7 +196,7 @@
       "name": "Lenovo Tab P12",
       "category": "Tablets",
       "price": 449,
-      "image": "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=800&q=80",
+      "image": "https://i.pinimg.com/1200x/a6/91/00/a69100b1029b575f89df9ae4d04b7794.jpg",
       "description": "Android tablet, large screen",
       "stock": 14,
       "rating": 4.4
@@ -226,7 +226,7 @@
       "name": "Garmin Fenix 7",
       "category": "Wearables",
       "price": 699,
-      "image": "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?w=800&q=80",
+      "image": "https://i.pinimg.com/1200x/62/92/b7/6292b7b7fa904ac51cd20ee3f7078197.jpg",
       "description": "Premium multisport GPS",
       "stock": 15,
       "rating": 4.9
@@ -236,7 +236,7 @@
       "name": "Fitbit Sense 2",
       "category": "Wearables",
       "price": 299,
-      "image": "https://images.unsplash.com/photo-1575311373937-040b8e1fd5b6?w=800&q=80",
+      "image": "https://i.pinimg.com/736x/b5/1c/99/b51c992330c52bb7c9d2bdeace4b5998.jpg",
       "description": "Stress management, health metrics",
       "stock": 20,
       "rating": 4.5
@@ -246,7 +246,7 @@
       "name": "Sony A7 IV",
       "category": "Cameras",
       "price": 2499,
-      "image": "https://images.unsplash.com/photo-1606980707376-92f2e3a9f0a3?w=800&q=80",
+      "image": "https://images.unsplash.com/photo-1692030179940-c65af6a0e6b0?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "description": "Full-frame mirrorless",
       "stock": 8,
       "rating": 4.9
@@ -256,7 +256,7 @@
       "name": "Canon EOS R6 II",
       "category": "Cameras",
       "price": 2399,
-      "image": "https://images.unsplash.com/photo-1617005082133-548c4dd27f35?w=800&q=80",
+      "image": "https://i.pinimg.com/1200x/d6/e6/51/d6e65147f412079bb313443c4ebbacfe.jpg",
       "description": "High-speed shooting, 24MP",
       "stock": 10,
       "rating": 4.8
@@ -266,7 +266,7 @@
       "name": "Nikon Z8",
       "category": "Cameras",
       "price": 3999,
-      "image": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=800&q=80",
+      "image": "https://i.pinimg.com/1200x/65/1b/2c/651b2c06b3b7ab5e698108249575040e.jpg",
       "description": "Professional mirrorless",
       "stock": 5,
       "rating": 4.9
@@ -276,17 +276,18 @@
       "name": "GoPro Hero 12",
       "category": "Cameras",
       "price": 399,
-      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
+      "image": "https://i.pinimg.com/736x/58/28/6c/58286c0b33aa1d81a415b8ab4478d03a.jpg",
       "description": "Action camera, 5.3K video",
       "stock": 20,
       "rating": 4.7
     },
+
     {
       "id": 29,
       "name": "DJI Mini 4 Pro",
       "category": "Cameras",
       "price": 759,
-      "image": "https://images.unsplash.com/photo-1473968512647-3e447244af8f?w=800&q=80",
+      "image": "https://i.pinimg.com/1200x/2e/c6/17/2ec6173be41441939a1699b315a73ea5.jpg",
       "description": "Compact drone with 4K camera",
       "stock": 12,
       "rating": 4.8
@@ -296,7 +297,7 @@
       "name": "LG UltraGear 27",
       "category": "Monitors",
       "price": 699,
-      "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=800&q=80",
+      "image": "https://i.pinimg.com/1200x/79/ff/03/79ff035f1176b7d34cef3894cc1bb213.jpg",
       "description": "4K gaming monitor, 144Hz",
       "stock": 18,
       "rating": 4.7
@@ -306,7 +307,7 @@
       "name": "Dell UltraSharp 32",
       "category": "Monitors",
       "price": 899,
-      "image": "https://images.unsplash.com/photo-1585792180666-f7347c490ee2?w=800&q=80",
+      "image": "https://i.pinimg.com/736x/06/fb/ff/06fbffb95796fc10125644e09bd63f88.jpg",
       "description": "4K IPS, color accurate",
       "stock": 15,
       "rating": 4.8
@@ -316,7 +317,7 @@
       "name": "Samsung Odyssey G9",
       "category": "Monitors",
       "price": 1499,
-      "image": "https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?w=800&q=80",
+      "image": "https://i.pinimg.com/1200x/0f/cf/93/0fcf93508e2cc2f874e99519546da3a0.jpg",
       "description": "49-inch ultrawide, 240Hz",
       "stock": 8,
       "rating": 4.9
@@ -326,7 +327,7 @@
       "name": "ASUS ProArt 27",
       "category": "Monitors",
       "price": 749,
-      "image": "https://images.unsplash.com/photo-1593359863503-f598b6a44a05?w=800&q=80",
+      "image": "https://i.pinimg.com/1200x/e9/a1/bc/e9a1bcacceedefc0ad60800f58548f9f.jpg",
       "description": "Professional color grading",
       "stock": 10,
       "rating": 4.6
@@ -336,7 +337,7 @@
       "name": "Logitech G Pro X",
       "category": "Gaming",
       "price": 129,
-      "image": "https://images.unsplash.com/photo-1527814050087-3793815479db?w=800&q=80",
+      "image": "https://i.pinimg.com/736x/5c/76/b2/5c76b2a5e8a28e2b2adb134ed3009461.jpg",
       "description": "Wireless gaming mouse",
       "stock": 25,
       "rating": 4.7
@@ -346,7 +347,7 @@
       "name": "Razer BlackWidow V4",
       "category": "Gaming",
       "price": 179,
-      "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=800&q=80",
+      "image": "https://i.pinimg.com/1200x/87/9b/47/879b4764134d96179dbe039676d6e678.jpg",
       "description": "Mechanical gaming keyboard",
       "stock": 20,
       "rating": 4.8
@@ -366,17 +367,17 @@
       "name": "Xbox Elite Controller",
       "category": "Gaming",
       "price": 179,
-      "image": "https://images.unsplash.com/photo-1592840496694-26d035b52b48?w=800&q=80",
+      "image": "https://i.pinimg.com/1200x/af/ec/0c/afec0c329b404762311ac3fcd9b8f109.jpg",
       "description": "Series 2, customizable",
       "stock": 18,
       "rating": 4.8
     },
     {
       "id": 38,
-      "name": "Amazon Echo Studio",
+      "name": "Jbl Echo Studio",
       "category": "Smart Home",
       "price": 199,
-      "image": "https://images.unsplash.com/photo-1543512214-318c7553f230?w=800&q=80",
+      "image": "https://i.pinimg.com/1200x/14/5f/d5/145fd5c636a331e8d2df3ebc6a039ec2.jpg",
       "description": "Premium smart speaker",
       "stock": 22,
       "rating": 4.6
@@ -386,7 +387,7 @@
       "name": "Google Nest Hub Max",
       "category": "Smart Home",
       "price": 229,
-      "image": "https://images.unsplash.com/photo-1558089687-12db1e502c3e?w=800&q=80",
+      "image": "https://i.pinimg.com/1200x/a2/e2/23/a2e2230e02ca774a709e7f255b13ee56.jpg",
       "description": "Smart display, 10-inch",
       "stock": 20,
       "rating": 4.5
@@ -401,22 +402,13 @@
       "stock": 30,
       "rating": 4.7
     },
-    {
-      "id": 41,
-      "name": "Philips Hue Starter",
-      "category": "Smart Home",
-      "price": 199,
-      "image": "https://images.unsplash.com/photo-1550985616-10810253b84d?w=800&q=80",
-      "description": "Smart lighting kit",
-      "stock": 25,
-      "rating": 4.8
-    },
+
     {
       "id": 42,
       "name": "Samsung T7 SSD 2TB",
       "category": "Storage",
       "price": 199,
-      "image": "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=800&q=80",
+      "image": "https://i.pinimg.com/1200x/38/27/d5/3827d5b496d4e8cffb881c17e8687ef0.jpg",
       "description": "Portable external SSD",
       "stock": 35,
       "rating": 4.8
@@ -436,7 +428,7 @@
       "name": "Anker PowerCore 20K",
       "category": "Accessories",
       "price": 59,
-      "image": "https://images.unsplash.com/photo-1609091839311-d5365f9ff1c5?w=800&q=80",
+      "image": "https://i.pinimg.com/736x/75/e7/0f/75e70f0e81fbe2d4ca26372b7ba2622d.jpg",
       "description": "Power bank, fast charging",
       "stock": 40,
       "rating": 4.7
@@ -446,7 +438,7 @@
       "name": "Belkin USB-C Hub",
       "category": "Accessories",
       "price": 79,
-      "image": "https://images.unsplash.com/photo-1622458488730-4f1e0ec3e9ea?w=800&q=80",
+      "image": "https://i.pinimg.com/1200x/55/a2/9d/55a29de27ccabdfa62f5fde0f361dc7a.jpg",
       "description": "7-in-1 multiport adapter",
       "stock": 28,
       "rating": 4.5
@@ -496,7 +488,7 @@
       "name": "iPhone 15",
       "category": "iPhone",
       "price": 999,
-      "image": "https://images.unsplash.com/photo-1695048132832-b41495f12eb4?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "image": "https://i.pinimg.com/1200x/6b/ae/d6/6baed6af2208576339ad0a9aa5569f5e.jpg",
       "description": " A17 Pro chip, and powerful camera.",
       "stock": 20,
       "rating": 4.9

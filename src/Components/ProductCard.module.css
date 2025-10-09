@@ -3,15 +3,24 @@
   overflow: hidden;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
+/* .img {
+  height: 260px;
+  object-fit: cover;
+  overflow: hidden;
+} */
+.img img {
+  height: 100%; /* ensures image fills the container height */
+  width: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+  display: block;
+}
 .img {
+  height: 260px;
+  width: 100%;
   overflow: hidden;
 }
 
-.img img {
-  width: 100%;
-  transition: all 0.2s;
-  overflow: hidden;
-}
 .img img:hover {
   transform: scale(1.12);
 }

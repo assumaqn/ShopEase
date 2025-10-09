@@ -12,16 +12,20 @@ function ProductCard({ product }) {
       <div className={styles["product-content"]}>
         <h4>{name}</h4>
         <p>{description}</p>
-        <span
+        <div
           style={{
             display: "flex",
-            gap: "2px",
+            justifyContent: "space-between",
             alignItems: "center",
+            fontSize: "14px",
           }}
         >
-          <Star size="17px" color="#1b6cbdff" fill="#1b6cbdff" />
-          <span style={{ fontSize: "14px" }}>{rating}</span>
-        </span>
+          <span style={{ display: "flex", gap: "2px", alignItems: "center" }}>
+            <Star size="16px" color="#1b6cbdff" fill="#1b6cbdff" />
+            <span>{rating}</span>
+          </span>
+          <p style={{ fontSize: "12px", color: "#555" }}>{stock} in stock</p>
+        </div>
         <div className={styles.bottom}>
           <h4 style={{}}>
             <DollarSign size="20px" strokeWidth={3} />

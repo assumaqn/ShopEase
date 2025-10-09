@@ -27,7 +27,7 @@
 }
 .cta-container a {
   display: inline-block;
-  padding: 2px 14px;
+  padding: 2px 10px;
   text-decoration: none;
   font-size: 14px;
   font-weight: 500;
@@ -37,5 +37,5 @@
   background-color: #fffe;
   border-radius: 6px;
   text-align: center;
-  padding: 10px 20px;
+  padding: 5px 15px;
 }
