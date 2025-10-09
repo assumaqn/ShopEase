@@ -5,14 +5,11 @@ import { Flame } from "lucide-react";
 import Button from "./Button";
 
 function FeaturedProducts() {
-  const { fetchProduct, products } = useProduct();
+  const { fetchProduct, featureProduct } = useProduct();
 
   useEffect(() => {
     fetchProduct();
   }, []);
-  const featureProduct = products.filter((product) =>
-    product.category.includes("iPhone")
-  );
 
   return (
     <section

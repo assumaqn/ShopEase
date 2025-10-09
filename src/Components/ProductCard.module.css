@@ -33,7 +33,8 @@
   border-radius: 6px;
   font-size: 12px;
   font-weight: 500;
-  color: #ffff;
+  text-transform: capitalize;
+  color: #eeee;
 }
 .img img:hover {
   transform: scale(1.12);

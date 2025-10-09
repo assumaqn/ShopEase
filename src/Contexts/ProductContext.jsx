@@ -4,6 +4,16 @@ const productContext = createContext();
 const BASEURL = `http://localhost:3000`;
 function ProductProvider({ children }) {
   const [products, setProducts] = useState([]);
+  function shuffleArray(array) {
+    const arr = [...array];
+    for (let i = arr.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [arr[i], arr[j]] = [arr[j], arr[i]];
+    }
+    return arr;
+  }
+
+  const featureProduct = shuffleArray(products).slice(0, 6);
   async function fetchProduct() {
     const resp = await fetch(`${BASEURL}/products`);
     const data = await resp.json();
@@ -15,6 +25,7 @@ function ProductProvider({ children }) {
       value={{
         fetchProduct,
         products,
+        featureProduct,
       }}
     >
       {children}
