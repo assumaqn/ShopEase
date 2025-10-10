@@ -2,7 +2,7 @@ import styles from "./ProductHeader.module.css";
 
 import { useProduct } from "../Contexts/ProductContext";
 import { useEffect } from "react";
-function ProductHeader({ onOption }) {
+function ProductHeader({ onOption, filterLength, onSearch }) {
   const { fetchProduct, products } = useProduct();
 
   useEffect(() => {
@@ -26,7 +26,11 @@ function ProductHeader({ onOption }) {
         </p>
       </span>
       <span className={styles.input}>
-        <input type="search" placeholder="search for product...." />
+        <input
+          type="search"
+          placeholder="search for product...."
+          onChange={(e) => onSearch(e.target.value)}
+        />
         <select
           onChange={(e) => {
             onOption(e.target.value);
@@ -40,7 +44,10 @@ function ProductHeader({ onOption }) {
           ))}
         </select>
       </span>
-      <p>Showing 2 of 45 products</p>
+      <p style={{ marginTop: "10px" }}>
+        Showing {filterLength === totalProduct ? "All" : filterLength} of{" "}
+        {totalProduct} products
+      </p>
     </div>
   );
 }

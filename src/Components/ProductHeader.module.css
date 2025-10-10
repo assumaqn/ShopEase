@@ -21,11 +21,16 @@
   align-items: center;
   gap: 50px;
 }
+.input input:focus {
+  outline: 2px solid #3181d1;
+
+  outline-offset: 3px;
+}
 .input input,
 select {
   height: 45px;
   padding: 5px 15px;
-  border: 0.2px solid #5555;
+  border: 0.15px solid #5555;
   border-radius: 9px;
   background-color: #f5f5f5a9;
 
