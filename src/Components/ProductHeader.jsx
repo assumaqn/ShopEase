@@ -2,7 +2,7 @@ import styles from "./ProductHeader.module.css";
 
 import { useProduct } from "../Contexts/ProductContext";
 import { useEffect } from "react";
-function ProductHeader() {
+function ProductHeader({ onOption }) {
   const { fetchProduct, products } = useProduct();
 
   useEffect(() => {
@@ -27,8 +27,12 @@ function ProductHeader() {
       </span>
       <span className={styles.input}>
         <input type="search" placeholder="search for product...." />
-        <select>
-          <option>All Categories</option>
+        <select
+          onChange={(e) => {
+            onOption(e.target.value);
+          }}
+        >
+          <option value="all">All Categories</option>
           {options.map((option) => (
             <option value={option} key={option}>
               {option}

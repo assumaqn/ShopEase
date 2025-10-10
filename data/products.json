@@ -11,7 +11,7 @@
       "rating": 4.8
     },
     {
-      "id": 94,
+      "id": 941,
       "name": "Samsung QN95D Neo QLED 4K",
       "category": "TV",
       "price": 2299,
@@ -81,7 +81,7 @@
       "rating": 4.5
     },
     {
-      "id": 34,
+      "id": 340,
       "name": "Logitech G Pro X",
       "category": "Gaming",
       "price": 129,
@@ -180,7 +180,7 @@
       "rating": 4.7
     },
     {
-      "id": 35,
+      "id": 303,
       "name": "Razer BlackWidow V4",
       "category": "Gaming",
       "price": 179,
@@ -278,7 +278,7 @@
       "rating": 4.6
     },
     {
-      "id": 36,
+      "id": 306,
       "name": "SteelSeries Arctis Nova",
       "category": "Gaming",
       "price": 329,
@@ -288,7 +288,7 @@
       "rating": 4.7
     },
     {
-      "id": 35,
+      "id": 305,
       "name": "Bose SoundLink Flex",
       "category": "Audio",
       "price": 149,
@@ -386,7 +386,7 @@
       "rating": 4.8
     },
     {
-      "id": 37,
+      "id": 307,
       "name": "Sonos Roam",
       "category": "Audio",
       "price": 179,
@@ -424,7 +424,7 @@
       "rating": 4.8
     },
     {
-      "id": 46,
+      "id": 460,
       "name": "Xiaomi Pad 6 Pro",
       "category": "Tablets",
       "price": 599,
@@ -433,7 +433,7 @@
       "stock": 27
     },
     {
-      "id": 38,
+      "id": 383,
       "name": "UE Boom 3",
       "category": "Audio",
       "price": 139,
@@ -463,7 +463,7 @@
       "rating": 4.8
     },
     {
-      "id": 50,
+      "id": 5000,
       "name": "iPhone 15",
       "category": "iPhone",
       "price": 999,
@@ -483,7 +483,7 @@
       "rating": 4.6
     },
     {
-      "id": 39,
+      "id": 389,
       "name": "Bowers & Wilkins PX8",
       "category": "Audio",
       "price": 699,
@@ -521,7 +521,7 @@
       "rating": 4.6
     },
     {
-      "id": 47,
+      "id": 427,
       "name": "Amazon Fire Max 11",
       "category": "Tablets",
       "price": 329,
@@ -618,7 +618,7 @@
       "rating": 4.9
     },
     {
-      "id": 48,
+      "id": 498,
       "name": "Huawei MatePad Pro 13.2",
       "category": "Tablets",
       "price": 899,
@@ -657,7 +657,7 @@
       "rating": 4.9
     },
     {
-      "id": 30,
+      "id": 3630,
       "name": "LG UltraGear 27",
       "category": "Monitors",
       "price": 699,
@@ -667,7 +667,7 @@
       "rating": 4.7
     },
     {
-      "id": 40,
+      "id": 4520,
       "name": "Ring Video Doorbell",
       "category": "Smart Home",
       "price": 99,
@@ -715,7 +715,7 @@
       "rating": 4.5
     },
     {
-      "id": 49,
+      "id": 4969,
       "name": "Google Pixel Tablet",
       "category": "Tablets",
       "price": 649,
@@ -754,7 +754,7 @@
       "rating": 4.9
     },
     {
-      "id": 31,
+      "id": 3152,
       "name": "Dell UltraSharp 32",
       "category": "Monitors",
       "price": 899,
@@ -764,7 +764,7 @@
       "rating": 4.8
     },
     {
-      "id": 42,
+      "id": 4442,
       "name": "Samsung T7 SSD 2TB",
       "category": "Storage",
       "price": 199,
@@ -812,7 +812,7 @@
       "stock": 22
     },
     {
-      "id": 43,
+      "id": 4333,
       "name": "WD My Passport 5TB",
       "category": "Storage",
       "price": 129,
@@ -842,7 +842,7 @@
       "rating": 4.9
     },
     {
-      "id": 32,
+      "id": 302,
       "name": "Samsung Odyssey G9",
       "category": "Monitors",
       "price": 1499,
@@ -852,7 +852,7 @@
       "rating": 4.9
     },
     {
-      "id": 44,
+      "id": 404,
       "name": "Anker PowerCore 20K",
       "category": "Accessories",
       "price": 59,
@@ -881,7 +881,7 @@
       "rating": 4.8
     },
     {
-      "id": 51,
+      "id": 501,
       "name": "Apple iPad Air (M2)",
       "category": "Tablets",
       "price": 699,
@@ -890,7 +890,7 @@
       "stock": 35
     },
     {
-      "id": 45,
+      "id": 435,
       "name": "Belkin USB-C Hub",
       "category": "Accessories",
       "price": 79,
