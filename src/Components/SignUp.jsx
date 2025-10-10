@@ -11,18 +11,18 @@ function SignUp() {
       }}
     >
       <div className={styles.label}>
-        <label>Full Name</label>
-        <input type="text" id="#email" placeholder="your name..." required />
+        <label htmlFor="name">Full Name</label>
+        <input type="text" id="name" placeholder="your name..." required />
       </div>
       <div className={styles.label}>
-        <label>Email</label>
-        <input type="email" id="#email" placeholder="your email..." required />
+        <label htmlFor="email">Email</label>
+        <input type="email" id="email" placeholder="your email..." required />
       </div>
       <div className={styles.label}>
-        <label>Password</label>
+        <label htmlFor="password">Password</label>
         <input
           type="password"
-          id="#email"
+          id="password"
           placeholder="your password..."
           required
         />

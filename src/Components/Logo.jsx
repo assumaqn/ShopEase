@@ -1,10 +1,10 @@
 import { Store } from "lucide-react";
-import { NavLink } from "react-router";
+import { Link } from "react-router";
 import homeLogo from "../assets/homeLogo.png";
 
 function Logo() {
   return (
-    <NavLink to="/">
+    <Link to="/">
       <img
         src={homeLogo}
         alt=""
@@ -12,7 +12,7 @@ function Logo() {
           maxWidth: "30%",
         }}
       />
-    </NavLink>
+    </Link>
   );
 }
 

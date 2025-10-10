@@ -19,7 +19,7 @@
 .itemList {
   background: #fff;
   border-radius: 11px;
-  border: 0.9px solid #5555557a;
+  border: 0.1px solid #615f5f2d;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   justify-content: space-between;

@@ -10,7 +10,6 @@ function Products() {
 
   const [optionValue, setOptionValue] = useState("all");
   const [searchValue, setSearchValue] = useState("");
-
   useEffect(() => {
     fetchProduct();
   }, []);
@@ -18,10 +17,10 @@ function Products() {
   const filterProduct = products.filter((product) => {
     const matchesCategory =
       optionValue === "all" ? true : product.category === optionValue;
-
     const matchesSearch = product.name
       .toLowerCase()
-      .includes(searchValue.toLowerCase());
+      .replace(" ", "")
+      .includes(searchValue.toLowerCase().replace(" ", ""));
 
     return matchesCategory && matchesSearch;
   });
