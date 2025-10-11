@@ -141,6 +141,18 @@ function OrderSummaryInfo() {
       <hr></hr>
       <div className={styles.detail}>
         <span style={{ fontSize: "14px", color: "#555" }}>
+          <p>Dell XPS 15 x1 </p>
+        </span>
+        <span style={{ fontSize: "14px", color: "#000", fontWeight: "bolder" }}>
+          <p style={centerIcon}>
+            <DollarSign size="14px" />
+            1799.00
+          </p>
+        </span>
+      </div>
+      <hr></hr>
+      <div className={styles.detail}>
+        <span style={{ fontSize: "14px", color: "#555" }}>
           <p>Subtotal</p>
           <p>Shipping</p>
           <p>Tax</p>
