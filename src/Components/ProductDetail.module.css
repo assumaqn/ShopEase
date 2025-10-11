@@ -10,6 +10,8 @@
   border-radius: 11px;
   overflow: hidden;
   display: block; /* ensures proper layout */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  position: relative;
 }
 
 .img img {
@@ -55,4 +57,30 @@
   border-radius: 9px;
   color: #fff;
   background-color: #1684f1ff;
+}
+.DiscountedCatagory {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  z-index: 1000;
+  display: inline-block;
+  padding: 8px 16px;
+
+  border-radius: 6px;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: capitalize;
+  color: #fff;
+  animation: blink 1s infinite;
+}
+@keyframes blink {
+  0%,
+  100% {
+    background-color: rgba(243, 18, 10, 0.918);
+    color: #fff;
+  }
+  50% {
+    background-color: #e99898c0;
+    color: #fff;
+  }
 }

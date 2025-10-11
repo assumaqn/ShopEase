@@ -1,4 +1,4 @@
-import { useContext, createContext, useReducer, useEffect } from "react";
+import { useContext, createContext, useReducer } from "react";
 
 const productContext = createContext();
 const BASEURL = `http://localhost:3000/products`;

@@ -10,7 +10,9 @@
       "stock": 30,
       "rating": 4.8,
       "onSale": true,
-      "originalPrice": 499
+      "originalPrice": 499,
+      "contact": "+251-911223344",
+      "reviews": 1250
     },
     {
       "id": 941,
@@ -22,7 +24,9 @@
       "stock": 10,
       "rating": 4.7,
       "onSale": true,
-      "originalPrice": 2799
+      "originalPrice": 2799,
+      "contact": "+251-922334455",
+      "reviews": 1180
     },
     {
       "id": 16,
@@ -33,7 +37,9 @@
       "description": "Gaming smartphone, 165Hz AMOLED, 6000mAh battery",
       "stock": 15,
       "rating": 4.8,
-      "onSale": false
+      "onSale": false,
+      "contact": "+251-933445566",
+      "reviews": 1320
     },
     {
       "id": 45,
@@ -45,7 +51,9 @@
       "stock": 15,
       "rating": 4.9,
       "onSale": true,
-      "originalPrice": 1299
+      "originalPrice": 1299,
+      "contact": "+251-944556677",
+      "reviews": 1450
     },
     {
       "id": 32,
@@ -56,7 +64,9 @@
       "description": "Spatial audio, USB-C, adaptive noise control",
       "stock": 22,
       "rating": 4.8,
-      "onSale": false
+      "onSale": false,
+      "contact": "+251-955667788",
+      "reviews": 1280
     },
     {
       "id": 1,
@@ -68,7 +78,9 @@
       "stock": 15,
       "rating": 4.9,
       "onSale": true,
-      "originalPrice": 2399
+      "originalPrice": 2399,
+      "contact": "+251-966778899",
+      "reviews": 1520
     },
     {
       "id": 76,
@@ -79,7 +91,9 @@
       "description": "Full-frame mirrorless",
       "stock": 8,
       "rating": 4.9,
-      "onSale": false
+      "onSale": false,
+      "contact": "+251-977889900",
+      "reviews": 1350
     },
     {
       "id": 46,
@@ -90,7 +104,9 @@
       "description": " A15 Bionic chip, dual camera system.",
       "stock": 22,
       "rating": 4.5,
-      "onSale": false
+      "onSale": false,
+      "contact": "+251-988990011",
+      "reviews": 1420
     },
     {
       "id": 340,
@@ -101,7 +117,9 @@
       "description": "Wireless gaming mouse",
       "stock": 25,
       "rating": 4.7,
-      "onSale": false
+      "onSale": false,
+      "contact": "+251-999001122",
+      "reviews": 1210
     },
     {
       "id": 30,
@@ -112,7 +130,9 @@
       "description": "Immersive sound, adjustable ANC, plush comfort",
       "stock": 25,
       "rating": 4.9,
-      "onSale": false
+      "onSale": false,
+      "contact": "+251-910112233",
+      "reviews": 1380
     },
     {
       "id": 923,
@@ -124,7 +144,9 @@
       "stock": 14,
       "rating": 4.9,
       "onSale": true,
-      "originalPrice": 2399
+      "originalPrice": 2399,
+      "contact": "+251-921223344",
+      "reviews": 1470
     },
     {
       "id": 60,
@@ -135,7 +157,9 @@
       "description": "Fitness tracking, Wear OS",
       "stock": 25,
       "rating": 4.6,
-      "onSale": false
+      "onSale": false,
+      "contact": "+251-932334455",
+      "reviews": 1260
     },
     {
       "id": 17,
@@ -147,7 +171,9 @@
       "stock": 12,
       "rating": 4.6,
       "onSale": true,
-      "originalPrice": 1199
+      "originalPrice": 1199,
+      "contact": "+251-943445566",
+      "reviews": 1190
     },
     {
       "id": 56,
@@ -158,7 +184,9 @@
       "description": "2-in-1, Windows tablet",
       "stock": 12,
       "rating": 4.6,
-      "onSale": false
+      "onSale": false,
+      "contact": "+251-954556677",
+      "reviews": 1310
     },
     {
       "id": 33,
@@ -169,7 +197,9 @@
       "description": "Premium wireless earbuds with 8.4mm drivers",
       "stock": 32,
       "rating": 4.9,
-      "onSale": false
+      "onSale": false,
+      "contact": "+251-965667788",
+      "reviews": 1440
     },
     {
       "id": 2,
@@ -181,7 +211,9 @@
       "stock": 12,
       "rating": 4.7,
       "onSale": true,
-      "originalPrice": 2099
+      "originalPrice": 2099,
+      "contact": "+251-976778899",
+      "reviews": 1370
     },
     {
       "id": 77,
@@ -192,7 +224,9 @@
       "description": "High-speed shooting, 24MP",
       "stock": 10,
       "rating": 4.8,
-      "onSale": false
+      "onSale": false,
+      "contact": "+251-987889900",
+      "reviews": 1290
     },
     {
       "id": 47,
@@ -203,7 +237,9 @@
       "description": "ProMotion 120Hz display, triple-lens camera.",
       "stock": 15,
       "rating": 4.7,
-      "onSale": false
+      "onSale": false,
+      "contact": "+251-998990011",
+      "reviews": 1410
     },
     {
       "id": 303,
@@ -214,7 +250,9 @@
       "description": "Mechanical gaming keyboard",
       "stock": 20,
       "rating": 4.8,
-      "onSale": false
+      "onSale": false,
+      "contact": "+251-909001122",
+      "reviews": 1230
     },
     {
       "id": 31,
@@ -225,7 +263,9 @@
       "description": "Adaptive noise canceling, 60-hour battery life",
       "stock": 20,
       "rating": 4.7,
-      "onSale": false
+      "onSale": false,
+      "contact": "+251-911223344",
+      "reviews": 1270
     },
     {
       "id": 94,
@@ -236,7 +276,9 @@
       "description": "75-inch 4K Mini-LED Smart TV with 240Hz.",
       "stock": 20,
       "rating": 4.6,
-      "onSale": false
+      "onSale": false,
+      "contact": "+251-922334455",
+      "reviews": 1160
     },
     {
       "id": 61,
@@ -248,7 +290,9 @@
       "stock": 25,
       "rating": 4.9,
       "onSale": true,
-      "originalPrice": 949
+      "originalPrice": 949,
+      "contact": "+251-933445566",
+      "reviews": 1540
     },
     {
       "id": 18,
@@ -260,7 +304,9 @@
       "stock": 10,
       "rating": 4.9,
       "onSale": true,
-      "originalPrice": 1499
+      "originalPrice": 1499,
+      "contact": "+251-944556677",
+      "reviews": 1480
     },
     {
       "id": 57,
@@ -271,7 +317,9 @@
       "description": "M1 chip, lightweight",
       "stock": 20,
       "rating": 4.7,
-      "onSale": false
+      "onSale": false,
+      "contact": "+251-955667788",
+      "reviews": 1330
     },
     {
       "id": 34,
@@ -282,7 +330,9 @@
       "description": "Classic rock sound, 80-hour battery life",
       "stock": 27,
       "rating": 4.7,
-      "onSale": false
+      "onSale": false,
+      "contact": "+251-966778899",
+      "reviews": 1220
     },
     {
       "id": 3,
@@ -293,7 +343,9 @@
       "description": "Intel i7, 16GB RAM, Business grade",
       "stock": 20,
       "rating": 4.6,
-      "onSale": false
+      "onSale": false,
+      "contact": "+251-977889900",
+      "reviews": 1340
     },
     {
       "id": 79,
@@ -305,7 +357,9 @@
       "stock": 12,
       "rating": 4.8,
       "onSale": true,
-      "originalPrice": 2899
+      "originalPrice": 2899,
+      "contact": "+251-988990011",
+      "reviews": 1390
     },
     {
       "id": 48,
@@ -316,7 +370,9 @@
       "description": "Advanced dual-camera system .",
       "stock": 25,
       "rating": 4.6,
-      "onSale": false
+      "onSale": false,
+      "contact": "+251-999001122",
+      "reviews": 1430
     },
     {
       "id": 306,
@@ -327,7 +383,9 @@
       "description": "Pro wireless gaming headset",
       "stock": 15,
       "rating": 4.7,
-      "onSale": false
+      "onSale": false,
+      "contact": "+251-910112233",
+      "reviews": 1240
     },
     {
       "id": 305,
@@ -338,7 +396,9 @@
       "description": "Portable Bluetooth speaker, waterproof build",
       "stock": 40,
       "rating": 4.7,
-      "onSale": false
+      "onSale": false,
+      "contact": "+251-921223344",
+      "reviews": 1360
     },
     {
       "id": 95,
@@ -349,7 +409,9 @@
       "description": "65-inch ULED 4K TV with Quantum Dot color and Google TV platform.",
       "stock": 18,
       "rating": 4.7,
-      "onSale": false
+      "onSale": false,
+      "contact": "+251-932334455",
+      "reviews": 1170
     },
     {
       "id": 62,
@@ -360,7 +422,9 @@
       "description": "Super AMOLED display, Wear OS, GPS, and advanced fitness tracking.",
       "stock": 40,
       "rating": 4.9,
-      "onSale": false
+      "onSale": false,
+      "contact": "+251-943445566",
+      "reviews": 1550
     },
     {
       "id": 19,
@@ -371,7 +435,9 @@
       "description": "6.7-inch AMOLED, 120Hz refresh, Exynos 2400",
       "stock": 15,
       "rating": 4.8,
-      "onSale": false
+      "onSale": false,
+      "contact": "+251-954556677",
+      "reviews": 1490
     },
     {
       "id": 58,
@@ -382,7 +448,9 @@
       "description": "Android tablet, large screen",
       "stock": 14,
       "rating": 4.4,
-      "onSale": false
+      "onSale": false,
+      "contact": "+251-965667788",
+      "reviews": 1200
     },
     {
       "id": 36,
@@ -393,7 +461,9 @@
       "description": "Powerful bass, 20-hour battery, IP67 waterproof",
       "stock": 36,
       "rating": 4.6,
-      "onSale": false
+      "onSale": false,
+      "contact": "+251-976778899",
+      "reviews": 1380
     },
     {
       "id": 4,
@@ -404,7 +474,9 @@
       "description": "2-in-1 convertible, touchscreen",
       "stock": 8,
       "rating": 4.5,
-      "onSale": false
+      "onSale": false,
+      "contact": "+251-987889900",
+      "reviews": 1300
     },
     {
       "id": 80,
@@ -416,7 +488,9 @@
       "stock": 10,
       "rating": 4.7,
       "onSale": true,
-      "originalPrice": 3099
+      "originalPrice": 3099,
+      "contact": "+251-998990011",
+      "reviews": 1420
     },
     {
       "id": 49,
@@ -428,7 +502,9 @@
       "stock": 18,
       "rating": 4.8,
       "onSale": true,
-      "originalPrice": 1279
+      "originalPrice": 1279,
+      "contact": "+251-909001122",
+      "reviews": 1460
     },
     {
       "id": 37,
@@ -439,7 +515,9 @@
       "description": "Series 2, customizable",
       "stock": 18,
       "rating": 4.8,
-      "onSale": false
+      "onSale": false,
+      "contact": "+251-911223344",
+      "reviews": 1250
     },
     {
       "id": 307,
@@ -450,7 +528,9 @@
       "description": "Wi-Fi and Bluetooth portable speaker",
       "stock": 29,
       "rating": 4.8,
-      "onSale": false
+      "onSale": false,
+      "contact": "+251-922334455",
+      "reviews": 1280
     },
     {
       "id": 96,
@@ -461,7 +541,9 @@
       "description": "50-inch 4K Quantum Color Smart TV with 120Hz refresh rate.",
       "stock": 25,
       "rating": 4.8,
-      "onSale": false
+      "onSale": false,
+      "contact": "+251-933445566",
+      "reviews": 1190
     },
     {
       "id": 63,
@@ -472,7 +554,9 @@
       "description": "Heart rate monitor, sleep tracker, Google Maps integration, and long battery life.",
       "stock": 55,
       "rating": 4.7,
-      "onSale": false
+      "onSale": false,
+      "contact": "+251-944556677",
+      "reviews": 1320
     },
     {
       "id": 20,
@@ -484,7 +568,9 @@
       "stock": 7,
       "rating": 4.8,
       "onSale": true,
-      "originalPrice": 2099
+      "originalPrice": 2099,
+      "contact": "+251-955667788",
+      "reviews": 1510
     },
     {
       "id": 460,
@@ -495,7 +581,9 @@
       "description": "120Hz display, Snapdragon 8+ Gen 1.",
       "stock": 27,
       "rating": 4.9,
-      "onSale": false
+      "onSale": false,
+      "contact": "+251-966778899",
+      "reviews": 1370
     },
     {
       "id": 383,
@@ -506,7 +594,9 @@
       "description": "360° sound, waterproof, shockproof speaker",
       "stock": 33,
       "rating": 4.6,
-      "onSale": false
+      "onSale": false,
+      "contact": "+251-977889900",
+      "reviews": 1210
     },
     {
       "id": 5,
@@ -518,7 +608,9 @@
       "stock": 10,
       "rating": 4.8,
       "onSale": true,
-      "originalPrice": 2699
+      "originalPrice": 2699,
+      "contact": "+251-988990011",
+      "reviews": 1400
     },
     {
       "id": 81,
@@ -530,7 +622,9 @@
       "stock": 8,
       "rating": 4.8,
       "onSale": true,
-      "originalPrice": 4599
+      "originalPrice": 4599,
+      "contact": "+251-999001122",
+      "reviews": 1350
     },
     {
       "id": 5000,
@@ -541,7 +635,9 @@
       "description": " A17 Pro chip, and powerful camera.",
       "stock": 20,
       "rating": 4.9,
-      "onSale": false
+      "onSale": false,
+      "contact": "+251-910112233",
+      "reviews": 1530
     },
     {
       "id": 38,
@@ -552,7 +648,9 @@
       "description": "Premium smart speaker",
       "stock": 22,
       "rating": 4.6,
-      "onSale": false
+      "onSale": false,
+      "contact": "+251-921223344",
+      "reviews": 1230
     },
     {
       "id": 389,
@@ -564,7 +662,9 @@
       "stock": 9,
       "rating": 4.9,
       "onSale": true,
-      "originalPrice": 849
+      "originalPrice": 849,
+      "contact": "+251-932334455",
+      "reviews": 1410
     },
     {
       "id": 97,
@@ -576,7 +676,9 @@
       "stock": 11,
       "rating": 4.7,
       "onSale": true,
-      "originalPrice": 2899
+      "originalPrice": 2899,
+      "contact": "+251-943445566",
+      "reviews": 1180
     },
     {
       "id": 64,
@@ -588,7 +690,9 @@
       "stock": 18,
       "rating": 4.9,
       "onSale": true,
-      "originalPrice": 1049
+      "originalPrice": 1049,
+      "contact": "+251-954556677",
+      "reviews": 1560
     },
     {
       "id": 21,
@@ -599,7 +703,9 @@
       "description": "Compact foldable with Flex Window display",
       "stock": 12,
       "rating": 4.6,
-      "onSale": false
+      "onSale": false,
+      "contact": "+251-965667788",
+      "reviews": 1450
     },
     {
       "id": 427,
@@ -610,7 +716,9 @@
       "description": "11-inch display, octa-core processor.",
       "stock": 45,
       "rating": 4.7,
-      "onSale": false
+      "onSale": false,
+      "contact": "+251-976778899",
+      "reviews": 1260
     },
     {
       "id": 40,
@@ -622,7 +730,9 @@
       "stock": 20,
       "rating": 4.7,
       "onSale": true,
-      "originalPrice": 649
+      "originalPrice": 649,
+      "contact": "+251-987889900",
+      "reviews": 1390
     },
     {
       "id": 6,
@@ -633,7 +743,9 @@
       "description": "Intel i9, RTX 4070, 165Hz display",
       "stock": 14,
       "rating": 4.7,
-      "onSale": false
+      "onSale": false,
+      "contact": "+251-998990011",
+      "reviews": 1310
     },
     {
       "id": 82,
@@ -644,7 +756,9 @@
       "description": "40MP APS-C sensor, classic design.",
       "stock": 15,
       "rating": 4.9,
-      "onSale": false
+      "onSale": false,
+      "contact": "+251-909001122",
+      "reviews": 1440
     },
     {
       "id": 51,
@@ -656,7 +770,9 @@
       "stock": 12,
       "rating": 5.0,
       "onSale": true,
-      "originalPrice": 1399
+      "originalPrice": 1399,
+      "contact": "+251-911223344",
+      "reviews": 1570
     },
     {
       "id": 39,
@@ -667,7 +783,9 @@
       "description": "Smart display, 10-inch",
       "stock": 20,
       "rating": 4.5,
-      "onSale": false
+      "onSale": false,
+      "contact": "+251-922334455",
+      "reviews": 1200
     },
     {
       "id": 41,
@@ -679,7 +797,9 @@
       "stock": 25,
       "rating": 4.8,
       "onSale": true,
-      "originalPrice": 479
+      "originalPrice": 479,
+      "contact": "+251-933445566",
+      "reviews": 1470
     },
     {
       "id": 100,
@@ -691,7 +811,9 @@
       "stock": 8,
       "rating": 4.9,
       "onSale": true,
-      "originalPrice": 3299
+      "originalPrice": 3299,
+      "contact": "+251-944556677",
+      "reviews": 1520
     },
     {
       "id": 65,
@@ -702,7 +824,9 @@
       "description": "Wear OS 4, Fitbit integration, and AI-powered health insights.",
       "stock": 28,
       "rating": 4.8,
-      "onSale": false
+      "onSale": false,
+      "contact": "+251-955667788",
+      "reviews": 1330
     },
     {
       "id": 22,
@@ -714,7 +838,9 @@
       "stock": 14,
       "rating": 4.9,
       "onSale": true,
-      "originalPrice": 1399
+      "originalPrice": 1399,
+      "contact": "+251-966778899",
+      "reviews": 1500
     },
     {
       "id": 498,
@@ -725,7 +851,9 @@
       "description": "OLED display, HarmonyOS.",
       "stock": 16,
       "rating": 4.9,
-      "onSale": false
+      "onSale": false,
+      "contact": "+251-977889900",
+      "reviews": 1380
     },
     {
       "id": 42,
@@ -736,7 +864,9 @@
       "description": "Spatial audio, premium comfort",
       "stock": 18,
       "rating": 4.6,
-      "onSale": false
+      "onSale": false,
+      "contact": "+251-988990011",
+      "reviews": 1250
     },
     {
       "id": 7,
@@ -748,7 +878,9 @@
       "stock": 9,
       "rating": 4.8,
       "onSale": true,
-      "originalPrice": 2899
+      "originalPrice": 2899,
+      "contact": "+251-999001122",
+      "reviews": 1420
     },
     {
       "id": 83,
@@ -759,7 +891,9 @@
       "description": "with 5.7K ProRes video and dual card slots.",
       "stock": 9,
       "rating": 4.9,
-      "onSale": false
+      "onSale": false,
+      "contact": "+251-910112233",
+      "reviews": 1360
     },
     {
       "id": 3630,
@@ -770,7 +904,9 @@
       "description": "4K gaming monitor, 144Hz",
       "stock": 18,
       "rating": 4.7,
-      "onSale": false
+      "onSale": false,
+      "contact": "+251-921223344",
+      "reviews": 1240
     },
     {
       "id": 4520,
@@ -781,7 +917,9 @@
       "description": "Pro 2, HD video",
       "stock": 30,
       "rating": 4.7,
-      "onSale": false
+      "onSale": false,
+      "contact": "+251-932334455",
+      "reviews": 1220
     },
     {
       "id": 43,
@@ -792,7 +930,9 @@
       "description": "Audiophile sound quality",
       "stock": 12,
       "rating": 4.7,
-      "onSale": false
+      "onSale": false,
+      "contact": "+251-943445566",
+      "reviews": 1290
     },
     {
       "id": 105,
@@ -803,7 +943,9 @@
       "description": "75-inch 4K QLED with Android TV, HDR10+, and hands-free Google Assistant.",
       "stock": 26,
       "rating": 4.8,
-      "onSale": false
+      "onSale": false,
+      "contact": "+251-954556677",
+      "reviews": 1210
     },
     {
       "id": 66,
@@ -814,7 +956,9 @@
       "description": "Bluetooth calling, GPS, and over 150 sports modes with long-lasting battery.",
       "stock": 50,
       "rating": 4.9,
-      "onSale": false
+      "onSale": false,
+      "contact": "+251-965667788",
+      "reviews": 1340
     },
     {
       "id": 23,
@@ -825,7 +969,9 @@
       "description": "Flagship performance at a lower price point",
       "stock": 20,
       "rating": 4.5,
-      "onSale": false
+      "onSale": false,
+      "contact": "+251-976778899",
+      "reviews": 1270
     },
     {
       "id": 4969,
@@ -836,7 +982,9 @@
       "description": "Tensor G2 chip, 10.95-inch display.",
       "stock": 20,
       "rating": 4.6,
-      "onSale": false
+      "onSale": false,
+      "contact": "+251-987889900",
+      "reviews": 1300
     },
     {
       "id": 44,
@@ -847,7 +995,9 @@
       "description": "Wireless earbuds, ANC",
       "stock": 35,
       "rating": 4.8,
-      "onSale": false
+      "onSale": false,
+      "contact": "+251-998990011",
+      "reviews": 1480
     },
     {
       "id": 8,
@@ -858,7 +1008,9 @@
       "description": "13-inch, M3 chip, ultra-thin design",
       "stock": 18,
       "rating": 4.8,
-      "onSale": false
+      "onSale": false,
+      "contact": "+251-909001122",
+      "reviews": 1430
     },
     {
       "id": 84,
@@ -869,7 +1021,9 @@
       "description": "waterproof design, and HyperSmooth stabilization.",
       "stock": 25,
       "rating": 4.9,
-      "onSale": false
+      "onSale": false,
+      "contact": "+251-911223344",
+      "reviews": 1410
     },
     {
       "id": 3152,
@@ -880,7 +1034,9 @@
       "description": "4K IPS, color accurate",
       "stock": 15,
       "rating": 4.8,
-      "onSale": false
+      "onSale": false,
+      "contact": "+251-922334455",
+      "reviews": 1280
     },
     {
       "id": 4442,
@@ -891,7 +1047,9 @@
       "description": "Portable external SSD",
       "stock": 35,
       "rating": 4.8,
-      "onSale": false
+      "onSale": false,
+      "contact": "+251-933445566",
+      "reviews": 1350
     },
     {
       "id": 29,
@@ -902,7 +1060,9 @@
       "description": "Active noise cancellation, MagSafe case",
       "stock": 30,
       "rating": 4.8,
-      "onSale": false
+      "onSale": false,
+      "contact": "+251-944556677",
+      "reviews": 1490
     },
     {
       "id": 67,
@@ -913,7 +1073,9 @@
       "description": "AMOLED display, titanium frame, and professional workout tracking.",
       "stock": 33,
       "rating": 4.9,
-      "onSale": false
+      "onSale": false,
+      "contact": "+251-955667788",
+      "reviews": 1370
     },
     {
       "id": 24,
@@ -924,7 +1086,9 @@
       "description": "Dynamic AMOLED, S Pen, premium design",
       "stock": 8,
       "rating": 4.7,
-      "onSale": false
+      "onSale": false,
+      "contact": "+251-966778899",
+      "reviews": 1320
     },
     {
       "id": 50,
@@ -935,7 +1099,9 @@
       "description": "144Hz LCD display, Dimensity 9000.",
       "stock": 22,
       "rating": 4.7,
-      "onSale": false
+      "onSale": false,
+      "contact": "+251-977889900",
+      "reviews": 1260
     },
     {
       "id": 4333,
@@ -946,7 +1112,9 @@
       "description": "Portable HDD backup",
       "stock": 30,
       "rating": 4.6,
-      "onSale": false
+      "onSale": false,
+      "contact": "+251-988990011",
+      "reviews": 1230
     },
     {
       "id": 9,
@@ -958,7 +1126,9 @@
       "stock": 13,
       "rating": 4.6,
       "onSale": true,
-      "originalPrice": 2299
+      "originalPrice": 2299,
+      "contact": "+251-999001122",
+      "reviews": 1340
     },
     {
       "id": 85,
@@ -969,7 +1139,9 @@
       "description": "Compact handheld camera with 1-inch sensor.",
       "stock": 30,
       "rating": 4.9,
-      "onSale": false
+      "onSale": false,
+      "contact": "+251-910112233",
+      "reviews": 1400
     },
     {
       "id": 302,
@@ -981,7 +1153,9 @@
       "stock": 8,
       "rating": 4.9,
       "onSale": true,
-      "originalPrice": 1799
+      "originalPrice": 1799,
+      "contact": "+251-921223344",
+      "reviews": 1390
     },
     {
       "id": 404,
@@ -992,7 +1166,9 @@
       "description": "Power bank, fast charging",
       "stock": 40,
       "rating": 4.7,
-      "onSale": false
+      "onSale": false,
+      "contact": "+251-932334455",
+      "reviews": 1270
     },
     {
       "id": 68,
@@ -1003,7 +1179,9 @@
       "description": "Smart ring with temperature, heart rate, and sleep tracking for wellness insights.",
       "stock": 45,
       "rating": 4.8,
-      "onSale": false
+      "onSale": false,
+      "contact": "+251-943445566",
+      "reviews": 1310
     },
     {
       "id": 25,
@@ -1014,7 +1192,9 @@
       "description": "S Pen integrated, 120Hz display, quad camera",
       "stock": 10,
       "rating": 4.8,
-      "onSale": false
+      "onSale": false,
+      "contact": "+251-954556677",
+      "reviews": 1440
     },
     {
       "id": 501,
@@ -1025,7 +1205,9 @@
       "description": "Apple M2 chip, lightweight design.",
       "stock": 35,
       "rating": 4.9,
-      "onSale": false
+      "onSale": false,
+      "contact": "+251-965667788",
+      "reviews": 1460
     },
     {
       "id": 435,
@@ -1036,7 +1218,9 @@
       "description": "7-in-1 multiport adapter",
       "stock": 28,
       "rating": 4.5,
-      "onSale": false
+      "onSale": false,
+      "contact": "+251-976778899",
+      "reviews": 1200
     },
     {
       "id": 10,
@@ -1047,7 +1231,9 @@
       "description": "RTX 4060, Intel i7, sleek magnesium body",
       "stock": 17,
       "rating": 4.7,
-      "onSale": false
+      "onSale": false,
+      "contact": "+251-987889900",
+      "reviews": 1290
     },
     {
       "id": 86,
@@ -1058,7 +1244,9 @@
       "description": "Compact vlogging camera with 4K video and flip-up screen.",
       "stock": 18,
       "rating": 4.9,
-      "onSale": false
+      "onSale": false,
+      "contact": "+251-998990011",
+      "reviews": 1380
     },
     {
       "id": 335,
@@ -1069,7 +1257,9 @@
       "description": "Professional color grading",
       "stock": 10,
       "rating": 4.6,
-      "onSale": false
+      "onSale": false,
+      "contact": "+251-909001122",
+      "reviews": 1220
     },
     {
       "id": 69,
@@ -1080,7 +1270,9 @@
       "description": "AMOLED screen, waterproof, and long battery life fitness band.",
       "stock": 70,
       "rating": 4.6,
-      "onSale": false
+      "onSale": false,
+      "contact": "+251-911223344",
+      "reviews": 1250
     },
     {
       "id": 26,
@@ -1091,7 +1283,9 @@
       "description": "Best Android camera",
       "stock": 18,
       "rating": 4.6,
-      "onSale": false
+      "onSale": false,
+      "contact": "+251-922334455",
+      "reviews": 1330
     },
     {
       "id": 52,
@@ -1102,7 +1296,9 @@
       "description": "13-inch display, built-in kickstand.",
       "stock": 19,
       "rating": 4.9,
-      "onSale": false
+      "onSale": false,
+      "contact": "+251-933445566",
+      "reviews": 1410
     },
     {
       "id": 11,
@@ -1114,7 +1310,9 @@
       "stock": 11,
       "rating": 4.5,
       "onSale": true,
-      "originalPrice": 2199
+      "originalPrice": 2199,
+      "contact": "+251-944556677",
+      "reviews": 1280
     },
     {
       "id": 87,
@@ -1125,7 +1323,9 @@
       "description": "APS-C vlogging camera with interchangeable lenses.",
       "stock": 22,
       "rating": 4.9,
-      "onSale": false
+      "onSale": false,
+      "contact": "+251-955667788",
+      "reviews": 1370
     },
     {
       "id": 70,
@@ -1136,7 +1336,9 @@
       "description": "Hybrid smartwatch with medical-grade ECG, oxygen sensor, and diving design.",
       "stock": 20,
       "rating": 4.7,
-      "onSale": false
+      "onSale": false,
+      "contact": "+251-966778899",
+      "reviews": 1240
     },
     {
       "id": 27,
@@ -1147,7 +1349,9 @@
       "description": "Fast charging, Snapdragon 8 Gen 3",
       "stock": 22,
       "rating": 4.5,
-      "onSale": false
+      "onSale": false,
+      "contact": "+251-977889900",
+      "reviews": 1300
     },
     {
       "id": 53,
@@ -1158,7 +1362,9 @@
       "description": "Affordable tablet with 2K display.",
       "stock": 38,
       "rating": 4.7,
-      "onSale": false
+      "onSale": false,
+      "contact": "+251-988990011",
+      "reviews": 1190
     },
     {
       "id": 12,
@@ -1169,7 +1375,9 @@
       "description": "Touchscreen, Intel Evo platform",
       "stock": 19,
       "rating": 4.6,
-      "onSale": false
+      "onSale": false,
+      "contact": "+251-999001122",
+      "reviews": 1320
     },
     {
       "id": 88,
@@ -1180,7 +1388,9 @@
       "description": "360-degree action camera with 8K recording.",
       "stock": 27,
       "rating": 5.0,
-      "onSale": false
+      "onSale": false,
+      "contact": "+251-910112233",
+      "reviews": 1450
     },
     {
       "id": 71,
@@ -1192,7 +1402,9 @@
       "stock": 17,
       "rating": 4.9,
       "onSale": true,
-      "originalPrice": 699
+      "originalPrice": 699,
+      "contact": "+251-921223344",
+      "reviews": 1360
     },
     {
       "id": 28,
@@ -1203,7 +1415,9 @@
       "description": "Leica camera, flagship specs",
       "stock": 15,
       "rating": 4.4,
-      "onSale": false
+      "onSale": false,
+      "contact": "+251-932334455",
+      "reviews": 1210
     },
     {
       "id": 54,
@@ -1214,7 +1428,9 @@
       "description": "Gaming tablet with Intel i9 CPU, RTX GPU.",
       "stock": 10,
       "rating": 4.6,
-      "onSale": false
+      "onSale": false,
+      "contact": "+251-943445566",
+      "reviews": 1290
     },
     {
       "id": 13,
@@ -1225,7 +1441,9 @@
       "description": "Ultra-lightweight, 17-inch, long battery life",
       "stock": 21,
       "rating": 4.7,
-      "onSale": false
+      "onSale": false,
+      "contact": "+251-954556677",
+      "reviews": 1350
     },
     {
       "id": 89,
@@ -1237,7 +1455,9 @@
       "stock": 5,
       "rating": 5.0,
       "onSale": true,
-      "originalPrice": 6999
+      "originalPrice": 6999,
+      "contact": "+251-965667788",
+      "reviews": 1500
     },
     {
       "id": 72,
@@ -1248,7 +1468,9 @@
       "description": "Stylish smartwatch with AMOLED display and all-day fitness tracking.",
       "stock": 38,
       "rating": 4.7,
-      "onSale": false
+      "onSale": false,
+      "contact": "+251-976778899",
+      "reviews": 1230
     },
     {
       "id": 55,
@@ -1260,7 +1482,9 @@
       "stock": 10,
       "rating": 4.7,
       "onSale": true,
-      "originalPrice": 1399
+      "originalPrice": 1399,
+      "contact": "+251-987889900",
+      "reviews": 1420
     },
     {
       "id": 14,
@@ -1271,7 +1495,9 @@
       "description": "Ryzen 7, RTX 3050, 100% sRGB display",
       "stock": 24,
       "rating": 4.6,
-      "onSale": false
+      "onSale": false,
+      "contact": "+251-998990011",
+      "reviews": 1260
     },
     {
       "id": 90,
@@ -1282,7 +1508,9 @@
       "description": "with 6K Super 35 sensor and built-in ND filters.",
       "stock": 7,
       "rating": 4.0,
-      "onSale": false
+      "onSale": false,
+      "contact": "+251-909001122",
+      "reviews": 1180
     },
     {
       "id": 73,
@@ -1293,7 +1521,9 @@
       "description": "Affordable smartwatch with large display, health tracking, and Bluetooth calling.",
       "stock": 80,
       "rating": 4.8,
-      "onSale": false
+      "onSale": false,
+      "contact": "+251-911223344",
+      "reviews": 1270
     },
     {
       "id": 15,
@@ -1304,7 +1534,9 @@
       "description": "13.9-inch 3K touchscreen, elegant design",
       "stock": 16,
       "rating": 4.7,
-      "onSale": false
+      "onSale": false,
+      "contact": "+251-922334455",
+      "reviews": 1310
     },
     {
       "id": 91,
@@ -1315,7 +1547,9 @@
       "description": "Dual camera drone with 4K HDR video.",
       "stock": 12,
       "rating": 4.6,
-      "onSale": false
+      "onSale": false,
+      "contact": "+251-933445566",
+      "reviews": 1340
     },
     {
       "id": 74,
@@ -1326,7 +1560,9 @@
       "description": "Adventure-ready GPS smartwatch with titanium frame and 100m water resistance.",
       "stock": 21,
       "rating": 4.7,
-      "onSale": false
+      "onSale": false,
+      "contact": "+251-944556677",
+      "reviews": 1250
     },
     {
       "id": 92,
@@ -1337,7 +1573,9 @@
       "description": " camera with APS-C sensor and 40mm lens.",
       "stock": 16,
       "rating": 4.9,
-      "onSale": false
+      "onSale": false,
+      "contact": "+251-955667788",
+      "reviews": 1390
     },
     {
       "id": 75,
@@ -1348,7 +1586,9 @@
       "description": "Premium multisport GPS",
       "stock": 15,
       "rating": 4.9,
-      "onSale": false
+      "onSale": false,
+      "contact": "+251-966778899",
+      "reviews": 1480
     },
     {
       "id": 93,
@@ -1359,7 +1599,9 @@
       "description": "Lightweight mirrorless camera with 60fps.",
       "stock": 14,
       "rating": 4.9,
-      "onSale": false
+      "onSale": false,
+      "contact": "+251-977889900",
+      "reviews": 1430
     }
   ]
 }

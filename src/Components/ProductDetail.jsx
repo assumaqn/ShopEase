@@ -4,6 +4,7 @@ import StarRating from "./StarRating";
 import ProductCard from "./ProductCard";
 import Button from "./Button";
 import PageNav from "./PageNav";
+import Spinner from "./Spinner";
 import {
   DollarSign,
   ShoppingCart,
@@ -15,47 +16,16 @@ import {
 import { useProduct } from "../Contexts/ProductContext";
 import { useEffect } from "react";
 
-const RelatedProduct = [
-  {
-    id: 70,
-    name: "Withings ScanWatch Horizon",
-    category: "Wearables",
-    price: 499,
-    image:
-      "https://i.pinimg.com/1200x/e8/45/43/e8454360d2c9f1c34f1222d8801b5870.jpg",
-    description:
-      "Hybrid smartwatch with medical-grade ECG, oxygen sensor, and diving design.",
-    stock: 20,
-    rating: 4.7,
-    onSale: false,
-  },
-  {
-    id: 27,
-    name: "OnePlus 12",
-    category: "Smartphones",
-    price: 799,
-    image:
-      "https://images.unsplash.com/photo-1636376138385-b41caa8e0ae0?q=80&w=1033&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    description: "Fast charging, Snapdragon 8 Gen 3",
-    stock: 22,
-    rating: 4.5,
-    onSale: false,
-  },
-  {
-    id: 53,
-    name: "Realme Pad 2",
-    category: "Tablets",
-    price: 329,
-    image:
-      "https://i.pinimg.com/1200x/bf/8a/dc/bf8adc44514bfcdbe791db7bc7b83a94.jpg",
-    description: "Affordable tablet with 2K display.",
-    stock: 38,
-    rating: 4.7,
-    onSale: false,
-  },
-];
-
 function ProductDetail() {
+  const { fetchProductDetail, product, products, isLoading } = useProduct();
+  const { id } = useParams();
+  useEffect(() => {
+    fetchProductDetail(id);
+  }, [id]);
+  const RelatedProduct = products
+    .filter((el) => el.category === product?.category && el.id !== product?.id)
+    .slice(0, 3);
+
   return (
     <>
       <PageNav />
@@ -68,19 +38,19 @@ function ProductDetail() {
           position: "relative",
         }}
       >
-        <DetailProduct />
-        <RelatedProducts />
+        {isLoading ? (
+          <Spinner />
+        ) : (
+          <>
+            <DetailProduct product={product} />
+            <RelatedProducts RelatedProduct={RelatedProduct} />
+          </>
+        )}
       </section>
     </>
   );
 }
-function DetailProduct() {
-  const { fetchProductDetail, product } = useProduct();
-  const { id } = useParams();
-  useEffect(() => {
-    fetchProductDetail(id);
-  }, [id]);
-
+function DetailProduct({ product }) {
   return (
     <div
       style={{
@@ -94,6 +64,16 @@ function DetailProduct() {
         Back to product
       </Link>
       <div className={styles.img}>
+        {product.onSale && product.originalPrice && product.price ? (
+          <span className={styles.DiscountedCatagory}>
+            {Math.floor(
+              ((product.originalPrice - product.price) /
+                product.originalPrice) *
+                100
+            )}
+            % Off
+          </span>
+        ) : null}
         <img src={product.image} alt={product.name} />
       </div>
       <div
@@ -145,7 +125,14 @@ function DetailProduct() {
             }}
           >
             <StarRating />
-            <span>{product.rating} (2854) </span>
+            <span>
+              {product.rating}{" "}
+              <span
+                style={{ fontWeight: "500", color: "#555", fontSize: "12px" }}
+              >
+                ({product.reviews})
+              </span>
+            </span>
           </div>
           <div
             style={{
@@ -165,27 +152,33 @@ function DetailProduct() {
               <DollarSign size="20px" />
               {product.price}
             </span>
-            <p
-              style={{
-                textDecoration: "line-through",
-                fontSize: "18px",
-                color: "#555",
-              }}
-            >
-              ${product.originalPrice}
-            </p>
-            <span
-              style={{
-                padding: "5px 8px",
-                textAlign: "center",
-                background: "rgba(252, 13, 13, 0.99)",
-                color: "#fff",
-                fontSize: "15px",
-                borderRadius: "9px",
-              }}
-            >
-              Save ${product.originalPrice - product.price}
-            </span>
+            {product.onSale ? (
+              <>
+                <p
+                  style={{
+                    textDecoration: "line-through",
+                    fontSize: "18px",
+                    color: "#555",
+                  }}
+                >
+                  ${product.originalPrice}
+                </p>
+                <span
+                  style={{
+                    padding: "5px 8px",
+                    textAlign: "center",
+                    background: "rgba(252, 13, 13, 0.99)",
+                    color: "#fff",
+                    fontSize: "15px",
+                    borderRadius: "9px",
+                  }}
+                >
+                  Save ${product.originalPrice - product.price}
+                </span>
+              </>
+            ) : (
+              ""
+            )}
           </div>
           <p style={{ fontSize: "14px", color: "#555" }}>
             {product.description}
@@ -225,10 +218,17 @@ function DetailProduct() {
     </div>
   );
 }
-function RelatedProducts() {
+function RelatedProducts({ RelatedProduct }) {
   return (
-    <div style={{ borderTop: "0.12px solid #5555", padding: "64px 0" }}>
-      <h2 style={{ marginBottom: "25px", fontSize: "30px" }}>
+    <div
+      style={{
+        borderTop: "0.12px solid #5555",
+
+        padding: "64px 0",
+        textDecoration: "none",
+      }}
+    >
+      <h2 style={{ marginBottom: "25px", fontSize: "30px", color: "#222" }}>
         Related Product
       </h2>
       <div
@@ -240,7 +240,9 @@ function RelatedProducts() {
         }}
       >
         {RelatedProduct.map((product) => (
-          <ProductCard product={product} key={product.id} />
+          <Link to={`${product.id}`} style={{ textDecoration: "none" }}>
+            <ProductCard product={product} key={product.id} />
+          </Link>
         ))}
       </div>
     </div>
