@@ -72,4 +72,12 @@
   background-color: #0572df;
   color: #fff;
   width: 100%;
+  transition: all 0.5s;
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+}
+.checkout:hover {
+  background-color: #0381ff5e;
+  color: rgba(95, 90, 90, 0.867);
 }

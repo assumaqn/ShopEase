@@ -1,14 +1,36 @@
+import { CreditCard, DollarSign, Truck } from "lucide-react";
+import { useEffect, useState } from "react";
 import Button from "./Button";
-
+import PageNav from "./PageNav";
+import Spinner from "./Spinner";
 import styles from "./CheckOut.module.css";
+
+const centerIcon = {
+  display: "flex",
+  justifyContent: "center",
+  alignItems: "center",
+};
 function CheckOut() {
+  const [isLoading, setIsLoading] = useState(true);
+  useEffect(() => {
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 500);
+  }, []);
   return (
-    <section className={styles.section}>
-      <div className={styles["checkOut"]}>
-        <CheckoutDetail />
-        <OrderSummaryInfo />
-      </div>
-    </section>
+    <>
+      <PageNav />
+      {isLoading ? (
+        <Spinner />
+      ) : (
+        <section className={styles.section}>
+          <div className={styles["checkOut"]}>
+            <CheckoutDetail />
+            <OrderSummaryInfo />
+          </div>
+        </section>
+      )}
+    </>
   );
 }
 ///flex-1
@@ -35,14 +57,24 @@ function ShippingInfo() {
   return (
     <div
       style={{
-        border: "0.12px solid #5555",
+        border: "0.1px solid #ccc",
         padding: "35px 30px",
         boxShadow: "0 4px 10px rgba(0, 0, 0, 0.1)",
         borderRadius: "9px",
         background: "#fff",
       }}
     >
-      <h3 style={{ fontSize: "24px", marginBottom: "9px" }}>
+      <h3
+        style={{
+          fontSize: "22px",
+          marginBottom: "9px",
+          display: "flex",
+          alignItems: "center",
+          color: "#333",
+          gap: "5px",
+        }}
+      >
+        <Truck color="#0572df" />
         Shipping information
       </h3>
       <form>
@@ -89,15 +121,24 @@ function PaymentInfo() {
   return (
     <div
       style={{
-        border: "0.12px solid #5555",
+        border: "0.1px solid #ccc",
         padding: "25px 30px",
         boxShadow: "0 4px 10px rgba(0, 0, 0, 0.1)",
         borderRadius: "9px",
         background: "#fff",
       }}
     >
-      <h3 style={{ fontSize: "24px", marginBottom: "9px" }}>
-        Payment information
+      <h3
+        style={{
+          fontSize: "22px",
+          marginBottom: "9px",
+          display: "flex",
+          alignItems: "center",
+          color: "#333",
+          gap: "5px",
+        }}
+      >
+        <CreditCard color="#0572df" /> Payment information
       </h3>
       <form>
         <div className={styles["form-el"]}>
@@ -106,7 +147,7 @@ function PaymentInfo() {
         </div>
         <div className={styles["form-el"]}>
           <label>Card Number</label>
-          <input type="number" />
+          <input type="number" placeholder="1234 5678 9012 3456" />
         </div>
         <div className={styles["form-el"]}>
           <div className={styles["col_1"]}>
@@ -116,7 +157,7 @@ function PaymentInfo() {
             </span>
             <span>
               <label>CVV</label>
-              <input type="number" />
+              <input type="number" placeholder="123" />
             </span>
           </div>
         </div>
@@ -128,12 +169,7 @@ function PaymentInfo() {
 }
 
 /////flex-2
-import { DollarSign } from "lucide-react";
-const centerIcon = {
-  display: "flex",
-  justifyContent: "center",
-  alignItems: "center",
-};
+
 function OrderSummaryInfo() {
   return (
     <div className={styles.summary}>
