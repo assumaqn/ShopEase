@@ -1,4 +1,4 @@
-import { Link, useParams } from "react-router";
+import { Link, useNavigate, useParams } from "react-router";
 import styles from "./ProductDetail.module.css";
 import StarRating from "./StarRating";
 import ProductCard from "./ProductCard";
@@ -46,7 +46,7 @@ function ProductDetail() {
         ) : (
           <>
             <DetailProduct product={product} />
-            <RelatedProducts RelatedProduct={RelatedProduct} />
+            <RelatedProducts RelatedProduct={RelatedProduct} id={product.id} />
           </>
         )}
       </section>
@@ -226,17 +226,19 @@ function DetailProduct({ product }) {
             gap: "8px",
           }}
         >
-          <Button type="carted">
+          <Button type="cart-add">
             <ShoppingCart size="16px" />
             Add to Cart
           </Button>
-          <Button>Buy Now</Button>
+          <Button type="cart-buy">Buy Now</Button>
         </div>
       </div>
     </div>
   );
 }
-function RelatedProducts({ RelatedProduct }) {
+function RelatedProducts({ RelatedProduct, id }) {
+  const navigate = useNavigate();
+
   return (
     <div
       style={{
@@ -258,9 +260,13 @@ function RelatedProducts({ RelatedProduct }) {
         }}
       >
         {RelatedProduct.map((product) => (
-          <Link to={`${product.id}`} style={{ textDecoration: "none" }}>
-            <ProductCard product={product} key={product.id} />
-          </Link>
+          <div
+            key={product.id}
+            onClick={() => navigate(`/products/${product.id}`)}
+            style={{ cursor: "pointer" }}
+          >
+            <ProductCard product={product} />
+          </div>
         ))}
       </div>
     </div>

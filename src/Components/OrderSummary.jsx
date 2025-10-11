@@ -54,7 +54,9 @@ function OrderSummary() {
         </strong>
       </span>
       <Button type="cart-hidden">
-        <Link to="checkout">Proceed to Checkout</Link>
+        <Link to="checkout" style={{ textDecoration: "none", color: "#fff" }}>
+          Proceed to Checkout
+        </Link>
       </Button>
       <Button type="cart">Continue Shopping</Button>
     </div>
