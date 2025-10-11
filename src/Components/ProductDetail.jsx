@@ -12,6 +12,9 @@ import {
   Truck,
   Shield,
   MoveLeft,
+  Timer,
+  User,
+  Phone,
 } from "lucide-react";
 import { useProduct } from "../Contexts/ProductContext";
 import { useEffect } from "react";
@@ -85,7 +88,7 @@ function DetailProduct({ product }) {
           alignItems: "flex-start",
           alignSelf: "flex-start",
           justifyContent: "space-between",
-          gap: "110px",
+          gap: "50px",
         }}
       >
         <div
@@ -197,6 +200,21 @@ function DetailProduct({ product }) {
               30-day return policy
             </li>
           </ul>
+          <hr></hr>
+          <div className={styles.seller}>
+            <p>
+              <Timer size="18px" color="#278df3ff" /> -
+              <span>Posted {product.postedDate} ago</span>
+            </p>
+            <p>
+              <User size="18px" color="#278df3ff" /> -
+              <span>{product.seller}</span>
+            </p>
+            <p>
+              <Phone size="18px" color="#278df3ff" /> -
+              <span>{product.contact}</span>
+            </p>
+          </div>
         </div>
         <div
           className="btn-container"

@@ -17,6 +17,7 @@ function ProductCard({ product }) {
     rating,
     onSale,
     originalPrice,
+    postedDate,
   } = product;
 
   const DiscountPer = onSale && ((originalPrice - price) / originalPrice) * 100;
@@ -38,7 +39,19 @@ function ProductCard({ product }) {
             <img src={image} loading="lazy" alt={name} />
           </div>
           <div className={styles["product-content"]}>
-            <h4>{name}</h4>
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "space-between",
+                alignItems: "center",
+                fontSize: "15px",
+              }}
+            >
+              <h4>{name}</h4>
+              <span style={{ fontSize: "12px", color: "#222" }}>
+                {postedDate} ago
+              </span>
+            </div>
             <p>{description}</p>
             <div
               style={{
@@ -54,6 +67,7 @@ function ProductCard({ product }) {
                   gap: "1px",
                   alignItems: "center",
                   fontSize: "14px",
+                  color: "#333",
                 }}
               >
                 <StarRating />

@@ -27,6 +27,7 @@
   flex-direction: column;
   gap: 10px;
   margin-top: 15px;
+  margin-bottom: 10px;
   align-items: flex-start;
 }
 .list li {
@@ -35,6 +36,20 @@
   align-items: center;
   justify-content: center;
   gap: 10px;
+}
+.seller {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  /* padding: 6px 10px; */
+}
+.seller p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  font-size: 14px;
 }
 
 .back {
