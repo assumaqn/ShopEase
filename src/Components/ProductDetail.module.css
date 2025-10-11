@@ -1,5 +1,5 @@
 .productDetail {
-  max-width: 1000px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 94px 0;
 }
@@ -13,9 +13,9 @@
   width: 100%;
 }
 .img {
-  border: 1px solid #000;
-  width: 350px;
-  height: 300px;
+  max-width: 500px;
+  border-radius: 11px;
+  height: 100%;
   overflow: hidden;
 }
 .list {

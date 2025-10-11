@@ -1,6 +1,7 @@
 import { useParams } from "react-router";
 import styles from "./ProductDetail.module.css";
 import StarRating from "./StarRating";
+import ProductCard from "./ProductCard";
 import Button from "./Button";
 import {
   DollarSign,
@@ -50,25 +51,25 @@ const RelatedProduct = [
   },
 ];
 const product = {
-  id: 71,
-  name: "Coros Vertix 2",
+  id: 73,
+  name: "Noise ColorFit Pro 5",
   category: "Wearables",
-  price: 599,
+  price: 12179,
   image:
-    "https://i.pinimg.com/736x/92/09/8a/92098a071b99b9b83f59a1ee704209e4.jpg",
+    "https://i.pinimg.com/736x/87/29/18/8729189e3623a1bdf0f17622972527ae.jpg",
   description:
-    "GPS adventure watch with titanium build, long battery, and offline maps.",
-  stock: 17,
-  rating: 4.9,
+    "Affordable smartwatch with large display, health tracking, and Bluetooth calling.",
+  stock: 80,
+  rating: 4.8,
   onSale: true,
-  originalPrice: 699,
+  originalPrice: 1399,
 };
 
 function ProductDetail() {
   return (
     <section
       className={styles.productDetail}
-      style={{ display: "flex", flexDirection: "column", gap: "25px" }}
+      style={{ display: "flex", flexDirection: "column", gap: "50px" }}
     >
       <DetailProduct />
       <RelatedProducts />
@@ -83,6 +84,7 @@ function DetailProduct() {
         display: "flex",
         alignItems: "center",
         justifyContent: "space-evenly",
+        // gap: "50px",
       }}
     >
       <div className={styles.img}>
@@ -94,8 +96,9 @@ function DetailProduct() {
           display: "flex",
           flexDirection: "column",
           alignItems: "flex-start",
+          alignSelf: "flex-start",
           justifyContent: "space-between",
-          gap: "20px",
+          gap: "110px",
         }}
       >
         <div
@@ -111,10 +114,11 @@ function DetailProduct() {
           <span
             style={{
               padding: "4px",
+              display: "inline-block",
               textAlign: "center",
               border: "0.5px solid #555",
               borderRadius: "9px",
-              width: "35%",
+              width: "15%",
               fontSize: "12px",
             }}
           >
@@ -125,7 +129,7 @@ function DetailProduct() {
           </h2>
           <p
             style={{
-              fontSize: "12px",
+              fontSize: "18px",
               fontWeight: "bold",
               display: "flex",
               alignItems: "center",
@@ -146,12 +150,12 @@ function DetailProduct() {
           >
             <span
               style={{
-                fontSize: "25px",
+                fontSize: "28px",
                 fontWeight: "800",
                 color: "#1684f1ff",
               }}
             >
-              <DollarSign size="18px" />
+              <DollarSign size="20px" />
               {product.price}
             </span>
             <p
@@ -199,6 +203,7 @@ function DetailProduct() {
           style={{
             display: "flex",
             flexDirection: "column",
+
             width: "100%",
             gap: "8px",
           }}
@@ -214,7 +219,25 @@ function DetailProduct() {
   );
 }
 function RelatedProducts() {
-  return <div>Related Product</div>;
+  return (
+    <div style={{ borderTop: "0.12px solid #5555", padding: "64px 0" }}>
+      <h2 style={{ marginBottom: "25px", fontSize: "30px" }}>
+        Related Product
+      </h2>
+      <div
+        style={{
+          display: "grid",
+          gridTemplateColumns: "repeat(3,1fr)",
+          gap: "10px",
+          alignItems: "center",
+        }}
+      >
+        {RelatedProduct.map((product) => (
+          <ProductCard product={product} key={product.id} />
+        ))}
+      </div>
+    </div>
+  );
 }
 
 export default ProductDetail;
