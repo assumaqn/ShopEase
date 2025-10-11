@@ -1,5 +1,6 @@
 import styles from "./OrderSummary.module.css";
 import Button from "./Button";
+import { Link } from "react-router";
 import { DollarSign } from "lucide-react";
 const centerIcon = {
   display: "flex",
@@ -52,7 +53,9 @@ function OrderSummary() {
           </span>
         </strong>
       </span>
-      <Button type="cart-hidden">Proceed to Checkout</Button>
+      <Button type="cart-hidden">
+        <Link to="checkout">Proceed to Checkout</Link>
+      </Button>
       <Button type="cart">Continue Shopping</Button>
     </div>
   );

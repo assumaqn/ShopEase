@@ -67,3 +67,9 @@
   gap: 8px;
   justify-content: center;
 }
+.checkout {
+  margin-top: 30px;
+  background-color: #0572df;
+  color: #fff;
+  width: 100%;
+}
