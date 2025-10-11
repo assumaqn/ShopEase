@@ -9,6 +9,7 @@ import Cart from "./pages/Cart";
 import { ProductProvider } from "./Contexts/ProductContext";
 import SignIn from "./Components/SignIn";
 import SignUp from "./Components/SignUp";
+import ProductDetail from "./Components/ProductDetail";
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="products" element={<Products />} />
-          <Route path="products/:id" />
+          <Route path="products/:id" element={<ProductDetail />} />
 
           <Route path="faq" element={<FAQ />} />
           <Route path="profile" element={<Profile />}>

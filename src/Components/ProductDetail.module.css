@@ -1,0 +1,35 @@
+.productDetail {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 94px 0;
+}
+
+.img img {
+  object-fit: cover;
+  transition: transform 0.3s ease;
+  display: block;
+
+  height: 100%; /* ensures image fills the container height */
+  width: 100%;
+}
+.img {
+  border: 1px solid #000;
+  width: 350px;
+  height: 300px;
+  overflow: hidden;
+}
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 15px;
+  align-items: flex-start;
+}
+.list li {
+  display: flex;
+  font-size: 13px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
