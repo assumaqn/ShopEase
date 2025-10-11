@@ -1,15 +1,19 @@
-import { useParams } from "react-router";
+import { Link, useParams } from "react-router";
 import styles from "./ProductDetail.module.css";
 import StarRating from "./StarRating";
 import ProductCard from "./ProductCard";
 import Button from "./Button";
+import PageNav from "./PageNav";
 import {
   DollarSign,
   ShoppingCart,
   RotateCcw,
   Truck,
   Shield,
+  MoveLeft,
 } from "lucide-react";
+import { useProduct } from "../Contexts/ProductContext";
+import { useEffect } from "react";
 
 const RelatedProduct = [
   {
@@ -50,49 +54,52 @@ const RelatedProduct = [
     onSale: false,
   },
 ];
-const product = {
-  id: 73,
-  name: "Noise ColorFit Pro 5",
-  category: "Wearables",
-  price: 12179,
-  image:
-    "https://i.pinimg.com/736x/87/29/18/8729189e3623a1bdf0f17622972527ae.jpg",
-  description:
-    "Affordable smartwatch with large display, health tracking, and Bluetooth calling.",
-  stock: 80,
-  rating: 4.8,
-  onSale: true,
-  originalPrice: 1399,
-};
 
 function ProductDetail() {
   return (
-    <section
-      className={styles.productDetail}
-      style={{ display: "flex", flexDirection: "column", gap: "50px" }}
-    >
-      <DetailProduct />
-      <RelatedProducts />
-    </section>
+    <>
+      <PageNav />
+      <section
+        className={styles.productDetail}
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          gap: "50px",
+          position: "relative",
+        }}
+      >
+        <DetailProduct />
+        <RelatedProducts />
+      </section>
+    </>
   );
 }
 function DetailProduct() {
+  const { fetchProductDetail, product } = useProduct();
   const { id } = useParams();
+  useEffect(() => {
+    fetchProductDetail(id);
+  }, [id]);
+
   return (
     <div
       style={{
         display: "flex",
         alignItems: "center",
-        justifyContent: "space-evenly",
-        // gap: "50px",
+        justifyContent: "space-around",
       }}
     >
+      <Link className={styles.back} to="/products">
+        <MoveLeft size="16px" />
+        Back to product
+      </Link>
       <div className={styles.img}>
         <img src={product.image} alt={product.name} />
       </div>
       <div
         className="all conte"
         style={{
+          width: "40%",
           display: "flex",
           flexDirection: "column",
           alignItems: "flex-start",
@@ -118,7 +125,7 @@ function DetailProduct() {
               textAlign: "center",
               border: "0.5px solid #555",
               borderRadius: "9px",
-              width: "15%",
+              width: "35%",
               fontSize: "12px",
             }}
           >
@@ -127,7 +134,7 @@ function DetailProduct() {
           <h2 style={{ fontSize: "30px", fontWeight: "600px", color: "#222" }}>
             {product.name}
           </h2>
-          <p
+          <div
             style={{
               fontSize: "18px",
               fontWeight: "bold",
@@ -139,7 +146,7 @@ function DetailProduct() {
           >
             <StarRating />
             <span>{product.rating} (2854) </span>
-          </p>
+          </div>
           <div
             style={{
               display: "flex",
@@ -204,7 +211,7 @@ function DetailProduct() {
             display: "flex",
             flexDirection: "column",
 
-            width: "100%",
+            width: "90%",
             gap: "8px",
           }}
         >

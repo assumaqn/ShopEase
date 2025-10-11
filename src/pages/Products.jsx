@@ -5,11 +5,13 @@ import ProductHeader from "../Components/ProductHeader";
 import { useProduct } from "../Contexts/ProductContext";
 import Spinner from "../Components/Spinner";
 import styles from "./Products.module.css";
+
 function Products() {
   const { fetchProduct, products, isLoading } = useProduct();
 
   const [optionValue, setOptionValue] = useState("all");
   const [searchValue, setSearchValue] = useState("");
+
   useEffect(() => {
     fetchProduct();
   }, []);

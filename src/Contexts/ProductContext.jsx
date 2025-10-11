@@ -1,10 +1,10 @@
-import { useContext, createContext, useReducer } from "react";
+import { useContext, createContext, useReducer, useEffect } from "react";
 
 const productContext = createContext();
-const BASEURL = `http://localhost:3000`;
+const BASEURL = `http://localhost:3000/products`;
 const initalState = {
   products: [],
-  product: [],
+  product: {},
   isLoading: false,
   error: "",
 };
@@ -15,6 +15,8 @@ function reducer(state, action) {
       return { ...state, isLoading: true };
     case "product/loaded":
       return { ...state, isLoading: false, products: action.payload };
+    case "productDetail/loaded":
+      return { ...state, isLoading: false, product: action.payload };
 
     case "rejected":
       return { ...state, isLoading: false, error: action.payload };
@@ -38,18 +40,24 @@ function ProductProvider({ children }) {
     return arr;
   }
 
-  // Discount %=OPOP−SP​×100
-
-  //
-  // const pagination = products.slice(0, 10);
-
   const featureProduct = shuffleArray(products).slice(0, 6);
+
   async function fetchProduct() {
     dispatch({ type: "loading" });
     try {
-      const resp = await fetch(`${BASEURL}/products`);
+      const resp = await fetch(`${BASEURL}`);
       const data = await resp.json();
       dispatch({ type: "product/loaded", payload: data });
+    } catch (err) {
+      dispatch({ type: "rejected", payload: err.message });
+    }
+  }
+  async function fetchProductDetail(id) {
+    dispatch({ type: "loading" });
+    try {
+      const resp = await fetch(`${BASEURL}/${id}`);
+      const data = await resp.json();
+      dispatch({ type: "productDetail/loaded", payload: data });
     } catch (err) {
       dispatch({ type: "rejected", payload: err.message });
     }
@@ -63,6 +71,7 @@ function ProductProvider({ children }) {
         featureProduct,
         isLoading,
         product,
+        fetchProductDetail,
         error,
       }}
     >
