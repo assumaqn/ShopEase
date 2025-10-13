@@ -3,6 +3,8 @@ import { Trash2 } from "lucide-react";
 import Button from "../Components/Button";
 import { DollarSign } from "lucide-react";
 import OrderSummary from "./OrderSummary";
+import { useProduct } from "../Contexts/ProductContext";
+import EmptyCart from "./EmptyCart";
 const products = [
   {
     id: 1,
@@ -41,11 +43,17 @@ const products = [
 ];
 
 function CartItems() {
+  const { cartedProduct } = useProduct();
+
+  if (cartedProduct.length === 0) {
+    return <EmptyCart />;
+  }
+
   return (
-    <di className={styles.shoping}>
+    <div className={styles.shoping}>
       <div className={styles.items}>
         <h2>Shopping Cart</h2>
-        {products.map((product) => (
+        {cartedProduct.map((product) => (
           <CartItem
             img={product.image}
             name={product.name}
@@ -55,7 +63,7 @@ function CartItems() {
         ))}
       </div>
       <OrderSummary />
-    </di>
+    </div>
   );
 }
 

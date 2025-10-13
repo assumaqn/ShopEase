@@ -3,8 +3,10 @@ import { DollarSign, ShoppingCart } from "lucide-react";
 import StarRating from "./StarRating";
 
 import { Link } from "react-router";
+import { useProduct } from "../Contexts/ProductContext";
 
 function ProductCard({ product }) {
+  const { dispatch } = useProduct();
   const {
     id,
     name,
@@ -18,6 +20,11 @@ function ProductCard({ product }) {
     originalPrice,
     postedDate,
   } = product;
+
+  function handleCart(e) {
+    e.preventDefault();
+    dispatch({ type: "cart/added", payload: product });
+  }
 
   const DiscountPer = onSale && ((originalPrice - price) / originalPrice) * 100;
   return (
@@ -60,7 +67,11 @@ function ProductCard({ product }) {
                   )}
                 </strong>
               </h4>
-              <span>
+              <span
+                onClick={(e) => {
+                  handleCart(e);
+                }}
+              >
                 <ShoppingCart size="18px" color="#fff" />
               </span>
             </div>

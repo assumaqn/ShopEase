@@ -5,6 +5,7 @@ const BASEURL = `http://localhost:3000/products`;
 const initalState = {
   products: [],
   product: {},
+  cartedProduct: [],
   isLoading: false,
   error: "",
 };
@@ -17,6 +18,12 @@ function reducer(state, action) {
       return { ...state, isLoading: false, products: action.payload };
     case "productDetail/loaded":
       return { ...state, isLoading: false, product: action.payload };
+    case "cart/added":
+      return {
+        ...state,
+        isLoading: false,
+        cartedProduct: [...state.cartedProduct, action.payload],
+      };
 
     case "rejected":
       return { ...state, isLoading: false, error: action.payload };
@@ -27,10 +34,8 @@ function reducer(state, action) {
 }
 
 function ProductProvider({ children }) {
-  const [{ products, product, error, isLoading }, dispatch] = useReducer(
-    reducer,
-    initalState
-  );
+  const [{ products, product, error, isLoading, cartedProduct }, dispatch] =
+    useReducer(reducer, initalState);
   function shuffleArray(array) {
     const arr = [...array];
     for (let i = arr.length - 1; i > 0; i--) {
@@ -57,11 +62,24 @@ function ProductProvider({ children }) {
     try {
       const resp = await fetch(`${BASEURL}/${id}`);
       const data = await resp.json();
+
       dispatch({ type: "productDetail/loaded", payload: data });
     } catch (err) {
       dispatch({ type: "rejected", payload: err.message });
     }
   }
+  // async function cartProduct(id) {
+  //   dispatch({ type: "loading" });
+
+  //   try {
+  //     const resp = await fetch(`${BASEURL}/${id}`);
+  //     const data = await resp.json();
+
+  //    ;
+  //   } catch (err) {
+  //     dispatch({ type: "rejected", payload: err.message });
+  //   }
+  // }
 
   return (
     <productContext.Provider
@@ -73,6 +91,8 @@ function ProductProvider({ children }) {
         product,
         fetchProductDetail,
         error,
+        dispatch,
+        cartedProduct,
       }}
     >
       {children}

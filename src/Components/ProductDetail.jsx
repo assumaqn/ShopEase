@@ -81,7 +81,7 @@ function DetailProduct({ product }) {
             </span>
           </div>
           <div className={styles["product-price"]}>
-            <span>
+            <span className={styles.price}>
               <DollarSign size="20px" />
               {product.price}
             </span>
