@@ -22,7 +22,11 @@ function reducer(state, action) {
       return {
         ...state,
         isLoading: false,
-        cartedProduct: [...state.cartedProduct, action.payload],
+        cartedProduct: state.cartedProduct.some(
+          (cart) => cart.id === action.payload.id
+        )
+          ? state.cartedProduct
+          : [...state.cartedProduct, action.payload],
       };
     case "cart/delete":
       return {
