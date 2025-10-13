@@ -27,7 +27,14 @@ function reducer(state, action) {
           (cart) => cart.id === action.payload.id
         )
           ? state.cartedProduct
-          : [...state.cartedProduct, { ...action.payload, quantity: 1 }],
+          : [
+              ...state.cartedProduct,
+              {
+                ...action.payload,
+                quantity: 1,
+                totalPrice: action.payload.price,
+              },
+            ],
       };
 
     case "cart/delete":
@@ -43,7 +50,11 @@ function reducer(state, action) {
         ...state,
         cartedProduct: state.cartedProduct.map((item) =>
           item.id === action.payload
-            ? { ...item, quantity: item.quantity + 1 }
+            ? {
+                ...item,
+                quantity: item.quantity + 1,
+                totalPrice: (item.quantity + 1) * item.price,
+              }
             : item
         ),
       };
@@ -54,8 +65,9 @@ function reducer(state, action) {
           item.id === action.payload
             ? {
                 ...item,
-                quantity:
-                  item.quantity < 1 ? (item.quantity = 1) : item.quantity - 1,
+                quantity: item.quantity > 1 ? item.quantity - 1 : 1,
+                totalPrice:
+                  (item.quantity > 1 ? item.quantity - 1 : 1) * item.price,
               }
             : item
         ),

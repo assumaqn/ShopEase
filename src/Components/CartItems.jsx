@@ -7,7 +7,7 @@ import { useProduct } from "../Contexts/ProductContext";
 import EmptyCart from "./EmptyCart";
 
 function CartItems() {
-  const { cartedProduct, dispatch, quantity } = useProduct();
+  const { cartedProduct, dispatch } = useProduct();
   console.log(cartedProduct);
   if (cartedProduct.length === 0) {
     return <EmptyCart />;
@@ -26,6 +26,7 @@ function CartItems() {
             dispatch={dispatch}
             id={product.id}
             key={product.id}
+            totalPrice={product.totalPrice}
             quantity={product.quantity}
           />
         ))}
@@ -43,6 +44,7 @@ function CartItem({
   id,
   dispatch,
   quantity,
+  totalPrice,
   // totalItemPrice,
 }) {
   return (
@@ -75,7 +77,7 @@ function CartItem({
           <strong>
             <DollarSign size="16px" strokeWidth={3} />
 
-            {price}
+            {totalPrice ? totalPrice : price}
           </strong>
           <span className={styles.trash}>
             <Trash2
