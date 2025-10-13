@@ -2,6 +2,10 @@
   max-width: 1250px;
   margin: 0 auto;
   padding: 94px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  position: relative;
 }
 
 .img {
@@ -13,7 +17,72 @@
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
   position: relative;
 }
+.detail-product {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.all-conte {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: flex-start;
+  justify-content: space-between;
+  gap: 50px;
+}
+.product-content {
+  align-self: flex-start;
+  justify-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+.product-content span {
+  padding: 4px;
+  display: inline-block;
+  text-align: center;
+  border: 0.5px solid #555;
+  border-radius: 9px;
+  width: 35%;
+  font-size: 12px;
+}
+.product-content h2 {
+  font-size: 30px;
+  font-weight: 600px;
+  color: #222;
+}
+.product-review {
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2px;
+}
+.product-price {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 16px;
+}
+.product-price span {
+  font-size: 28px;
+  font-weight: 800;
+  color: #1684f1ff;
+}
+.product-price p {
+  text-decoration: line-through;
+  font-size: 18px;
+  color: #555;
+}
+.btn-container {
+  display: flex;
+  flex-direction: column;
 
+  width: 90%;
+  gap: 8px;
+}
 .img img {
   width: 100%;
   height: 100%;
@@ -72,6 +141,31 @@
   border-radius: 9px;
   color: #fff;
   background-color: #1684f1ff;
+}
+.related-product {
+  border-top: 0.12px solid #5555;
+
+  padding: 64px 0;
+  text-decoration: none;
+}
+.related-product h2 {
+  margin-bottom: 25px;
+  font-size: 30px;
+  color: #222;
+}
+.related-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  align-items: center;
+}
+.save {
+  padding: 5px 8px;
+  text-align: center;
+  background: rgba(252, 13, 13, 0.99);
+  color: #fff;
+  font-size: 15px;
+  border-radius: 9px;
 }
 .DiscountedCatagory {
   position: absolute;

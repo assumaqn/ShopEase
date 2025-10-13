@@ -1,3 +1,10 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 250px;
+}
+
 .label {
   display: flex;
   flex-direction: column;
@@ -23,4 +30,11 @@
 }
 ::placeholder {
   padding: 6px 25px;
+}
+.link {
+  text-align: left;
+  padding: 0px;
+  font-size: 14px;
+  color: #58a6f3ff;
+  font-weight: 400;
 }

@@ -2,14 +2,7 @@ import Button from "./Button";
 import styles from "./SignUp.module.css";
 function SignUp() {
   return (
-    <form
-      style={{
-        display: "flex",
-        flexDirection: "column",
-        gap: "15px",
-        width: "250px",
-      }}
-    >
+    <form className={styles.form}>
       <div className={styles.label}>
         <label htmlFor="name">Full Name</label>
         <input type="text" id="name" placeholder="your name..." required />
