@@ -13,7 +13,7 @@ function FeaturedProducts() {
 
   return (
     <section
-      className="section section--hidden"
+      className={`section section--hidden `}
       style={{
         backgroundColor: " #f1f3f579",
         display: "flex",

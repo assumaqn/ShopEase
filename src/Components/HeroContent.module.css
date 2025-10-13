@@ -41,6 +41,20 @@
   font-size: 0.9rem;
   color: #333;
 }
+.detail-product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.detail-customer {
+  display: flex;
+  flex-direction: column;
+}
+.detail-review {
+  display: flex;
+  flex-direction: column;
+}
 .buttons {
   margin-top: 1.2rem;
   display: flex;

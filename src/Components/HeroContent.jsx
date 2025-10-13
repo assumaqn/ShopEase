@@ -16,22 +16,15 @@ function HeroContent() {
         50% off.
       </p>
       <div className={styles.detail}>
-        <div
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            alignItems: "center",
-            justifyContent: "center",
-          }}
-        >
+        <div className={styles["detail-product"]}>
           <strong>500+</strong>
           <span> Products</span>
         </div>
-        <div style={{ display: "flex", flexDirection: "column" }}>
+        <div className={styles["detail-customer"]}>
           <strong>50K+</strong>
           <span> Customers</span>
         </div>
-        <div style={{ display: "flex", flexDirection: "column" }}>
+        <div className={styles["detail-review"]}>
           <strong>4.8★</strong>
           <span> Rating</span>
         </div>

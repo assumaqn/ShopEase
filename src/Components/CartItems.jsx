@@ -77,15 +77,7 @@ function CartItem({ img, name, desc, price }) {
         </span>
 
         <span className={styles.cartPrice}>
-          <strong
-            style={{
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-              fontWeight: "900",
-              color: "#0353a4bd",
-            }}
-          >
+          <strong>
             <DollarSign size="16px" strokeWidth={3} />
 
             {price}

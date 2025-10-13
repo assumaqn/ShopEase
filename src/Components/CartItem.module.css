@@ -73,6 +73,13 @@
   justify-self: flex-end;
   padding: 15px;
 }
+.cartPrice strong {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 900;
+  color: #0353a4bd;
+}
 
 .icon:hover {
   cursor: pointer;

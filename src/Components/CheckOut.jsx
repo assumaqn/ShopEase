@@ -36,16 +36,8 @@ function CheckOut() {
 ///flex-1
 function CheckoutDetail() {
   return (
-    <div
-      style={{
-        display: "flex",
-        flexDirection: "column",
-        gap: "25px",
-      }}
-    >
-      <h2 style={{ fontSize: "35px", fontWeight: "700", color: "#222" }}>
-        CheckOut
-      </h2>
+    <div className={styles["checkOut-detail"]}>
+      <h2>CheckOut</h2>
       <ShippingInfo />
       <PaymentInfo />
     </div>
@@ -55,25 +47,8 @@ function CheckoutDetail() {
 //flex-col-1
 function ShippingInfo() {
   return (
-    <div
-      style={{
-        border: "0.1px solid #ccc",
-        padding: "35px 30px",
-        boxShadow: "0 4px 10px rgba(0, 0, 0, 0.1)",
-        borderRadius: "9px",
-        background: "#fff",
-      }}
-    >
-      <h3
-        style={{
-          fontSize: "22px",
-          marginBottom: "9px",
-          display: "flex",
-          alignItems: "center",
-          color: "#333",
-          gap: "5px",
-        }}
-      >
+    <div className={styles["shipping-info"]}>
+      <h3>
         <Truck color="#0572df" />
         Shipping information
       </h3>
@@ -119,25 +94,8 @@ function ShippingInfo() {
 //flex-col-2
 function PaymentInfo() {
   return (
-    <div
-      style={{
-        border: "0.1px solid #ccc",
-        padding: "25px 30px",
-        boxShadow: "0 4px 10px rgba(0, 0, 0, 0.1)",
-        borderRadius: "9px",
-        background: "#fff",
-      }}
-    >
-      <h3
-        style={{
-          fontSize: "22px",
-          marginBottom: "9px",
-          display: "flex",
-          alignItems: "center",
-          color: "#333",
-          gap: "5px",
-        }}
-      >
+    <div className={styles["payment-info"]}>
+      <h3>
         <CreditCard color="#0572df" /> Payment information
       </h3>
       <form>

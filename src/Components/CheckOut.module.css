@@ -60,6 +60,34 @@ input:focus {
   background: #ffff;
   border-radius: 11px;
 }
+.checkOut-detail {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.checkOut-detail h2 {
+  font-size: 35px;
+  font-weight: 700;
+  color: #222;
+}
+.shipping-info,
+.payment-info {
+  border: 0.1px solid #ccc;
+  padding: 35px 30px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 9px;
+  background: #fff;
+}
+.shipping-info h3,
+.payment-info h3 {
+  font-size: 22px;
+  margin-bottom: 9px;
+  display: flex;
+  align-items: center;
+  color: #333;
+  gap: 5px;
+}
+
 .detail {
   display: flex;
   justify-content: space-between;
