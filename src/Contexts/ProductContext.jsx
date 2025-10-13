@@ -24,6 +24,14 @@ function reducer(state, action) {
         isLoading: false,
         cartedProduct: [...state.cartedProduct, action.payload],
       };
+    case "cart/delete":
+      return {
+        ...state,
+        isLoading: false,
+        cartedProduct: state.cartedProduct.filter(
+          (product) => product.id !== action.payload
+        ),
+      };
 
     case "rejected":
       return { ...state, isLoading: false, error: action.payload };
@@ -68,18 +76,6 @@ function ProductProvider({ children }) {
       dispatch({ type: "rejected", payload: err.message });
     }
   }
-  // async function cartProduct(id) {
-  //   dispatch({ type: "loading" });
-
-  //   try {
-  //     const resp = await fetch(`${BASEURL}/${id}`);
-  //     const data = await resp.json();
-
-  //    ;
-  //   } catch (err) {
-  //     dispatch({ type: "rejected", payload: err.message });
-  //   }
-  // }
 
   return (
     <productContext.Provider

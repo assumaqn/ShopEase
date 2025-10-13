@@ -2,7 +2,10 @@ import { NavLink } from "react-router";
 import { UserRound, ShoppingCart } from "lucide-react";
 import styles from "./PageNav.module.css";
 import Logo from "./Logo";
+import { useProduct } from "../Contexts/ProductContext";
 function PageNav() {
+  const { cartedProduct } = useProduct();
+  const itemNo = cartedProduct.length;
   return (
     <nav className={styles.nav}>
       <Logo />
@@ -24,18 +27,21 @@ function PageNav() {
         <li>
           <NavLink to="/cart">
             <ShoppingCart size="18px" style={{ position: "relative" }} />
-            <span
-              style={{
-                position: "absolute",
-                fontSize: "8px",
-                padding: "7px",
-                clipPath: "circle()",
-                transform: "translateY(-50%)",
-                animation: " blink 1.5s infinite",
-              }}
-            >
-              3
-            </span>
+
+            {!itemNo == 0 ? (
+              <span
+                style={{
+                  position: "absolute",
+                  fontSize: "8px",
+                  padding: "7px",
+                  clipPath: "circle()",
+                  transform: "translateY(-50%)",
+                  animation: " blink 1.5s infinite",
+                }}
+              >
+                {itemNo === 0 ? null : itemNo}
+              </span>
+            ) : null}
           </NavLink>
         </li>
       </ul>
