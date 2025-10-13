@@ -46,7 +46,7 @@ function ProductDetail() {
         ) : (
           <>
             <DetailProduct product={product} />
-            <RelatedProducts RelatedProduct={RelatedProduct} id={product.id} />
+            <RelatedProducts RelatedProduct={RelatedProduct} />
           </>
         )}
       </section>
@@ -236,7 +236,7 @@ function DetailProduct({ product }) {
     </div>
   );
 }
-function RelatedProducts({ RelatedProduct, id }) {
+function RelatedProducts({ RelatedProduct }) {
   const navigate = useNavigate();
 
   return (

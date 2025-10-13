@@ -1,6 +1,9 @@
 import Button from "./Button";
 import styles from "./SignIn.module.css";
+
+import { Link, useNavigate } from "react-router-dom";
 function SignIn() {
+  const navigate = useNavigate();
   return (
     <form
       style={{
@@ -11,14 +14,14 @@ function SignIn() {
       }}
     >
       <div className={styles.label}>
-        <label>Email</label>
-        <input type="text" id="#email" placeholder="your email..." required />
+        <label htmlFor="email">Email</label>
+        <input type="text" id="email" placeholder="your email..." required />
       </div>
       <div className={styles.label}>
-        <label>Password</label>
+        <label htmlFor="password">Password</label>
         <input
           type="password"
-          id="#email"
+          id="password"
           placeholder="your password..."
           required
         />
@@ -37,7 +40,14 @@ function SignIn() {
         Forget password ?
       </a>
 
-      <Button type="cta">Login</Button>
+      <Button
+        type="cta"
+        onClick={() => {
+          navigate("/user");
+        }}
+      >
+        Login
+      </Button>
     </form>
   );
 }

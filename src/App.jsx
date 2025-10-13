@@ -11,6 +11,7 @@ import SignIn from "./Components/SignIn";
 import SignUp from "./Components/SignUp";
 import ProductDetail from "./Components/ProductDetail";
 import CheckOut from "./Components/CheckOut";
+import User from "./Components/User";
 
 function App() {
   return (
@@ -30,9 +31,9 @@ function App() {
           <Route path="profile" element={<Profile />}>
             <Route index element={<Navigate to="signin" replace />} />
             <Route path="signin" element={<SignIn />} />
-
             <Route path="signup" element={<SignUp />} />
           </Route>
+          <Route path="user" element={<User />} />
           <Route path="cart" element={<Cart />} />
           <Route path="cart/checkout" element={<CheckOut />} />
         </Routes>
