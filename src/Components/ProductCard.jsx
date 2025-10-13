@@ -1,11 +1,10 @@
 import styles from "./ProductCard.module.css";
 import { DollarSign, ShoppingCart } from "lucide-react";
 import StarRating from "./StarRating";
-// import ProductDetail from "./ProductDetail";
+
 import { Link } from "react-router";
 
 function ProductCard({ product }) {
-  // const [selected, setSelected] = useState(false);
   const {
     id,
     name,
@@ -39,69 +38,25 @@ function ProductCard({ product }) {
             <img src={image} loading="lazy" alt={name} />
           </div>
           <div className={styles["product-content"]}>
-            <div
-              style={{
-                display: "flex",
-                justifyContent: "space-between",
-                alignItems: "center",
-                fontSize: "15px",
-              }}
-            >
+            <div className={styles["product-details"]}>
               <h4>{name}</h4>
-              <span style={{ fontSize: "12px", color: "#222" }}>
-                {postedDate} ago
-              </span>
+              <span>{postedDate} ago</span>
             </div>
             <p>{description}</p>
-            <div
-              style={{
-                display: "flex",
-                justifyContent: "space-between",
-                alignItems: "center",
-                fontSize: "14px",
-              }}
-            >
-              <span
-                style={{
-                  display: "flex",
-                  gap: "1px",
-                  alignItems: "center",
-                  fontSize: "14px",
-                  color: "#333",
-                }}
-              >
+            <div className={styles["product-details-col-2"]}>
+              <span>
                 <StarRating />
                 <span>{rating}</span>
               </span>
-              <p style={{ fontSize: "12px", color: "#555" }}>
-                {stock} in stock
-              </p>
+              <p>{stock} in stock</p>
             </div>
             <div className={styles.bottom}>
-              <h4 style={{}}>
+              <h4>
                 <DollarSign size="20px" strokeWidth={3} />
-                <strong
-                  style={{
-                    fontWeight: "900",
-                    fontSize: "20px",
-                    display: "flex",
-                    alignItems: "center",
-                    gap: "20px",
-                    justifyContent: "space-between",
-                  }}
-                >
+                <strong>
                   {price}
                   {onSale && (
-                    <p
-                      style={{
-                        textDecoration: "line-through",
-                        fontSize: "14px",
-                        color: "#555",
-                        fontWeight: "lighter",
-                      }}
-                    >
-                      ${originalPrice}
-                    </p>
+                    <p className={styles["original-price"]}>${originalPrice}</p>
                   )}
                 </strong>
               </h4>

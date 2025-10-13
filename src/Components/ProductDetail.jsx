@@ -67,12 +67,12 @@ function DetailProduct({ product }) {
       </div>
       <div className={styles["all-conte"]}>
         <div className={styles["product-content"]}>
-          <span>{product.category}</span>
+          <span className={styles["catagory"]}>{product.category}</span>
           <h2>{product.name}</h2>
           <div className={styles["product-review"]}>
             <StarRating />
             <span>
-              {product.rating}{" "}
+              {product.rating}
               <span
                 style={{ fontWeight: "500", color: "#555", fontSize: "12px" }}
               >
