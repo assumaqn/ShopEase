@@ -7,7 +7,7 @@ const initalState = {
   product: {},
   cartedProduct: [],
   isLoading: false,
-
+  totalPrice: 0,
   error: "",
 };
 
@@ -72,6 +72,8 @@ function reducer(state, action) {
             : item
         ),
       };
+    case "total":
+      return { ...state, totalPrice: action.payload };
 
     case "rejected":
       return { ...state, isLoading: false, error: action.payload };
@@ -82,18 +84,8 @@ function reducer(state, action) {
 }
 
 function ProductProvider({ children }) {
-  const [
-    {
-      products,
-      product,
-      error,
-      isLoading,
-      cartedProduct,
-      quantity,
-      totalItemPrice,
-    },
-    dispatch,
-  ] = useReducer(reducer, initalState);
+  const [{ products, product, error, isLoading, cartedProduct }, dispatch] =
+    useReducer(reducer, initalState);
   function shuffleArray(array) {
     const arr = [...array];
     for (let i = arr.length - 1; i > 0; i--) {
@@ -102,8 +94,6 @@ function ProductProvider({ children }) {
     }
     return arr;
   }
-
-  const featureProduct = shuffleArray(products).slice(0, 6);
 
   async function fetchProduct() {
     dispatch({ type: "loading" });
@@ -126,6 +116,15 @@ function ProductProvider({ children }) {
       dispatch({ type: "rejected", payload: err.message });
     }
   }
+  const subTotal = cartedProduct
+    .map((item) => item.totalPrice)
+    .reduce((accu, cur) => accu + cur, 0);
+  const shipping =
+    subTotal > 1000 ? 0 : (subTotal * 0.05).toLocaleString("en-US");
+  const tax = subTotal * 0.12;
+  const total = subTotal + tax + Number(shipping);
+
+  const featureProduct = shuffleArray(products).slice(0, 6);
 
   return (
     <productContext.Provider
@@ -139,8 +138,10 @@ function ProductProvider({ children }) {
         error,
         dispatch,
         cartedProduct,
-        quantity,
-        totalItemPrice,
+        subTotal,
+        tax,
+        total,
+        shipping,
       }}
     >
       {children}

@@ -8,7 +8,7 @@ import EmptyCart from "./EmptyCart";
 
 function CartItems() {
   const { cartedProduct, dispatch } = useProduct();
-  console.log(cartedProduct);
+
   if (cartedProduct.length === 0) {
     return <EmptyCart />;
   }
@@ -45,7 +45,6 @@ function CartItem({
   dispatch,
   quantity,
   totalPrice,
-  // totalItemPrice,
 }) {
   return (
     <div className={styles.item}>

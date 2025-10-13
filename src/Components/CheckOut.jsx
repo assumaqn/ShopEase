@@ -4,6 +4,7 @@ import Button from "./Button";
 import PageNav from "./PageNav";
 import Spinner from "./Spinner";
 import styles from "./CheckOut.module.css";
+import { useProduct } from "../Contexts/ProductContext";
 
 const centerIcon = {
   display: "flex",
@@ -12,6 +13,7 @@ const centerIcon = {
 };
 function CheckOut() {
   const [isLoading, setIsLoading] = useState(true);
+
   useEffect(() => {
     setTimeout(() => {
       setIsLoading(false);
@@ -93,6 +95,8 @@ function ShippingInfo() {
 }
 //flex-col-2
 function PaymentInfo() {
+  const { total } = useProduct();
+
   return (
     <div className={styles["payment-info"]}>
       <h3>
@@ -121,7 +125,7 @@ function PaymentInfo() {
         </div>
         <div className={styles["form-el"]}></div>
       </form>
-      <Button type="checkout">Place Order -$545.20</Button>
+      <Button type="checkout">Place Order {total === 0 ? "" : total}</Button>
     </div>
   );
 }
@@ -129,19 +133,28 @@ function PaymentInfo() {
 /////flex-2
 
 function OrderSummaryInfo() {
+  const { subTotal, tax, total, shipping, cartedProduct } = useProduct();
+  function shortenName(name, maxLength) {
+    if (name.length <= maxLength) return name;
+    return name.slice(0, name.lastIndexOf(" ", maxLength)) + "...";
+  }
   return (
     <div className={styles.summary}>
       <h3>Order Summary</h3>
       <hr></hr>
       <div className={styles.detail}>
         <span style={{ fontSize: "14px", color: "#555" }}>
-          <p>Dell XPS 15 x1 </p>
+          {cartedProduct.map((item) => (
+            <p>{shortenName(item.name, 20)}</p>
+          ))}
         </span>
         <span style={{ fontSize: "14px", color: "#000", fontWeight: "bolder" }}>
-          <p style={centerIcon}>
-            <DollarSign size="14px" />
-            1799.00
-          </p>
+          {cartedProduct.map((item) => (
+            <p style={centerIcon}>
+              <DollarSign size="14px" />
+              {item.price}
+            </p>
+          ))}
         </span>
       </div>
       <hr></hr>
@@ -154,11 +167,11 @@ function OrderSummaryInfo() {
         <span style={{ fontSize: "14px", color: "#000", fontWeight: "bolder" }}>
           <p style={centerIcon}>
             <DollarSign size="14px" />
-            545
+            {subTotal}
           </p>
-          <p style={{ justifySelf: "flex-end" }}>free</p>
+          <p style={{ justifySelf: "flex-end" }}>{shipping === 0 && "free"}</p>
           <p style={centerIcon}>
-            <DollarSign size="14px" /> 5454
+            <DollarSign size="14px" /> {tax}
           </p>
         </span>
       </div>
@@ -182,7 +195,7 @@ function OrderSummaryInfo() {
             }}
           >
             <DollarSign size="16px" strokeWidth={3} color="#3482cfff" />
-            2548
+            {total}
           </span>
         </strong>
       </span>
