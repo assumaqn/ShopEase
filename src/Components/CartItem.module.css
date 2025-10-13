@@ -12,7 +12,17 @@
   font-weight: 800;
   margin-bottom: 20px;
 }
-
+.trash {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 5px;
+  transition: all 0.2s;
+}
+.trash:hover {
+  border-radius: 5px;
+  padding: 4px 10px;
+  background-color: #0829e6;
+}
 .item {
   margin-bottom: 20px;
 }

@@ -7,7 +7,7 @@ import { useProduct } from "../Contexts/ProductContext";
 import EmptyCart from "./EmptyCart";
 
 function CartItems() {
-  const { cartedProduct, dispatch } = useProduct();
+  const { cartedProduct, dispatch, quantity } = useProduct();
   console.log(cartedProduct);
   if (cartedProduct.length === 0) {
     return <EmptyCart />;
@@ -26,6 +26,7 @@ function CartItems() {
             dispatch={dispatch}
             id={product.id}
             key={product.id}
+            quantity={product.quantity}
           />
         ))}
       </div>
@@ -34,7 +35,16 @@ function CartItems() {
   );
 }
 
-function CartItem({ img, name, desc, price, id, dispatch }) {
+function CartItem({
+  img,
+  name,
+  desc,
+  price,
+  id,
+  dispatch,
+  quantity,
+  // totalItemPrice,
+}) {
   return (
     <div className={styles.item}>
       <li className={styles.itemList}>
@@ -44,9 +54,19 @@ function CartItem({ img, name, desc, price, id, dispatch }) {
             <h4>{name}</h4>
             <p>{desc}</p>
             <span>
-              <Button type="item-no">-</Button>
-              <p style={{ color: "#222", fontWeight: "500" }}>1</p>
-              <Button type="item-no">+</Button>
+              <Button
+                type="item-no"
+                onClick={() => dispatch({ type: "item/decrease", payload: id })}
+              >
+                -
+              </Button>
+              <p style={{ color: "#222", fontWeight: "500" }}>{quantity}</p>
+              <Button
+                type="item-no"
+                onClick={() => dispatch({ type: "item/increase", payload: id })}
+              >
+                +
+              </Button>
             </span>
           </span>
         </span>
@@ -57,7 +77,7 @@ function CartItem({ img, name, desc, price, id, dispatch }) {
 
             {price}
           </strong>
-          <span>
+          <span className={styles.trash}>
             <Trash2
               className={styles.icon}
               size="18px"

@@ -7,6 +7,7 @@ const initalState = {
   product: {},
   cartedProduct: [],
   isLoading: false,
+
   error: "",
 };
 
@@ -26,14 +27,37 @@ function reducer(state, action) {
           (cart) => cart.id === action.payload.id
         )
           ? state.cartedProduct
-          : [...state.cartedProduct, action.payload],
+          : [...state.cartedProduct, { ...action.payload, quantity: 1 }],
       };
+
     case "cart/delete":
       return {
         ...state,
         isLoading: false,
         cartedProduct: state.cartedProduct.filter(
           (product) => product.id !== action.payload
+        ),
+      };
+    case "item/increase":
+      return {
+        ...state,
+        cartedProduct: state.cartedProduct.map((item) =>
+          item.id === action.payload
+            ? { ...item, quantity: item.quantity + 1 }
+            : item
+        ),
+      };
+    case "item/decrease":
+      return {
+        ...state,
+        cartedProduct: state.cartedProduct.map((item) =>
+          item.id === action.payload
+            ? {
+                ...item,
+                quantity:
+                  item.quantity < 1 ? (item.quantity = 1) : item.quantity - 1,
+              }
+            : item
         ),
       };
 
@@ -46,8 +70,18 @@ function reducer(state, action) {
 }
 
 function ProductProvider({ children }) {
-  const [{ products, product, error, isLoading, cartedProduct }, dispatch] =
-    useReducer(reducer, initalState);
+  const [
+    {
+      products,
+      product,
+      error,
+      isLoading,
+      cartedProduct,
+      quantity,
+      totalItemPrice,
+    },
+    dispatch,
+  ] = useReducer(reducer, initalState);
   function shuffleArray(array) {
     const arr = [...array];
     for (let i = arr.length - 1; i > 0; i--) {
@@ -93,6 +127,8 @@ function ProductProvider({ children }) {
         error,
         dispatch,
         cartedProduct,
+        quantity,
+        totalItemPrice,
       }}
     >
       {children}
