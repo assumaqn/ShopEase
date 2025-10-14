@@ -1,6 +1,7 @@
 import styles from "./Modal.module.css";
 import { createPortal } from "react-dom";
 import { CircleCheck } from "lucide-react";
+
 function Modal() {
   return createPortal(
     <dialog className={styles["result-modal"]} open>
@@ -14,6 +15,7 @@ function Modal() {
           alignItems: "flex-start",
           justifyContent: "center",
           gap: "5px",
+          zIndex: "1000",
         }}
       >
         <strong style={{ fontSize: "14px" }}>Dell XPS 15 added to cart!</strong>

@@ -1,12 +1,12 @@
 import { useEffect } from "react";
 import { useProduct } from "../Contexts/ProductContext";
 import ProductCard from "./ProductCard";
-import { Flame } from "lucide-react";
-import Button from "./Button";
 
+import Button from "./Button";
+import { useNavigate } from "react-router-dom";
 function FeaturedProducts() {
   const { fetchProduct, featureProduct } = useProduct();
-
+  const navigate = useNavigate();
   useEffect(() => {
     fetchProduct();
   }, []);
@@ -46,7 +46,9 @@ function FeaturedProducts() {
           <ProductCard product={product} key={product.id} />
         ))}
       </div>
-      <Button type="secondary">View all products</Button>
+      <Button type="secondary" onClick={() => navigate("/products")}>
+        View all products
+      </Button>
     </section>
   );
 }

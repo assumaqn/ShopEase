@@ -30,7 +30,7 @@ function ProductCard({ product }) {
   return (
     <>
       <div role="button" className={styles.card}>
-        <Link to={`${id}`}>
+        <Link to={`${id}`} onClick={(e) => e.preventDefault()}>
           <div className={styles.img}>
             {onSale ? (
               <span className={styles.DiscountedCatagory}>

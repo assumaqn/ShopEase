@@ -9,6 +9,7 @@ const initalState = {
   isLoading: false,
   totalPrice: 0,
   error: "",
+  clicked: false,
 };
 
 function reducer(state, action) {
@@ -23,6 +24,7 @@ function reducer(state, action) {
       return {
         ...state,
         isLoading: false,
+        clicked: true,
         cartedProduct: state.cartedProduct.some(
           (cart) => cart.id === action.payload.id
         )
@@ -74,7 +76,8 @@ function reducer(state, action) {
       };
     case "total":
       return { ...state, totalPrice: action.payload };
-
+    case "clicked":
+      return { ...state, clicked: true };
     case "rejected":
       return { ...state, isLoading: false, error: action.payload };
     default: {
@@ -84,8 +87,10 @@ function reducer(state, action) {
 }
 
 function ProductProvider({ children }) {
-  const [{ products, product, error, isLoading, cartedProduct }, dispatch] =
-    useReducer(reducer, initalState);
+  const [
+    { products, product, error, isLoading, cartedProduct, clicked },
+    dispatch,
+  ] = useReducer(reducer, initalState);
   function shuffleArray(array) {
     const arr = [...array];
     for (let i = arr.length - 1; i > 0; i--) {
@@ -95,12 +100,16 @@ function ProductProvider({ children }) {
     return arr;
   }
 
-  async function fetchProduct() {
+  async function fetchProduct(page = 1, limit = 10) {
     dispatch({ type: "loading" });
     try {
       const resp = await fetch(`${BASEURL}`);
       const data = await resp.json();
-      dispatch({ type: "product/loaded", payload: data });
+      const startIndex = (page - 1) * limit;
+      const endIndex = page * limit;
+      const dataPage = data.slice(startIndex, endIndex);
+
+      dispatch({ type: "product/loaded", payload: dataPage });
     } catch (err) {
       dispatch({ type: "rejected", payload: err.message });
     }
@@ -142,6 +151,7 @@ function ProductProvider({ children }) {
         tax,
         total,
         shipping,
+        clicked,
       }}
     >
       {children}

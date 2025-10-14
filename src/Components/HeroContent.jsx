@@ -1,8 +1,10 @@
 import Bit from "./Bit";
 import Button from "./Button";
 import styles from "./HeroContent.module.css";
+import { useNavigate } from "react-router-dom";
 
 function HeroContent() {
+  const navigate = useNavigate();
   return (
     <div className={styles["hero-content"]}>
       <Bit>Welcome to ShopEase</Bit>
@@ -30,7 +32,9 @@ function HeroContent() {
         </div>
       </div>
       <div className={styles.buttons}>
-        <Button type="primary">Shop Now &#x2192;</Button>
+        <Button type="primary" onClick={() => navigate("/products")}>
+          Shop Now &#x2192;
+        </Button>
         <Button>Browse Products</Button>
       </div>
     </div>

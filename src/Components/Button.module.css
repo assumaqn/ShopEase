@@ -50,6 +50,10 @@
   background-color: #5d91c5;
   transition: all 0.2s;
 }
+.pagin {
+  padding: 5px 8px;
+  margin: 0 8px;
+}
 .cart-hidden:hover {
   opacity: 1;
   background-color: #057cf3;
