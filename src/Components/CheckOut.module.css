@@ -137,7 +137,7 @@ input:focus {
   .shipping-info,
   .payment-info {
     border: 0.1px solid #ccc;
-    width: 400px;
+    width: 350px;
     align-self: flex-start;
     padding: 15px 15px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);

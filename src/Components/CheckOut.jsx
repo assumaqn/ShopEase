@@ -125,7 +125,13 @@ function PaymentInfo() {
         </div>
         <div className={styles["form-el"]}></div>
       </form>
-      <Button type="checkout">Place Order {total === 0 ? "" : total}</Button>
+      <Button type="checkout">
+        <p style={centerIcon}>
+          Place Order
+          <DollarSign size="14px" strokeWidth="3px" />
+          {total === 0 ? "" : total}
+        </p>
+      </Button>
     </div>
   );
 }
@@ -171,7 +177,7 @@ function OrderSummaryInfo() {
           </p>
           <p style={{ justifySelf: "flex-end" }}>{shipping === 0 && "free"}</p>
           <p style={centerIcon}>
-            <DollarSign size="14px" /> {tax}
+            <DollarSign size="14px" /> {Math.round(tax).toLocaleString("en-US")}
           </p>
         </span>
       </div>

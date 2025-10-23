@@ -69,6 +69,7 @@ function ProductCard({ product }) {
               </h4>
               <span
                 onClick={(e) => {
+                  e.preventDefault();
                   handleCart(e);
                 }}
               >
