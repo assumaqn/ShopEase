@@ -127,7 +127,10 @@
     border: 0.8px solid #3575b6;
     border-radius: 9px;
   }
-
+  .checkout {
+    background-color: #0381ff5e;
+    width: 100%;
+  }
   .cta {
     background-color: #63a2e0;
     border: none;
@@ -136,7 +139,22 @@
     color: #ffff;
     transition: all 0.5s;
   }
-
+  .cart-add,
+  .cart-buy {
+    padding: 12px 20px;
+  }
+  .cart-add {
+    background-color: #0572df;
+    color: #fff;
+    padding: 12px 20px;
+  }
+  .cart-add:hover {
+    background-color: #0572dfbb;
+  }
+  .cart-buy:hover {
+    background-color: #0572df;
+    color: #fff;
+  }
   .cart {
     background-color: #a1a0a04b;
     font-weight: 500;

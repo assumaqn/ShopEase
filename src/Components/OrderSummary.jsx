@@ -37,7 +37,7 @@ function OrderSummary() {
           )}
 
           <p style={centerIcon}>
-            <DollarSign size="14px" /> {tax.toLocaleString("en-US")}
+            <DollarSign size="14px" /> {Math.round(tax).toLocaleString("en-US")}
           </p>
         </span>
       </div>

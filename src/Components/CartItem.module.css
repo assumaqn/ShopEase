@@ -100,7 +100,7 @@
 @media (max-width: 480px) {
   .shoping {
     display: flex;
-    max-width: 500px;
+    max-width: 550px;
     margin: 0 auto;
 
     flex-direction: column;
@@ -118,6 +118,15 @@
     overflow: hidden;
 
     object-fit: cover;
+  }
+  .item {
+    margin: 20px 10px;
+    /* margin-bottom: 20px; */
+  }
+  .items h2 {
+    font-size: 30px;
+
+    padding-left: 10px;
   }
   .cartPrice {
     display: flex;

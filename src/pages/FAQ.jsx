@@ -95,6 +95,7 @@ function Accordian() {
           <h4 style={{ fontSize: "14px", color: "#555", padding: "10px 0" }}>
             {faq.question}
           </h4>
+
           <ChevronDown color="#555" />
         </span>
       ))}

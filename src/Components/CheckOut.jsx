@@ -78,7 +78,7 @@ function ShippingInfo() {
         </div>
         <div className={styles["form-el"]}>
           <div className={styles["col_1"]}>
-            <span>
+            <span className={styles.special}>
               <label>City</label>
               <input type="text" />
             </span>
