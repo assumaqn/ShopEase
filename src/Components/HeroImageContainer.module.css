@@ -1,0 +1,12 @@
+.image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  padding-left: 70px;
+}
+@media (max-width: 480px) {
+  .image-container {
+    display: none;
+  }
+}

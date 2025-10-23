@@ -13,3 +13,9 @@
   /* padding: 0 50px; */
   justify-content: space-between;
 }
+
+@media (max-width: 480px) {
+  .hero {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

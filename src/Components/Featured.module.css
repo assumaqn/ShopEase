@@ -30,3 +30,16 @@
   font-size: 14px;
   color: #444;
 }
+
+@media (max-width: 480px) {
+  .feature {
+    gap: 5px;
+  }
+  .features {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+}

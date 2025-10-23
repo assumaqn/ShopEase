@@ -117,3 +117,43 @@
   background-color: #ebebeb8f;
   transition: all 0.2s;
 }
+
+@media (max-width: 480px) {
+  .button {
+    display: inline-block;
+    background: none;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    border: 0.8px solid #3575b6;
+    border-radius: 9px;
+  }
+
+  .cta {
+    background-color: #63a2e0;
+    border: none;
+    padding: 10px 10px;
+    font-weight: bold;
+    color: #ffff;
+    transition: all 0.5s;
+  }
+
+  .cart {
+    background-color: #a1a0a04b;
+    font-weight: 500;
+    color: #000;
+    border: none;
+    font-size: 16px;
+    padding: 15px 15px;
+  }
+  .cart-hidden {
+    font-weight: 500;
+
+    color: #fff;
+    border: none;
+    margin-top: 10px;
+    font-size: 16px;
+    padding: 15px 15px;
+    background-color: #5d91c5;
+    transition: all 0.2s;
+  }
+}

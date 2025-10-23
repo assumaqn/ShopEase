@@ -5,13 +5,13 @@ import ProductHeader from "../Components/ProductHeader";
 import { useProduct } from "../Contexts/ProductContext";
 import Spinner from "../Components/Spinner";
 import styles from "./Products.module.css";
-import Modal from "../Components/Modal";
+
 import Button from "../Components/Button";
 
 function Products() {
-  const { fetchProduct, products, isLoading } = useProduct();
+  const { fetchProduct, products, isLoading, productPagination } = useProduct();
   const [currentPage, setCurrentPage] = useState(1);
-  const [limit] = useState(10); // products per page
+  const limit = 8; // products per page
 
   const [optionValue, setOptionValue] = useState("all");
   const [searchValue, setSearchValue] = useState("");
@@ -20,20 +20,22 @@ function Products() {
     fetchProduct(currentPage, limit);
   }, [currentPage, limit]);
 
-  const filterProduct = products.filter((product) => {
+  const filterProduct = (
+    optionValue === "all" ? productPagination : products
+  ).filter((product) => {
     const matchesCategory =
       optionValue === "all" ? true : product.category === optionValue;
+
     const matchesSearch = product.name
       .toLowerCase()
-      .replace(" ", "")
-      .includes(searchValue.toLowerCase().replace(" ", ""));
+      .replace(" ", "") // handles multiple spaces
+      .includes(searchValue.toLowerCase().replace(/\s/g, ""));
 
     return matchesCategory && matchesSearch;
   });
 
   return (
     <>
-      <Modal />
       <PageNav />
       <section className={styles.product}>
         <ProductHeader

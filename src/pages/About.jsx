@@ -47,12 +47,6 @@ function AboutContent() {
   );
 }
 function AboutImage() {
-  return (
-    <img
-      src={aboutHero}
-      alt="aboutHero"
-      style={{ maxWidth: "50%", borderRadius: "9px" }}
-    />
-  );
+  return <img className={styles.img} src={aboutHero} alt="aboutHero" />;
 }
 export default About;

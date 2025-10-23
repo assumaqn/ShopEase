@@ -56,3 +56,26 @@
   font-size: 17px;
   color: #333;
 }
+
+@media (max-width: 480px) {
+  .values {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 25px;
+
+    padding: 25px 35px;
+
+    column-gap: 30px;
+    justify-content: space-between;
+  }
+  .section {
+    padding: 40px 0;
+  }
+  .section h2 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 25px;
+  }
+}

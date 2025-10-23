@@ -62,3 +62,21 @@
   justify-content: flex-start;
   gap: 2rem;
 }
+
+@media (max-width: 480px) {
+  .hero-content {
+    margin: 20px 20px;
+  }
+  .hero-content h1 {
+    font-size: 30px;
+  }
+  .hero-content p {
+    font-size: 15px;
+  }
+  .detail strong {
+    font-size: 0.8rem;
+  }
+  .detail span {
+    font-size: 0.8rem;
+  }
+}

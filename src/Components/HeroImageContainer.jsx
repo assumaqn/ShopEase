@@ -1,16 +1,8 @@
 import phone from "../assets/phone.jpeg";
+import styles from "./HeroImageContainer.module.css";
 function HeroImageContainer() {
   return (
-    <div
-      className="image-container"
-      style={{
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "center",
-        maxWidth: "100%",
-        paddingLeft: "70px",
-      }}
-    >
+    <div className={styles["image-container"]} style={{}}>
       <img src={phone} alt="is hero image" style={{ maxWidth: "90%" }} />
     </div>
   );

@@ -6,7 +6,7 @@ import Featured from "../Components/featured";
 import FeaturedProducts from "../Components/FeaturedProducts";
 import { useEffect } from "react";
 import { sectionObserv } from "../Hooks/Observer";
-import Modal from "../Components/Modal";
+
 function Home() {
   useEffect(() => {
     sectionObserv();
@@ -14,7 +14,6 @@ function Home() {
 
   return (
     <>
-      <Modal />
       <header className={styles.header}>
         <PageNav />
         <div className={styles.hero}>

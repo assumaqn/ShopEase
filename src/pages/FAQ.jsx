@@ -1,6 +1,7 @@
 import PageNav from "../Components/PageNav";
 import { ChevronDown } from "lucide-react";
 import { Link } from "react-router";
+import styles from "./FAQ.module.css";
 
 const faqs = [
   {
@@ -69,38 +70,10 @@ function FAQ() {
   return (
     <>
       <PageNav />
-      <section
-        style={{
-          padding: "60px 0",
-          display: "flex",
-          maxWidth: "100%",
-          alignItems: "center",
-          justifyContent: "center",
-          flexDirection: "column",
-          gap: "20px",
-        }}
-      >
+      <section className={styles["faq-section"]}>
         <di>
-          <h2
-            style={{
-              textAlign: "center",
-              fontSize: "40px",
-              fontWeight: "800",
-              marginBottom: "15px",
-            }}
-          >
-            Frequently Asked Questions
-          </h2>
-          <p
-            style={{
-              textAlign: "center",
-              fontSize: "16px",
-              color: "#555",
-              marginBottom: "30px",
-            }}
-          >
-            Find answers to common questions about shopping with ShopEase
-          </p>
+          <h2>Frequently Asked Questions</h2>
+          <p>Find answers to common questions about shopping with ShopEase</p>
         </di>
         <Accordian />
         <p style={{ fontSize: "15px", marginTop: "15px", color: "#555" }}>
@@ -116,28 +89,9 @@ function FAQ() {
 
 function Accordian() {
   return (
-    <div
-      style={{
-        display: "flex",
-        flexDirection: "column",
-        padding: "20px",
-        borderRadius: "9px",
-        border: "1px solid #5555",
-      }}
-    >
+    <div className={styles.accordian}>
       {faqs.map((faq) => (
-        <span
-          style={{
-            borderWidth: "75%",
-            borderBottom: "1px solid #555",
-            marginBottom: "15px",
-            display: "flex",
-            gap: "25rem",
-            justifyContent: "space-between",
-            alignItems: "center",
-            cursor: "pointer",
-          }}
-        >
+        <span>
           <h4 style={{ fontSize: "14px", color: "#555", padding: "10px 0" }}>
             {faq.question}
           </h4>

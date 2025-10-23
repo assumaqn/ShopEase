@@ -19,3 +19,16 @@
 .detail p {
   margin-bottom: 15px;
 }
+
+@media (max-width: 480px) {
+  .summary {
+    border: 1px solid #3333;
+    padding: 20px 50px;
+
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+
+    width: 95%;
+  }
+}

@@ -1,0 +1,30 @@
+.featureProduct-section {
+  background-color: #f1f3f579;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  padding: 60px 0;
+}
+
+.products-featured {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  padding: 20px 50px;
+}
+@media (max-width: 480px) {
+  .products-featured {
+    grid-template-columns: repeat(1, 1fr);
+    column-gap: 20px;
+    padding: 10px 20px;
+  }
+  .featureProduct-section {
+    padding: 60px 5px;
+  }
+  .featureProduct-section h2 {
+    font-size: 18px;
+  }
+  .featureProduct-section p {
+    font-size: 12px;
+  }
+}

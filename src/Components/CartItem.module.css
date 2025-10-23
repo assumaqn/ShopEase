@@ -46,6 +46,7 @@
 }
 .imageContainer img {
   width: 100px;
+
   height: 90px;
   column-span: 1/3;
 
@@ -95,4 +96,35 @@
   cursor: pointer;
   display: inline-block;
   color: rgb(13, 117, 236);
+}
+@media (max-width: 480px) {
+  .shoping {
+    display: flex;
+    max-width: 500px;
+    margin: 0 auto;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .itemList {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .imageContainer img {
+    width: 120px;
+
+    height: 100px;
+    border-radius: 10px;
+    overflow: hidden;
+
+    object-fit: cover;
+  }
+  .cartPrice {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 5px;
+
+    padding: 5px;
+  }
 }

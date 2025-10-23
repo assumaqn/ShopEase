@@ -10,6 +10,7 @@ const initalState = {
   totalPrice: 0,
   error: "",
   clicked: false,
+  productPagination: [],
 };
 
 function reducer(state, action) {
@@ -18,6 +19,8 @@ function reducer(state, action) {
       return { ...state, isLoading: true };
     case "product/loaded":
       return { ...state, isLoading: false, products: action.payload };
+    case "product/pagination":
+      return { ...state, isLoading: false, productPagination: action.payload };
     case "productDetail/loaded":
       return { ...state, isLoading: false, product: action.payload };
     case "cart/added":
@@ -88,7 +91,7 @@ function reducer(state, action) {
 
 function ProductProvider({ children }) {
   const [
-    { products, product, error, isLoading, cartedProduct, clicked },
+    { products, product, error, isLoading, cartedProduct, productPagination },
     dispatch,
   ] = useReducer(reducer, initalState);
   function shuffleArray(array) {
@@ -109,7 +112,8 @@ function ProductProvider({ children }) {
       const endIndex = page * limit;
       const dataPage = data.slice(startIndex, endIndex);
 
-      dispatch({ type: "product/loaded", payload: dataPage });
+      dispatch({ type: "product/loaded", payload: data });
+      dispatch({ type: "product/pagination", payload: dataPage });
     } catch (err) {
       dispatch({ type: "rejected", payload: err.message });
     }
@@ -151,7 +155,7 @@ function ProductProvider({ children }) {
         tax,
         total,
         shipping,
-        clicked,
+        productPagination,
       }}
     >
       {children}

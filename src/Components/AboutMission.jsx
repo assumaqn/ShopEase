@@ -1,31 +1,15 @@
+import styles from "./AboutMission.module.css";
 function AboutMission() {
   return (
     <section
-      className="section section--hidden"
+      className={`section section--hidden ${styles["section-mission"]} `}
       style={{
         padding: "90px 0",
       }}
     >
-      <div
-        style={{
-          display: "flex",
-          flexDirection: "column",
-          alignItems: "center",
-          justifyContent: "center",
-          maxWidth: "700px",
-          margin: "0 auto",
-          gap: "20px",
-        }}
-      >
-        <h2 style={{ fontSize: "30px", fontWeight: "800" }}>Our Mission</h2>
-        <p
-          style={{
-            textAlign: "center",
-            fontSize: "17px",
-            lineHeight: "1.6",
-            color: "#555",
-          }}
-        >
+      <div className={styles.mission}>
+        <h2>Our Mission</h2>
+        <p>
           At ShopEase, we believe that everyone deserves access to cutting-edge
           technology without breaking the bank. Our mission is to bridge the gap
           between premium quality and affordability. <br />
