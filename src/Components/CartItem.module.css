@@ -44,8 +44,8 @@
   gap: 20px;
 }
 .imageContainer img {
-  width: 100px; /* uniform width */
-  height: 90px; /* uniform height */
+  width: 120px; /* uniform width */
+  height: 100px; /* uniform height */
   border-radius: 15px;
   object-fit: cover; /* keeps aspect ratio, crops overflow */
   flex-shrink: 0;
@@ -56,6 +56,7 @@
   gap: 8px;
   align-items: flex-start;
   justify-content: center;
+  width: 200px;
 }
 .content h4 {
   font-size: 16px;
@@ -93,6 +94,52 @@
   display: inline-block;
   color: rgb(13, 117, 236);
 }
+@media (max-width: 991px) {
+  .shoping {
+    padding: 10px;
+    display: flex;
+
+    margin: 0 auto;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .content {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .itemList {
+    margin: 0 20px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .imageContainer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 25px;
+  }
+  .imageContainer img {
+    width: 200px;
+    height: 170px;
+    border-radius: 15px;
+    object-fit: cover;
+    flex-shrink: 0;
+  }
+  .content h4 {
+    font-size: 18px;
+    color: #222;
+  }
+  .content p {
+    font-size: 16px;
+    color: #555;
+  }
+}
+
 @media (max-width: 480px) {
   .shoping {
     display: flex;
@@ -108,6 +155,14 @@
 
     /* width: 100%; */
   }
+  .content {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: center;
+  }
   .imageContainer {
     display: flex;
     align-items: center;
@@ -115,7 +170,7 @@
     gap: 20px;
   }
   .imageContainer img {
-    width: 100px; /* uniform width */
+    width: 110px; /* uniform width */
     height: 120px; /* uniform height */
     border-radius: 15px;
     object-fit: cover; /* keeps aspect ratio, crops overflow */

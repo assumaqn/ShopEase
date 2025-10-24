@@ -14,7 +14,26 @@
   gap: 20px;
   row-gap: 35px;
 }
+@media (max-width: 1599px) {
+  .products {
+    padding: 10px 10px;
+  }
+}
 
+@media (max-width: 1199px) {
+  .products {
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+    padding: 10px 10px;
+  }
+}
+@media (max-width: 991px) {
+  .products {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20px;
+    padding: 10px 10px;
+  }
+}
 @media (max-width: 480px) {
   .products {
     grid-template-columns: repeat(1, 1fr);

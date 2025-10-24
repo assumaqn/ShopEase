@@ -31,6 +31,28 @@
   max-width: 50%;
   border-radius: 9px;
 }
+@media (max-width: 1199px) {
+  .about-content {
+    padding: 70px 30px;
+  }
+}
+@media (max-width: 991px) {
+  .about-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+
+    margin: 0 auto;
+  }
+  .aboutDetail {
+    padding: 0 15px;
+  }
+  .img {
+    max-width: 95%;
+  }
+}
 @media (max-width: 480px) {
   .about-content {
     display: flex;
@@ -39,7 +61,7 @@
     justify-content: space-between;
     /* max-width: 1200px; */
     gap: 30px;
-    /* padding: 70px 0; */
+    padding: 70px 0;
     margin: 0 auto;
   }
   .aboutDetail {

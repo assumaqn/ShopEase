@@ -12,18 +12,41 @@
   gap: 30px;
   padding: 20px 50px;
 }
+@media (max-width: 991px) {
+  .products-featured {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 30px;
+    padding: 10px 20px;
+  }
+
+  .featureProduct-section {
+    padding: 55px 5px;
+  }
+
+  .featureProduct-section h2 {
+    font-size: 20px;
+  }
+
+  .featureProduct-section p {
+    font-size: 14px;
+  }
+}
+
 @media (max-width: 480px) {
   .products-featured {
     grid-template-columns: repeat(1, 1fr);
     column-gap: 20px;
     padding: 10px 20px;
   }
+
   .featureProduct-section {
     padding: 60px 5px;
   }
+
   .featureProduct-section h2 {
     font-size: 18px;
   }
+
   .featureProduct-section p {
     font-size: 12px;
   }

@@ -80,3 +80,20 @@
     font-size: 0.8rem;
   }
 }
+@media (max-width: 991px) {
+  .hero-content {
+    margin: 20px 20px;
+  }
+  .hero-content h1 {
+    font-size: 35px;
+  }
+  .hero-content p {
+    font-size: 18px;
+  }
+  .detail strong {
+    font-size: 0.9rem;
+  }
+  .detail span {
+    font-size: 0.9rem;
+  }
+}

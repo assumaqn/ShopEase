@@ -20,6 +20,20 @@
   margin-bottom: 15px;
 }
 
+@media (max-width: 991px) {
+  .summary {
+    border: 1px solid #3333;
+    padding: 20px 50px;
+    font-size: 24px;
+    align-self: center;
+
+    display: flex;
+    flex-direction: column;
+
+    width: 80%;
+  }
+}
+
 @media (max-width: 480px) {
   .summary {
     border: 1px solid #3333;
