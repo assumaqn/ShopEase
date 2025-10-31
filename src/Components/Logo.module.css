@@ -1,0 +1,18 @@
+.logo {
+  max-width: 30%;
+}
+@media (max-width: 600px) {
+  .logo {
+    max-width: 50%;
+  }
+}
+@media (max-width: 400px) {
+  .logo {
+    max-width: 70%;
+  }
+}
+@media (max-width: 991px) {
+  .logo {
+    max-width: 40%;
+  }
+}

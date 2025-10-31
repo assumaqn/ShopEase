@@ -69,6 +69,12 @@
   }
   .hero-content h1 {
     font-size: 30px;
+    color: #0a0a0a;
+  }
+  .hero-highlight {
+    background: linear-gradient(45deg, #0353a4, #f7b333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
   .hero-content p {
     font-size: 15px;

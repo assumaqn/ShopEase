@@ -38,7 +38,7 @@
     align-items: center;
     justify-content: space-around;
     flex-direction: column;
-    row-gap: 25px;
+    row-gap: 40px;
   }
   .detail {
     display: flex;

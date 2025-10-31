@@ -4,7 +4,9 @@
   box-sizing: border-box;
   font-family: Roboto, "serif";
 }
-
+body {
+  overflow-x: hidden;
+}
 .section {
   transition: transform 1s, opacity 1s;
 }

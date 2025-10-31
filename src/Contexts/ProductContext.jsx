@@ -1,7 +1,7 @@
 import { useContext, createContext, useReducer } from "react";
 
 const productContext = createContext();
-const BASEURL = `http://localhost:3000/products`;
+const BASEURL = `http://10.9.155.190:3000/products`;
 const initalState = {
   products: [],
   product: {},

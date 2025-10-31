@@ -33,8 +33,17 @@
 
 @media (max-width: 480px) {
   .feature {
-    gap: 5px;
+    gap: 10px;
   }
+  .features {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
   .features {
     display: flex;
     flex-direction: column;

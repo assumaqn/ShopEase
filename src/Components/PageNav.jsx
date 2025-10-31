@@ -1,52 +1,57 @@
-import { NavLink } from "react-router";
-import { UserRound, ShoppingCart } from "lucide-react";
-import styles from "./PageNav.module.css";
+import { useState } from "react";
+import { NavLink } from "react-router-dom";
+import { Menu, UserRound, ShoppingCart, X } from "lucide-react";
 import Logo from "./Logo";
+import styles from "./PageNav.module.css";
 import { useProduct } from "../Contexts/ProductContext";
-function PageNav() {
+export default function Navigation() {
   const { cartedProduct } = useProduct();
   const itemNo = cartedProduct.length;
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => setMenuOpen((prev) => !prev);
+  const closeMenu = () => setMenuOpen(false);
+
   return (
     <nav className={styles.nav}>
       <Logo />
-      <ul>
+
+      <div className={styles.hamburger} onClick={toggleMenu}>
+        {menuOpen ? (
+          <X size={24} color="#000" />
+        ) : (
+          <Menu size={24} color="#000" />
+        )}
+      </div>
+
+      <ul className={`${styles.navLinks} ${menuOpen ? styles.active : ""}`}>
         <li>
-          <NavLink to="/about">About</NavLink>
+          <NavLink to="/about" onClick={closeMenu}>
+            About
+          </NavLink>
         </li>
         <li>
-          <NavLink to="/products">Products</NavLink>
+          <NavLink to="/products" onClick={closeMenu}>
+            Products
+          </NavLink>
         </li>
         <li>
-          <NavLink to="/faq">FAQ</NavLink>
+          <NavLink to="/faq" onClick={closeMenu}>
+            FAQ
+          </NavLink>
         </li>
         <li>
-          <NavLink to="/profile">
+          <NavLink to="/profile" onClick={closeMenu}>
             <UserRound size="18px" />
           </NavLink>
         </li>
         <li>
-          <NavLink to="/cart">
-            <ShoppingCart size="18px" style={{ position: "relative" }} />
-
-            {!itemNo == 0 ? (
-              <span
-                style={{
-                  position: "absolute",
-                  fontSize: "8px",
-                  padding: "7px",
-                  clipPath: "circle()",
-                  transform: "translateY(-50%)",
-                  animation: " blink 1.5s infinite",
-                }}
-              >
-                {itemNo === 0 ? null : itemNo}
-              </span>
-            ) : null}
+          <NavLink to="/cart" onClick={closeMenu} className={styles.cart}>
+            <ShoppingCart size="18px" />
+            {itemNo > 0 && <span className={styles.badge}>{itemNo}</span>}
           </NavLink>
         </li>
       </ul>
     </nav>
   );
 }
-
-export default PageNav;

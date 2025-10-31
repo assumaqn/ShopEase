@@ -6,20 +6,25 @@
   border-bottom: 0.8px solid #5555;
   font-size: 14px;
   font-weight: 500;
+  overflow-x: hidden;
+
   /* position: fixed; */
 }
-
+.hamburger {
+  display: none;
+}
 .nav ul {
   list-style: none;
   display: flex;
   gap: 50px;
+  font-size: 14px;
   align-items: center;
 }
 
 .nav a {
   text-decoration: none;
   color: #000;
-  font-size: 14px;
+
   padding: 5px 6px;
   transition: all 0.5s;
 }
@@ -29,4 +34,127 @@
 .nav :global(.active) {
   color: #0572df;
   border-bottom: 2px solid #0572df;
+}
+
+/* Hamburger Icon */
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .nav {
+    padding: 9px 20px;
+    display: flex;
+    overflow-x: hidden;
+    justify-content: space-between;
+  }
+  .hamburger {
+    display: block;
+  }
+
+  .navLinks {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    /* height: 25vh; */
+    width: 200px;
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(5px);
+
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1.5rem 0;
+    /* transform: translateX(100%); */
+    right: 80%;
+    transform: translateX(50%) translateX(0);
+
+    transition: transform 0.1s ease-in-out;
+    visibility: hidden;
+  }
+
+  .navLinks.active {
+    transform: translateX(50%) translateX(100%);
+    visibility: visible;
+    z-index: 9000;
+  }
+}
+
+.badge {
+  position: absolute;
+  top: -6px;
+  right: -10px;
+  background: #ef4444;
+  color: white;
+  font-size: 10px;
+  padding: 2px 5px;
+  border-radius: 50%;
+  animation: blink 1.2s infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0.2;
+  }
+}
+@media (max-width: 400px) {
+  .nav {
+    padding: 9px 10px;
+    overflow-x: hidden;
+  }
+  .nav ul {
+    gap: 20px;
+  }
+}
+.navLinks li {
+  margin: 0;
+}
+.navLinks li a {
+  font-size: 14px;
+}
+.navLinks li a:hover {
+  color: #0572df;
+}
+.navLinks :global(.active) {
+  color: #0572df;
+  border-bottom: none;
+}
+@media (max-width: 400px) {
+  .nav {
+    padding: 9px 10px;
+    overflow-x: hidden;
+  }
+  .nav ul {
+    gap: 20px;
+  }
+}
+@media (max-width: 991px) {
+  .nav {
+    padding: 9px 35px;
+    overflow-x: hidden;
+  }
+}
+
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+}
+@media (min-width: 769px) {
+  .nav {
+    overflow-x: hidden;
+  }
+  .navLinks {
+    transform: translateX(0) !important;
+    position: static !important;
+    flex-direction: row !important;
+    background: none !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+    width: auto !important;
+    height: auto !important;
+    padding: 0 !important;
+  }
 }

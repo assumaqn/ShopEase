@@ -73,3 +73,25 @@
   border-top: 0.5px solid #ccc;
   margin-top: 20px;
 }
+
+@media (max-width: 600px) {
+  .user-container {
+    width: 90%;
+    padding: 20px 15px;
+  }
+  .form-el input {
+    width: 100%;
+  }
+}
+@media (max-width: 400px) {
+  .user-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+}
+@media (max-width: 350px) {
+  .form-el input {
+    font-size: 12px;
+  }
+}

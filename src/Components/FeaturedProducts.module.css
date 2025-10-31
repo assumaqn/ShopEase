@@ -36,7 +36,7 @@
   .products-featured {
     grid-template-columns: repeat(1, 1fr);
     column-gap: 20px;
-    padding: 10px 20px;
+    padding: 10px 15px;
   }
 
   .featureProduct-section {

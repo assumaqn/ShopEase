@@ -12,6 +12,7 @@ import SignUp from "./Components/SignUp";
 import ProductDetail from "./Components/ProductDetail";
 import CheckOut from "./Components/CheckOut";
 import User from "./Components/User";
+import PageNotFound from "./pages/PageNotFound";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="products" element={<Products />} />
+          <Route path="*" element={<PageNotFound />} />
           <Route path="/:id" element={<ProductDetail />} />
           <Route path="/:id/:id" element={<ProductDetail />} />
 

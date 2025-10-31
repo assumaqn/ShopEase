@@ -10,7 +10,8 @@ function HeroContent() {
       <Bit>Welcome to ShopEase</Bit>
 
       <h1>
-        Your Premium <span>Tech Store</span>
+        Your Premium{" "}
+        <span className={styles["hero-highlight"]}>Tech Store</span>
       </h1>
       <p>
         Cutting-edge technology meets unbeatable prices. Discover the latest

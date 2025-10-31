@@ -67,12 +67,17 @@
   .aboutDetail {
     padding: 0 20px;
   }
+  .aboutDetail p {
+    color: #555;
+    font-size: 14px;
+    line-height: 1.6;
+  }
   .aboutDetail h1 {
     font-size: 35px;
     font-weight: 700;
     margin-bottom: 15px;
   }
   .img {
-    max-width: 90%;
+    max-width: 95%;
   }
 }

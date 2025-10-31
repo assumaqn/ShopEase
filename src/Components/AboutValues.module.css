@@ -1,7 +1,8 @@
-.section {
-  padding: 60px 0;
+.sectionValues {
+  padding: 64px 0;
 }
-.section h2 {
+.sectionValues h2 {
+  padding-top: 64px;
   text-align: center;
   font-size: 30px;
   font-weight: 800;
@@ -56,7 +57,43 @@
   font-size: 17px;
   color: #333;
 }
+
+.section {
+  padding: 40px 0;
+}
+
+.section h2 {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+@media (max-width: 1799px) {
+  .values {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    padding: 30px 50px;
+
+    column-gap: 30px;
+    justify-content: space-between;
+  }
+}
 @media (max-width: 1599px) {
+  .values {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    padding: 30px 50px;
+
+    column-gap: 30px;
+    justify-content: space-between;
+  }
+}
+@media (max-width: 1399px) {
   .values {
     display: flex;
     align-items: center;
@@ -80,6 +117,7 @@
     justify-content: space-between;
   }
 }
+
 @media (max-width: 991px) {
   .values {
     display: flex;
@@ -91,26 +129,17 @@
     justify-content: space-between;
   }
 }
-
 @media (max-width: 480px) {
+  .sectionValues {
+    padding: 32px 0;
+  }
   .values {
     display: flex;
     align-items: center;
     flex-direction: column;
-    row-gap: 25px;
+    row-gap: 35px;
     padding: 25px 35px;
     column-gap: 30px;
     justify-content: space-between;
-  }
-
-  .section {
-    padding: 40px 0;
-  }
-
-  .section h2 {
-    text-align: center;
-    font-size: 25px;
-    font-weight: 700;
-    margin-bottom: 25px;
   }
 }
