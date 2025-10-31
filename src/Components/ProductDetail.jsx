@@ -17,7 +17,7 @@ import {
   Phone,
 } from "lucide-react";
 import { useProduct } from "../Contexts/ProductContext";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 function ProductDetail() {
   const { fetchProductDetail, product, products, isLoading } = useProduct();
@@ -46,6 +46,17 @@ function ProductDetail() {
   );
 }
 function DetailProduct({ product }) {
+  const { dispatch } = useProduct();
+  const [adding, setAdding] = useState(false);
+  function handleCart(e) {
+    e.preventDefault();
+    dispatch({ type: "cart/added", payload: product });
+    setAdding(true);
+  }
+  useEffect(() => {
+    setTimeout(() => setAdding(false), 1000);
+  });
+
   return (
     <div className={styles["detail-product"]}>
       <Link className={styles.back} to="/products">
@@ -130,9 +141,9 @@ function DetailProduct({ product }) {
           </div>
         </div>
         <div className={styles["btn-container"]}>
-          <Button type="cart-add">
+          <Button type="cart-add" onClick={(e) => handleCart(e)}>
             <ShoppingCart size="16px" />
-            Add to Cart
+            {adding ? "Adding.." : "Add to Cart"}
           </Button>
           <Button type="cart-buy">Buy Now</Button>
         </div>

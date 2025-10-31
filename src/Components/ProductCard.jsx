@@ -1,9 +1,11 @@
 import styles from "./ProductCard.module.css";
-import { DollarSign, ShoppingCart } from "lucide-react";
+import { DollarSign, Ellipsis, ShoppingCart } from "lucide-react";
 import StarRating from "./StarRating";
+import Loader from "./loader";
 
 import { Link } from "react-router";
 import { useProduct } from "../Contexts/ProductContext";
+import { useEffect, useState } from "react";
 
 function ProductCard({ product }) {
   const { dispatch } = useProduct();
@@ -20,12 +22,15 @@ function ProductCard({ product }) {
     originalPrice,
     postedDate,
   } = product;
-
+  const [adding, setAdding] = useState(false);
   function handleCart(e) {
     e.preventDefault();
+    setAdding(true);
     dispatch({ type: "cart/added", payload: product });
   }
-
+  useEffect(() => {
+    setTimeout(() => setAdding(false), 1000);
+  });
   const DiscountPer = onSale && ((originalPrice - price) / originalPrice) * 100;
   return (
     <>
@@ -73,7 +78,21 @@ function ProductCard({ product }) {
                   handleCart(e);
                 }}
               >
-                <ShoppingCart size="18px" color="#fff" />
+                {adding ? (
+                  <p
+                    style={{
+                      color: "#fff",
+                      height: "20px",
+                      width: "30px",
+                      alignSelf: "center",
+                      textAlign: "center",
+                    }}
+                  >
+                    Adding..
+                  </p>
+                ) : (
+                  <ShoppingCart size="18px" color="#fff" />
+                )}
               </span>
             </div>
           </div>

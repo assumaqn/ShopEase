@@ -2,6 +2,7 @@ import PageNav from "../Components/PageNav";
 import { ChevronDown } from "lucide-react";
 import { Link } from "react-router";
 import styles from "./FAQ.module.css";
+import { useState } from "react";
 
 const faqs = [
   {
@@ -73,6 +74,7 @@ function FAQ() {
       <section className={styles["faq-section"]}>
         <di>
           <h2>Frequently Asked Questions</h2>
+
           <p>Find answers to common questions about shopping with ShopEase</p>
         </di>
         <Accordian />
@@ -88,15 +90,31 @@ function FAQ() {
 }
 
 function Accordian() {
+  const [isIndexDisplayed, setIsIndexDisplayed] = useState(null);
+  function handleDispalay(index) {
+    setIsIndexDisplayed(isIndexDisplayed === index ? null : index);
+  }
   return (
     <div className={styles.accordian}>
-      {faqs.map((faq) => (
-        <span>
-          <h4 style={{ fontSize: "14px", color: "#555", padding: "10px 0" }}>
-            {faq.question}
-          </h4>
+      {faqs.map((faq, index) => (
+        <span onClick={() => handleDispalay(index)}>
+          <div>
+            <h4 className={styles.question}>{faq.question}</h4>
+            {isIndexDisplayed == index && (
+              <p
+                style={{
+                  fontSize: "12px",
+                  maxWidth: "550px",
+                  lineHeight: "1.6",
+                  textAlign: "left",
+                }}
+              >
+                {faq.answer}
+              </p>
+            )}
+          </div>
 
-          <ChevronDown color="#555" />
+          <ChevronDown className={styles.acordianSymbol} color="#555" />
         </span>
       ))}
     </div>

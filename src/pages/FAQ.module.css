@@ -19,8 +19,14 @@
   color: #555;
   margin-bottom: 30px;
 }
+.question {
+  font-size: 14px;
+  color: #555;
+  padding: 10px 0;
+}
 
 .accordian {
+  width: 650px;
   display: flex;
   flex-direction: column;
   padding: 20px;
@@ -32,7 +38,7 @@
   border-bottom: 1px solid #555;
   margin-bottom: 15px;
   display: flex;
-  gap: 25rem;
+  gap: 5rem;
   justify-content: space-between;
   align-items: center;
   cursor: pointer;
@@ -51,11 +57,15 @@
   .faq-section p {
     font-size: 14px;
   }
+  .accordian {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 9px;
+    border: 1px solid #5555;
+  }
   .accordian span {
-    border-width: 50%;
-
-    margin-bottom: 10px;
-
-    gap: 5rem;
+    gap: 2rem;
   }
 }
