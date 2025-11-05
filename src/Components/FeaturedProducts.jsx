@@ -18,7 +18,7 @@ function FeaturedProducts() {
     >
       <div style={{ textAlign: "center" }}>
         <h2
-          style={{ fontSize: "28px", fontWeight: "800", marginBottom: "10px" }}
+          style={{ fontSize: "25px", fontWeight: "800", marginBottom: "10px" }}
         >
           Featured Products
         </h2>

@@ -84,8 +84,10 @@ function ProductCard({ product }) {
                       color: "#fff",
                       height: "20px",
                       width: "30px",
-                      alignSelf: "center",
-                      textAlign: "center",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                      padding: "6px",
                     }}
                   >
                     Adding..

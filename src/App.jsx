@@ -22,7 +22,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="products" element={<Products />} />
-          <Route path="*" element={<PageNotFound />} />
+
           <Route path="/:id" element={<ProductDetail />} />
           <Route path="/:id/:id" element={<ProductDetail />} />
 
@@ -38,6 +38,7 @@ function App() {
           <Route path="user" element={<User />} />
           <Route path="cart" element={<Cart />} />
           <Route path="cart/checkout" element={<CheckOut />} />
+          <Route path="*" element={<PageNotFound />} />
         </Routes>
       </BrowserRouter>
     </ProductProvider>

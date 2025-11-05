@@ -6,6 +6,7 @@
   flex-direction: column;
   gap: 50px;
   position: relative;
+  overflow-x: hidden;
 }
 
 .img {
@@ -198,6 +199,7 @@
   .related-container {
     grid-template-columns: repeat(2, 1fr);
     padding: 0 20px;
+    justify-content: center;
     column-gap: 25px;
   }
 }

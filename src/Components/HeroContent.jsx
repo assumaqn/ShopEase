@@ -13,7 +13,7 @@ function HeroContent() {
         Your Premium{" "}
         <span className={styles["hero-highlight"]}>Tech Store</span>
       </h1>
-      <p>
+      <p className={styles.contentDescription}>
         Cutting-edge technology meets unbeatable prices. Discover the latest
         gadgets, laptops, smartphones, and audio gear with exclusive deals up to
         50% off.

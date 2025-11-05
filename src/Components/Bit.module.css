@@ -9,7 +9,12 @@
   border: none;
   animation: blink 1.5s infinite;
   z-index: 1;
+
   text-align: center;
+}
+input {
+  color: #000;
+  font-size: 13px;
 }
 
 ::placeholder {
@@ -23,6 +28,6 @@
   }
   50% {
     background-color: #ffe6e6;
-    color: #ffff;
+    color: #000;
   }
 }

@@ -1,8 +1,8 @@
 function PageNotFound() {
   return (
-    <div>
+    <section className={StyleSheet.pageNotFound}>
       <h1>PageNotFound</h1>
-    </div>
+    </section>
   );
 }
 

@@ -11,7 +11,7 @@ import Button from "../Components/Button";
 function Products() {
   const { fetchProduct, products, isLoading, productPagination } = useProduct();
   const [currentPage, setCurrentPage] = useState(1);
-  const limit = 8; // products per page
+  const limit = 12; // products per page
 
   const [optionValue, setOptionValue] = useState("all");
   const [searchValue, setSearchValue] = useState("");

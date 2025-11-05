@@ -17,7 +17,7 @@
     -webkit-text-fill-color: transparent;
   }
 }
-.hero-content p {
+.contentDescription {
   text-align: left;
   line-height: 1.8rem;
   font-size: 18px;
@@ -76,8 +76,8 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
-  .hero-content p {
-    font-size: 15px;
+  .contentDescription {
+    font-size: 12px;
   }
   .detail strong {
     font-size: 0.8rem;
