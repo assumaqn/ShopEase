@@ -27,7 +27,9 @@ function ProductDetail() {
   }, [id]);
   const RelatedProduct = products
     .filter((el) => el.category === product?.category && el.id !== product?.id)
-    .slice(0, 3);
+    .slice(0, 4);
+
+  console.log(products.catagory);
 
   return (
     <>

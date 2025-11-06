@@ -36,7 +36,7 @@ function HeroContent() {
         <Button type="primary" onClick={() => navigate("/products")}>
           Shop Now &#x2192;
         </Button>
-        <Button>Browse Products</Button>
+        <Button type='other'>Browse Products</Button>
       </div>
     </div>
   );

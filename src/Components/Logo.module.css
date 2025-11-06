@@ -1,18 +1,24 @@
 .logo {
   max-width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
 @media (max-width: 600px) {
   .logo {
-    max-width: 50%;
+    max-width: 60%;
+    justify-self: flex-start;
   }
 }
 @media (max-width: 400px) {
   .logo {
-    max-width: 70%;
+    max-width: 75%;
+    justify-self: flex-start;
   }
 }
 @media (max-width: 991px) {
   .logo {
-    max-width: 40%;
+    max-width: 45%;
+    justify-self: flex-start;
   }
 }

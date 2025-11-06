@@ -89,12 +89,13 @@
 @media (max-width: 991px) {
   .hero-content {
     margin: 20px 20px;
+    padding: 30px 0;
   }
   .hero-content h1 {
-    font-size: 35px;
+    font-size: 36px;
   }
-  .hero-content p {
-    font-size: 18px;
+  .contentDescription {
+    font-size: 15px;
   }
   .detail strong {
     font-size: 0.9rem;

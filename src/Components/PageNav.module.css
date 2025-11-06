@@ -9,7 +9,7 @@
   font-weight: 500;
   background-color: #fff;
   transition: all 0.3s ease;
-  z-index: 100;
+  z-index: 10000;
 }
 
 .fixedNav {
@@ -65,13 +65,17 @@
 /* ---------- MOBILE NAVIGATION ---------- */
 @media (max-width: 768px) {
   .nav {
-    padding: 9px 20px;
+    padding: 9px 16px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #fff;
+    /* background-color: #fff; */
     position: relative;
     z-index: 9999;
+    background: rgba(255, 255, 255, 0.15);
+    /* box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.2); */
+    backdrop-filter: blur(10px); /* main glassmorphism effect */
+    -webkit-backdrop-filter: blur(10px);
   }
 
   .hamburger {

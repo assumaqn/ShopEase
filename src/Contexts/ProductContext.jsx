@@ -1,5 +1,5 @@
 import { useContext, createContext, useReducer } from "react";
-
+///npx json-server --watch data/products.json --port 3000 --host 0.0.0.0
 const productContext = createContext();
 const BASEURL = `http://10.9.220.149:3000/products`;
 const initalState = {
@@ -29,7 +29,7 @@ function reducer(state, action) {
         isLoading: false,
         clicked: true,
         cartedProduct: state.cartedProduct.some(
-          (cart) => cart.id === action.payload.id
+          (cart) => cart.id === action.payload?.id
         )
           ? state.cartedProduct
           : [

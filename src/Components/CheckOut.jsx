@@ -5,6 +5,7 @@ import PageNav from "./PageNav";
 import Spinner from "./Spinner";
 import styles from "./CheckOut.module.css";
 import { useProduct } from "../Contexts/ProductContext";
+import { Link } from "react-router";
 
 const centerIcon = {
   display: "flex",
@@ -126,11 +127,13 @@ function PaymentInfo() {
         <div className={styles["form-el"]}></div>
       </form>
       <Button type="checkout">
-        <p style={centerIcon}>
-          Place Order
-          <DollarSign size="14px" strokeWidth="3px" />
-          {total === 0 ? "" : total}
-        </p>
+        <Link to="PlaceOrder">
+          <p style={centerIcon}>
+            Place Order
+            <DollarSign size="14px" strokeWidth="3px" />
+            {total === 0 ? "" : total}
+          </p>
+        </Link>
       </Button>
     </div>
   );

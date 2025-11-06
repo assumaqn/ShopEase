@@ -127,6 +127,16 @@
     border: 0.8px solid #3575b6;
     border-radius: 9px;
   }
+  .primary {
+    background: #5d91c5;
+  }
+  .primary,
+  .other {
+    padding: 8px 10px;
+    color: #333;
+    transition: all 0.5s;
+    font-size: 13px;
+  }
   .checkout {
     background-color: #0381ff5e;
     width: 100%;

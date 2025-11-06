@@ -13,6 +13,7 @@ import ProductDetail from "./Components/ProductDetail";
 import CheckOut from "./Components/CheckOut";
 import User from "./Components/User";
 import PageNotFound from "./pages/PageNotFound";
+import PlaceOrder from "./pages/PlaceOrder";
 
 function App() {
   return (
@@ -38,6 +39,7 @@ function App() {
           <Route path="user" element={<User />} />
           <Route path="cart" element={<Cart />} />
           <Route path="cart/checkout" element={<CheckOut />} />
+          <Route path="cart/checkout/PlaceOrder" element={<PlaceOrder />} />
           <Route path="*" element={<PageNotFound />} />
         </Routes>
       </BrowserRouter>
