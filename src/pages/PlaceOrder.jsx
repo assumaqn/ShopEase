@@ -20,7 +20,7 @@ function PlaceOrder() {
         <section className={styles.orderMessage}>
           <div className={styles.orderPlaced}>
             <span>
-              <SearchCheck size={110} strokeWidth={2} />
+              <SearchCheck size={110} strokeWidth={2} className={styles.icon} />
             </span>
             <h1>Order placed successfully!</h1>
             <p>You’ll get a confirmation soon.</p>

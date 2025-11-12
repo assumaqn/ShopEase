@@ -1,7 +1,7 @@
 import { useContext, createContext, useReducer } from "react";
 ///npx json-server --watch data/products.json --port 3000 --host 0.0.0.0
 const productContext = createContext();
-const BASEURL = `http://10.9.220.149:3000/products`;
+const BASEURL = `http://10.9.213.15:3000/products`;
 const initalState = {
   products: [],
   product: {},

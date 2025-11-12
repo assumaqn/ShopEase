@@ -103,6 +103,10 @@
   font-weight: bold;
   border: none;
 }
+.checkout a {
+  text-decoration: none;
+  color: inherit;
+}
 .checkout:hover {
   background-color: #0572df;
   color: #fff;
