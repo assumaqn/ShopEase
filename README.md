@@ -1,16 +1,102 @@
-# React + Vite
+# ShopEase
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean, modern, and user-friendly e-commerce web application that allows users to browse products, view details, and place orders with a smooth and intuitive interface.
 
-Currently, two official plugins are available:
+![ShopEase Banner]![Home](./screenshoots/Home.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **Product Browsing** – Explore a wide range of products displayed in a clean grid layout.
+* **Product Details** – View images, descriptions, and pricing for each item.
+* **Multiple Orders** – Users can order as many products as they want.
+* **Responsive Design** – Works smoothly on both mobile and desktop.
+* **Clean UI/UX** – Minimal, modern design.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+* **Frontend:** HTML, CSS, JavaScript
+* **Build Tool:** Vite
+* **Mock Backend:** JSON Server (for API simulation)
+* **Tools:** Git, GitHub, VS Code
+
+---
+
+## 📁 Project Structure
+
+```
+shopeease/
+│
+├── public/                 # Static assets
+
+├── src/                    # App source code
+├── index.html              # Main HTML file
+├── package.json            # Dependencies
+├── vite.config.js          # Vite config
+└── README.md
+```
+
+---
+
+## ⚙️ Getting Started
+
+### 1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/your-username/shopeease.git
+```
+
+### 2️⃣ Install dependencies
+
+```bash
+npm install
+```
+
+### 3️⃣ Start JSON Server
+
+```bash
+json-server --watch data/db.json --port 4000 --delay 500
+```
+
+### 4️⃣ Run the development server
+
+```bash
+npm run dev
+```
+
+---
+
+## 📸 Screenshots
+
+Adding screenshots helps make your project more engaging.
+
+### ⭐ Featured Product Section
+
+![Featured](./screenshoots/featured.png)
+
+### 🛒 Product List
+
+![Product List](./screenshoots/product.png)
+
+### 📄 Product Details
+
+![Product Details](./screenshoots/productdetail.png)
+
+---
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome.
+
+---
+
+## 📝 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+Made with  by **Kumneger Getiye**
