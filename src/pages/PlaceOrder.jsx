@@ -3,14 +3,18 @@ import styles from "./PlaceOrder.module.css";
 import PageNav from "../Components/PageNav";
 import { useEffect, useState } from "react";
 import Spinner from "../Components/Spinner";
+import { useProduct } from "../Contexts/ProductContext";
 
 function PlaceOrder() {
+  const { dispatch } = useProduct();
   const [isLoading, setIsloading] = useState(true);
   useEffect(() => {
     setTimeout(() => {
       setIsloading(false);
+      dispatch({ type: "cart/reset" });
     }, 1500);
   }, []);
+
   return (
     <>
       <PageNav />

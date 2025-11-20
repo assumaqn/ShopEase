@@ -60,32 +60,32 @@ function ShippingInfo() {
           <div className={styles["col_1"]}>
             <span>
               <label>First Name</label>
-              <input type="text" />
+              <input type="text" required />
             </span>
             <span>
               <label>Last Name</label>
-              <input type="text" />
+              <input type="text" required />
             </span>
           </div>
         </div>
 
         <div className={styles["form-el"]}>
           <label>Email</label>
-          <input type="email" />
+          <input type="email" required />
         </div>
         <div className={styles["form-el"]}>
           <label>Address</label>
-          <input type="text" />
+          <input type="text" required />
         </div>
         <div className={styles["form-el"]}>
           <div className={styles["col_1"]}>
             <span className={styles.special}>
               <label>City</label>
-              <input type="text" />
+              <input type="text" required />
             </span>
             <span>
               <label>Zip Code</label>
-              <input type="text" />
+              <input type="text" required />
             </span>
           </div>
         </div>
@@ -106,11 +106,11 @@ function PaymentInfo() {
       <form>
         <div className={styles["form-el"]}>
           <label>Cardholder Name</label>
-          <input type="text" />
+          <input type="text" required />
         </div>
         <div className={styles["form-el"]}>
           <label>Card Number</label>
-          <input type="number" placeholder="1234 5678 9012 3456" />
+          <input type="password" placeholder="1234 5678 9012 3456" required />
         </div>
         <div className={styles["form-el"]}>
           <div className={styles["col_1"]}>
@@ -120,7 +120,7 @@ function PaymentInfo() {
             </span>
             <span>
               <label>CVV</label>
-              <input type="number" placeholder="123" />
+              <input type="password" placeholder="123" required />
             </span>
           </div>
         </div>
