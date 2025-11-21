@@ -1,11 +1,11 @@
 import { useEffect } from "react";
-import AboutDetail from "../Components/AboutDetail";
-import AboutMission from "../Components/AboutMission";
-import AboutValues from "../Components/AboutValues";
-import PageNav from "../Components/PageNav";
-import aboutHero from "../assets/aboutHero.jpg";
+import AboutDetail from "./AboutDetail";
+import AboutMission from "./AboutMission";
+import AboutValues from "./AboutValues";
+import PageNav from "../../ui/PageNav";
+import aboutHero from "../../assets/aboutHero.jpg";
 import styles from "./About.module.css";
-import { sectionObserv } from "../Hooks/Observer";
+import { sectionObserv } from "../../Hooks/Observer";
 
 function About() {
   useEffect(() => {
@@ -15,8 +15,8 @@ function About() {
   return (
     <>
       <PageNav />
-      <section className={styles.section}>
-        <div className={styles["about-content"]}>
+      <section className="bg-zinc-100">
+        <div className="mx-auto flex max-w-[1200px] flex-col items-center justify-between gap-[30px] py-[70px] sm:flex-row">
           <AboutContent />
           <AboutImage />
         </div>
@@ -34,7 +34,7 @@ function AboutContent() {
       <h1>
         About <span>ShopEase</span>
       </h1>
-      <p>
+      <p className="text-lg text-stone-600">
         We're on a mission to make premium technology accessible to everyone.
         Since 2025, ShopEase has been the trusted destination for tech
         enthusiasts seeking quality products at competitive prices.
@@ -47,6 +47,12 @@ function AboutContent() {
   );
 }
 function AboutImage() {
-  return <img className={styles.img} src={aboutHero} alt="aboutHero" />;
+  return (
+    <img
+      className="max-w-[95%] rounded-lg sm:max-w-[50%]"
+      src={aboutHero}
+      alt="aboutHero"
+    />
+  );
 }
 export default About;

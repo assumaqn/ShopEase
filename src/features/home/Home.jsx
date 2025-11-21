@@ -1,11 +1,11 @@
 import styles from "./Home.module.css";
-import PageNav from "../Components/PageNav";
-import HeroContent from "../Components/HeroContent";
-import HeroImageContainer from "../Components/HeroImageContainer";
-import Featured from "../Components/featured";
-import FeaturedProducts from "../Components/FeaturedProducts";
+import PageNav from "../../ui/PageNav";
+import HeroContent from "./HeroContent";
+import HeroImageContainer from "./HeroImageContainer";
+import Featured from "./featured";
+import FeaturedProducts from "./FeaturedProducts";
 import { useEffect } from "react";
-import { sectionObserv } from "../Hooks/Observer";
+import { sectionObserv } from "../../Hooks/Observer";
 
 function Home() {
   useEffect(() => {

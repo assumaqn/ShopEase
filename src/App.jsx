@@ -2,20 +2,20 @@ import { BrowserRouter, Routes, Route, Navigate } from "react-router";
 
 import { lazy, Suspense } from "react";
 import { ProductProvider } from "./Contexts/ProductContext"; //thhso
-import Spinner from "./Components/Spinner";
-const Home = lazy(() => import("./pages/Home"));
-const About = lazy(() => import("./pages/About"));
-const Products = lazy(() => import("./pages/Products"));
-const FAQ = lazy(() => import("./pages/FAQ"));
-const Profile = lazy(() => import("./pages/Profile"));
-const Cart = lazy(() => import("./pages/Cart"));
-const SignIn = lazy(() => import("./Components/SignIn"));
-const SignUp = lazy(() => import("./Components/SignUp"));
-const ProductDetail = lazy(() => import("./Components/ProductDetail"));
-const CheckOut = lazy(() => import("./Components/CheckOut"));
-const User = lazy(() => import("./Components/User"));
-const PageNotFound = lazy(() => import("./pages/PageNotFound"));
-const PlaceOrder = lazy(() => import("./pages/PlaceOrder"));
+import Spinner from "./ui/Spinner";
+const Home = lazy(() => import("./features/home/Home"));
+const About = lazy(() => import("./features/about/About"));
+const Products = lazy(() => import("./features/product/Products"));
+const FAQ = lazy(() => import("./features/faq/FAQ"));
+const Profile = lazy(() => import("./features/profile/Profile"));
+const Cart = lazy(() => import("./features/cart/Cart"));
+const SignIn = lazy(() => import("./features/profile/SignIn"));
+const SignUp = lazy(() => import("./features/profile/SignUp"));
+const ProductDetail = lazy(() => import("./features/product/ProductDetail"));
+const CheckOut = lazy(() => import("./features/cart/CheckOut"));
+const User = lazy(() => import("./features/user/User"));
+const PageNotFound = lazy(() => import("./ui/PageNotFound"));
+const PlaceOrder = lazy(() => import("./features/cart/PlaceOrder"));
 
 function App() {
   return (

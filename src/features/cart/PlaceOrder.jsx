@@ -1,9 +1,9 @@
 import { Loader, SearchCheck } from "lucide-react";
 import styles from "./PlaceOrder.module.css";
-import PageNav from "../Components/PageNav";
+import PageNav from "../../ui/PageNav";
 import { useEffect, useState } from "react";
-import Spinner from "../Components/Spinner";
-import { useProduct } from "../Contexts/ProductContext";
+import Spinner from "../../ui/Spinner";
+import { useProduct } from "../../Contexts/ProductContext";
 
 function PlaceOrder() {
   const { dispatch } = useProduct();

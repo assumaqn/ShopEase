@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
-import CartItems from "../Components/CartItems";
-import PageNav from "../Components/PageNav";
-import Spinner from "../Components/Spinner";
+import CartItems from "../../ui/CartItems";
+import PageNav from "../../ui/PageNav";
+import Spinner from "../../ui/Spinner";
 import styles from "./Cart.module.css";
 
 function Cart() {

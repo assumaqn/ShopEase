@@ -1,4 +1,4 @@
-import PageNav from "../Components/PageNav";
+import PageNav from "../../ui/PageNav";
 import { ChevronDown } from "lucide-react";
 import { Link } from "react-router";
 import styles from "./FAQ.module.css";

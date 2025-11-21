@@ -1,8 +1,8 @@
 import styles from "./OrderSummary.module.css";
-import Button from "./Button";
+import Button from "../../ui/Button";
 import { Link } from "react-router";
 import { DollarSign } from "lucide-react";
-import { useProduct } from "../Contexts/ProductContext";
+import { useProduct } from "../../Contexts/ProductContext";
 const centerIcon = {
   display: "flex",
   justifyContent: "center",

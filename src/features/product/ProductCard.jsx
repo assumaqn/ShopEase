@@ -1,10 +1,10 @@
 import styles from "./ProductCard.module.css";
 import { DollarSign, Ellipsis, ShoppingCart } from "lucide-react";
-import StarRating from "./StarRating";
-import Loader from "./loader";
+import StarRating from "../../ui/StarRating";
+import Loader from "../../ui/Loader";
 
 import { Link } from "react-router";
-import { useProduct } from "../Contexts/ProductContext";
+import { useProduct } from "../../Contexts/ProductContext";
 import { useEffect, useState } from "react";
 
 function ProductCard({ product }) {

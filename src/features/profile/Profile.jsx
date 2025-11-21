@@ -1,5 +1,5 @@
 import { NavLink, Outlet } from "react-router";
-import PageNav from "../Components/PageNav";
+import PageNav from "../../ui/PageNav";
 import styles from "./Profile.module.css";
 
 function Profile() {

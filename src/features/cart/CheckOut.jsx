@@ -1,10 +1,10 @@
 import { CreditCard, DollarSign, Truck } from "lucide-react";
 import { useEffect, useState } from "react";
-import Button from "./Button";
-import PageNav from "./PageNav";
-import Spinner from "./Spinner";
+import Button from "../../ui/Button";
+import PageNav from "../../ui/PageNav";
+import Spinner from "../../ui/Spinner";
 import styles from "./CheckOut.module.css";
-import { useProduct } from "../Contexts/ProductContext";
+import { useProduct } from "../../Contexts/ProductContext";
 import { Link } from "react-router";
 
 const centerIcon = {

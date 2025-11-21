@@ -1,3 +1,7 @@
+/* @tailwind base; */
+@tailwind components;
+@tailwind utilities;
+
 * {
   margin: 0;
   padding: 0;
@@ -8,7 +12,9 @@ body {
   overflow-x: hidden;
 }
 .section {
-  transition: transform 1s, opacity 1s;
+  transition:
+    transform 1s,
+    opacity 1s;
 }
 .section--hidden {
   opacity: 0;

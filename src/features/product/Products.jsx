@@ -1,12 +1,12 @@
 import { useEffect, useState } from "react";
-import PageNav from "../Components/PageNav";
-import ProductCard from "../Components/ProductCard";
-import ProductHeader from "../Components/ProductHeader";
-import { useProduct } from "../Contexts/ProductContext";
-import Spinner from "../Components/Spinner";
+import PageNav from "../../ui/PageNav";
+import ProductCard from "./ProductCard";
+import ProductHeader from "./ProductHeader";
+import { useProduct } from "../../Contexts/ProductContext";
+import Spinner from "../../ui/Spinner";
 import styles from "./Products.module.css";
 
-import Button from "../Components/Button";
+import Button from "../../ui/Button";
 
 function Products() {
   const { fetchProduct, products, isLoading, productPagination } = useProduct();

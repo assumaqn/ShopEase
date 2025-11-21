@@ -1,6 +1,6 @@
 import { Store } from "lucide-react";
 import { Link } from "react-router";
-import homeLogo from "../assets/homeLogo.png";
+import homeLogo from "../../assets/homeLogo.png";
 import styles from "./Logo.module.css";
 
 function Logo() {

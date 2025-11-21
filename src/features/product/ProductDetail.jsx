@@ -1,10 +1,10 @@
 import { Link, useNavigate, useParams } from "react-router";
 import styles from "./ProductDetail.module.css";
-import StarRating from "./StarRating";
+import StarRating from "../../ui/StarRating";
 import ProductCard from "./ProductCard";
-import Button from "./Button";
-import PageNav from "./PageNav";
-import Spinner from "./Spinner";
+import Button from "../../ui/Button";
+import PageNav from "../../ui/PageNav";
+import Spinner from "../../ui/Spinner";
 import {
   DollarSign,
   ShoppingCart,
@@ -16,7 +16,7 @@ import {
   User,
   Phone,
 } from "lucide-react";
-import { useProduct } from "../Contexts/ProductContext";
+import { useProduct } from "../../Contexts/ProductContext";
 import { useEffect, useState } from "react";
 
 function ProductDetail() {
@@ -71,7 +71,7 @@ function DetailProduct({ product }) {
             {Math.floor(
               ((product.originalPrice - product.price) /
                 product.originalPrice) *
-                100
+                100,
             )}
             % Off
           </span>

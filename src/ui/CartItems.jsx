@@ -1,10 +1,10 @@
 import styles from "./CartItem.module.css";
 import { Trash2 } from "lucide-react";
-import Button from "../Components/Button";
+import Button from "./Button";
 import { DollarSign } from "lucide-react";
-import OrderSummary from "./OrderSummary";
+import OrderSummary from "../features/cart/OrderSummary";
 import { useProduct } from "../Contexts/ProductContext";
-import EmptyCart from "./EmptyCart";
+import EmptyCart from "../features/cart/EmptyCart";
 
 function CartItems() {
   const { cartedProduct, dispatch } = useProduct();

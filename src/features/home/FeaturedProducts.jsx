@@ -1,7 +1,7 @@
 import { useEffect } from "react";
-import { useProduct } from "../Contexts/ProductContext";
-import ProductCard from "./ProductCard";
-import Button from "./Button";
+import { useProduct } from "../../Contexts/ProductContext";
+import ProductCard from "../product/ProductCard";
+import Button from "../../ui/Button";
 import { useNavigate } from "react-router-dom";
 import styles from "./FeaturedProducts.module.css";
 
@@ -14,7 +14,7 @@ function FeaturedProducts() {
 
   return (
     <section
-      className={`section section--hidden  ${styles["featureProduct-section"]} `}
+      className={`section section--hidden ${styles["featureProduct-section"]} `}
     >
       <div style={{ textAlign: "center" }}>
         <h2

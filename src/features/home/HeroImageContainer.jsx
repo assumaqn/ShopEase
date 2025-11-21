@@ -1,4 +1,4 @@
-import phone from "../assets/phone.jpeg";
+import phone from "../../assets/phone.jpeg";
 import styles from "./HeroImageContainer.module.css";
 function HeroImageContainer() {
   return (

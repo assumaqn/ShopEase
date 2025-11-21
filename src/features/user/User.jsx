@@ -1,7 +1,7 @@
 import { LogOut } from "lucide-react";
 import styles from "./User.module.css";
-import Button from "./Button";
-import PageNav from "./PageNav";
+import Button from "../../ui/Button";
+import PageNav from "../../ui/PageNav";
 function User() {
   return (
     <>

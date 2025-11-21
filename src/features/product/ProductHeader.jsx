@@ -1,6 +1,6 @@
 import styles from "./ProductHeader.module.css";
 
-import { useProduct } from "../Contexts/ProductContext";
+import { useProduct } from "../../Contexts/ProductContext";
 import { useEffect } from "react";
 function ProductHeader({ onOption, filterLength, onSearch }) {
   const { fetchProduct, products } = useProduct();

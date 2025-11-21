@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import { Menu, UserRound, ShoppingCart, X } from "lucide-react";
-import Logo from "./Logo";
+import Logo from "../features/home/Logo";
 import styles from "./PageNav.module.css";
 import { useProduct } from "../Contexts/ProductContext";
 
